@@ -322,5 +322,23 @@
     "width": 900,
     "height": 1200,
     "source": "啾啾_叼叶小岛_悬停修正版.png"
+  },
+  {
+    "id": 36,
+    "title": "松鸦 · 爱收藏的探路伙伴",
+    "category": "啾啾的朋友",
+    "src": "assets/friend-jay.webp",
+    "width": 900,
+    "height": 900,
+    "source": "松鸦_独立角色图.png"
+  },
+  {
+    "id": 37,
+    "title": "睡鼠 · 给晚归的人留灯",
+    "category": "啾啾的朋友",
+    "src": "assets/friend-dormouse.webp",
+    "width": 900,
+    "height": 900,
+    "source": "睡鼠_独立角色图.png"
   }
 ]
