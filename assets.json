@@ -358,5 +358,23 @@
     "width": 900,
     "height": 900,
     "source": "小鼹鼠_独立角色图.png"
+  },
+  {
+    "id": 40,
+    "title": "猫头鹰 · 陪故事晚一点散场",
+    "category": "啾啾的朋友",
+    "src": "assets/friend-owl.webp",
+    "width": 900,
+    "height": 900,
+    "source": "猫头鹰_独立角色图.png"
+  },
+  {
+    "id": 41,
+    "title": "小獾 · 把日子一笔一笔记好",
+    "category": "啾啾的朋友",
+    "src": "assets/friend-badger.webp",
+    "width": 900,
+    "height": 900,
+    "source": "小獾_独立角色图.png"
   }
 ]
