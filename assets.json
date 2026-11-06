@@ -324,40 +324,13 @@
     "source": "啾啾_叼叶小岛_悬停修正版.png"
   },
   {
-    "id": 36,
-    "title": "松鸦 · 爱收藏的探路伙伴",
+    "id": 42,
+    "title": "小野猪 · 多摆一只碗",
     "category": "啾啾的朋友",
-    "src": "assets/friend-jay.webp",
-    "width": 900,
-    "height": 900,
-    "source": "松鸦_独立角色图.png"
-  },
-  {
-    "id": 37,
-    "title": "睡鼠 · 给晚归的人留灯",
-    "category": "啾啾的朋友",
-    "src": "assets/friend-dormouse.webp",
-    "width": 900,
-    "height": 900,
-    "source": "睡鼠_独立角色图.png"
-  },
-  {
-    "id": 38,
-    "title": "刺猬 · 把关心缝进小事里",
-    "category": "啾啾的朋友",
-    "src": "assets/friend-hedgehog.webp",
-    "width": 900,
-    "height": 900,
-    "source": "刺猬_独立角色图.png"
-  },
-  {
-    "id": 39,
-    "title": "小鼹鼠 · 慢慢等一颗种子发芽",
-    "category": "啾啾的朋友",
-    "src": "assets/friend-mole.webp",
-    "width": 900,
-    "height": 900,
-    "source": "小鼹鼠_独立角色图.png"
+    "src": "assets/friend-boar.webp",
+    "width": 494,
+    "height": 547,
+    "source": "小野猪.webp"
   },
   {
     "id": 40,
@@ -366,15 +339,278 @@
     "src": "assets/friend-owl.webp",
     "width": 900,
     "height": 900,
-    "source": "猫头鹰_独立角色图.png"
+    "source": "猫头鹰.webp"
   },
   {
     "id": 41,
-    "title": "小獾 · 把日子一笔一笔记好",
+    "title": "小獾 · 记得你读到了哪一页",
     "category": "啾啾的朋友",
     "src": "assets/friend-badger.webp",
     "width": 900,
     "height": 900,
-    "source": "小獾_独立角色图.png"
+    "source": "小獾.webp"
+  },
+  {
+    "id": 43,
+    "title": "寄居蟹 · 想认识住在隔壁的你",
+    "category": "啾啾的朋友",
+    "src": "assets/friend-hermit.webp",
+    "width": 415,
+    "height": 456,
+    "source": "寄居蟹.webp"
+  },
+  {
+    "id": 44,
+    "title": "小狐狸 · 抹掉最后那一点零头",
+    "category": "啾啾的朋友",
+    "src": "assets/friend-fox.webp",
+    "width": 405,
+    "height": 511,
+    "source": "小狐狸.webp"
+  },
+  {
+    "id": 45,
+    "title": "河狸 · 守着第一声钟响",
+    "category": "啾啾的朋友",
+    "src": "assets/friend-beaver.webp",
+    "width": 565,
+    "height": 601,
+    "source": "河狸.webp"
+  },
+  {
+    "id": 39,
+    "title": "小鼹鼠 · 给旧本子一个位置",
+    "category": "啾啾的朋友",
+    "src": "assets/friend-mole.webp?v=ten-island",
+    "width": 398,
+    "height": 498,
+    "source": "小鼹鼠.webp"
+  },
+  {
+    "id": 36,
+    "title": "松鸦 · 把你的秘密收好",
+    "category": "啾啾的朋友",
+    "src": "assets/friend-jay.webp?v=ten-island",
+    "width": 378,
+    "height": 511,
+    "source": "松鸦.webp"
+  },
+  {
+    "id": 38,
+    "title": "刺猬 · 等我把这件事做完",
+    "category": "啾啾的朋友",
+    "src": "assets/friend-hedgehog.webp?v=ten-island",
+    "width": 464,
+    "height": 519,
+    "source": "刺猬.webp"
+  },
+  {
+    "id": 101,
+    "title": "开饭喽",
+    "category": "十景明信片",
+    "src": "assets/postcards/cafe.webp",
+    "width": 1536,
+    "height": 1024,
+    "source": "开饭喽.png",
+    "tags": "海边饭馆 小野猪"
+  },
+  {
+    "id": 121,
+    "title": "海边饭馆",
+    "category": "岛上地点",
+    "src": "assets/places/cafe.webp",
+    "width": 960,
+    "height": 960,
+    "source": "暖灯红瓦小餐馆.png",
+    "tags": "小野猪"
+  },
+  {
+    "id": 102,
+    "title": "散场后的灯",
+    "category": "十景明信片",
+    "src": "assets/postcards/cinema.webp",
+    "width": 1536,
+    "height": 1024,
+    "source": "散场后的灯.png",
+    "tags": "小岛电影院 猫头鹰"
+  },
+  {
+    "id": 122,
+    "title": "小岛电影院",
+    "category": "岛上地点",
+    "src": "assets/places/cinema.webp",
+    "width": 960,
+    "height": 960,
+    "source": "青绿穹顶小影院.png",
+    "tags": "猫头鹰"
+  },
+  {
+    "id": 103,
+    "title": "窗边的下一页",
+    "category": "十景明信片",
+    "src": "assets/postcards/bookshop.webp",
+    "width": 1536,
+    "height": 1024,
+    "source": "窗边的下一页.png",
+    "tags": "绿屋顶书屋 小獾"
+  },
+  {
+    "id": 123,
+    "title": "绿屋顶书屋",
+    "category": "岛上地点",
+    "src": "assets/places/bookshop.webp",
+    "width": 960,
+    "height": 960,
+    "source": "青苔屋顶的小书店.png",
+    "tags": "小獾"
+  },
+  {
+    "id": 104,
+    "title": "等邻居开门",
+    "category": "十景明信片",
+    "src": "assets/postcards/twins.webp",
+    "width": 1536,
+    "height": 1024,
+    "source": "等邻居开门.png",
+    "tags": "粉色双屋 寄居蟹"
+  },
+  {
+    "id": 124,
+    "title": "粉色双屋",
+    "category": "岛上地点",
+    "src": "assets/places/twins.webp",
+    "width": 960,
+    "height": 960,
+    "source": "粉色双屋间的沙径.png",
+    "tags": "寄居蟹"
+  },
+  {
+    "id": 105,
+    "title": "今天的账平了",
+    "category": "十景明信片",
+    "src": "assets/postcards/account.webp",
+    "width": 1536,
+    "height": 1024,
+    "source": "今天的账平了.png",
+    "tags": "小账房 小狐狸"
+  },
+  {
+    "id": 125,
+    "title": "小账房",
+    "category": "岛上地点",
+    "src": "assets/places/account.webp",
+    "width": 960,
+    "height": 960,
+    "source": "算盘钱袋小账房.png",
+    "tags": "小狐狸"
+  },
+  {
+    "id": 106,
+    "title": "潮水带来一封信",
+    "category": "十景明信片",
+    "src": "assets/postcards/bottle.webp",
+    "width": 1536,
+    "height": 1024,
+    "source": "潮水带来一封信.png",
+    "tags": "海边漂流瓶 啾啾"
+  },
+  {
+    "id": 126,
+    "title": "海边漂流瓶",
+    "category": "岛上地点",
+    "src": "assets/places/bottle.webp",
+    "width": 960,
+    "height": 960,
+    "source": "水波玻璃漂流瓶.png",
+    "tags": "啾啾"
+  },
+  {
+    "id": 107,
+    "title": "钟声差一齿",
+    "category": "十景明信片",
+    "src": "assets/postcards/tower.webp",
+    "width": 1536,
+    "height": 1024,
+    "source": "钟声差一齿.png",
+    "tags": "石砌小钟楼 河狸"
+  },
+  {
+    "id": 127,
+    "title": "石砌小钟楼",
+    "category": "岛上地点",
+    "src": "assets/places/tower.webp",
+    "width": 960,
+    "height": 960,
+    "source": "红顶石砌小钟楼.png",
+    "tags": "河狸"
+  },
+  {
+    "id": 108,
+    "title": "给旧本子一个位置",
+    "category": "十景明信片",
+    "src": "assets/postcards/pavilion.webp",
+    "width": 1536,
+    "height": 1024,
+    "source": "给旧本子一个位置.png",
+    "tags": "笔记收藏亭 小鼹鼠"
+  },
+  {
+    "id": 128,
+    "title": "笔记收藏亭",
+    "category": "岛上地点",
+    "src": "assets/places/pavilion.webp",
+    "width": 960,
+    "height": 960,
+    "source": "exec-92af92d2-1815-406a-9c91-fb76114bc62e.png",
+    "tags": "小鼹鼠"
+  },
+  {
+    "id": 109,
+    "title": "只替你收好",
+    "category": "十景明信片",
+    "src": "assets/postcards/chest.webp",
+    "width": 1536,
+    "height": 1024,
+    "source": "只替你收好.png",
+    "tags": "藤蔓小宝箱 松鸦"
+  },
+  {
+    "id": 129,
+    "title": "藤蔓小宝箱",
+    "category": "岛上地点",
+    "src": "assets/places/chest.webp",
+    "width": 960,
+    "height": 960,
+    "source": "藤蔓黄铜锁小宝箱.png",
+    "tags": "松鸦"
+  },
+  {
+    "id": 110,
+    "title": "窗前还有一行",
+    "category": "十景明信片",
+    "src": "assets/postcards/workshop.webp",
+    "width": 1536,
+    "height": 1024,
+    "source": "窗前还有一行.png",
+    "tags": "大窗小工坊 刺猬"
+  },
+  {
+    "id": 130,
+    "title": "大窗小工坊",
+    "category": "岛上地点",
+    "src": "assets/places/workshop.webp",
+    "width": 960,
+    "height": 960,
+    "source": "蓝顶烟囱小工坊.png",
+    "tags": "刺猬"
+  },
+  {
+    "id": 140,
+    "title": "啾啾岛十景全图",
+    "category": "岛上地点",
+    "src": "assets/island-map.webp",
+    "width": 1254,
+    "height": 1254,
+    "source": "啾啾岛十景全图.png"
   }
 ]

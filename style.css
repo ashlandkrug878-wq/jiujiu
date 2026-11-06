@@ -8,3 +8,58 @@
 /* Friends share the island's illustrated paper palette. */
 .friends-section{padding-top:35px;padding-bottom:95px;scroll-margin-top:25px}.friend-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:38px}.friend-card{min-width:0;border-top:1px solid var(--line)}.friend-image{display:block}.friend-image img{width:100%;height:auto;aspect-ratio:1;object-fit:contain;mix-blend-mode:multiply}.friend-copy{padding:0 22px 24px}.friend-role{font-size:12px;color:var(--muted)}.friend-copy h3{font-size:30px;margin:5px 0 10px}.friend-copy p{font-size:14px;color:#6a7563}.friend-copy .friend-quote{font:20px/1.7 var(--serif);color:var(--ink)}.friend-copy .character-notes{margin-top:22px}.friend-download{display:inline-block;font-size:12px;margin-top:24px;border-bottom:1px solid var(--line)}
 @media(max-width:600px){.topbar nav{gap:15px}.friends-section{padding-top:10px;padding-bottom:55px}.friend-grid{grid-template-columns:1fr;gap:30px}.friend-image img{max-height:370px}.friend-copy{padding:0 5px 12px}.friend-copy h3{font-size:27px}}
+
+/* Island atlas and location postcards */
+.atlas, .postcard-album, .resident-section { padding-block: clamp(36px,6vw,84px); }
+.atlas-layout { display: grid; grid-template-columns: minmax(0,1.7fr) minmax(210px,.65fr); gap: clamp(24px,5vw,70px); align-items:center; }
+.map-figure { margin:0; }
+.map-board { position:relative; }
+.map-board > img { width:100%; height:auto; border-radius:8px; }
+.map-pin {
+  position:absolute; left:var(--x); top:var(--y); transform:translate(-50%,-50%);
+  background:#fff9e9; color:#3d513f; border:1px solid #a9ac84; border-radius:2em;
+  padding:2px 7px; font-size:clamp(10px,.9vw,14px); line-height:1.55; white-space:nowrap;
+}
+.map-pin:hover, .map-pin:focus-visible { color:#fff; background:#526747; }
+.pin-num { display:none; }
+.map-guide h3 { font-size:clamp(23px,2.4vw,33px); margin:0; }
+.map-guide > p, .place-caption p, .resident-text p { font-size:14px; margin:.55em 0; }
+.map-directory { display:grid; gap:0 16px; grid-template-columns:1fr 1fr; }
+.map-directory a { padding:9px 0; border-bottom:1px solid var(--line); font-size:13px; }
+.map-directory span { color:#69795d; margin-right:6px; font:12px Georgia,serif; }
+.small-link, .scene-actions a { display:inline-block; font-size:13px; text-decoration:underline; text-underline-offset:4px; }
+.place-cards { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:38px 26px; }
+.place-card { min-width:0; scroll-margin-top:24px; }
+.place-card:target .scene-credit { color:#704724; font-weight:bold; }
+.scene-link, .resident-art { display:block; }
+.scene-link > img { width:100%; height:auto; aspect-ratio:3/2; object-fit:contain; border-radius:4px; }
+.place-caption { display:grid; grid-template-columns:minmax(0,1fr) 85px; gap:12px; align-items:center; padding:.7rem 0; }
+.place-caption h3, .resident-text h3 { margin:0; font-size:25px; }
+.place-caption .scene-credit, .home-link { color:#617253; font-size:12px; }
+.sticker img { width:100%; height:auto; }
+.scene-actions { display:flex; align-items:center; flex-wrap:wrap; gap:8px 17px; border-top:1px solid var(--line); padding-top:.6rem; }
+.scene-actions a:last-child { margin-left:auto; }
+.resident-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:36px 23px; }
+.resident { min-width:0; border-top:1px solid var(--line); }
+.resident-art { background:#fff2d4; border-radius:4px; margin-bottom:12px; }
+.resident-art img { width:100%; height:auto; aspect-ratio:1; object-fit:contain; }
+.resident-text .resident-title { font:18px/1.6 var(--serif); }
+.resident-text > .small-link { margin-top:5px; }
+.topbar nav { flex-wrap:wrap; }
+@media(max-width:800px) {
+  .atlas-layout { grid-template-columns:1fr; gap:20px; }
+  .map-directory { grid-template-columns:repeat(3,minmax(0,1fr)); }
+  .resident-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media(max-width:600px) {
+  .topbar nav { gap:6px 14px; }
+  .pin-word { display:none; }
+  .pin-num { display:inline; }
+  .map-pin { width:25px; height:25px; display:grid; place-items:center; font-size:12px; padding:0; }
+  .map-directory { grid-template-columns:1fr 1fr; }
+  .place-cards { grid-template-columns:1fr; gap:32px; }
+  .place-caption { grid-template-columns:minmax(0,1fr) 65px; }
+  .resident-grid { gap:25px 13px; }
+  .resident-text h3 { font-size:21px; }
+  .resident-text > p { font-size:13px; }
+}
