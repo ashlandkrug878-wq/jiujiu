@@ -340,5 +340,23 @@
     "width": 900,
     "height": 900,
     "source": "睡鼠_独立角色图.png"
+  },
+  {
+    "id": 38,
+    "title": "刺猬 · 把关心缝进小事里",
+    "category": "啾啾的朋友",
+    "src": "assets/friend-hedgehog.webp",
+    "width": 900,
+    "height": 900,
+    "source": "刺猬_独立角色图.png"
+  },
+  {
+    "id": 39,
+    "title": "小鼹鼠 · 慢慢等一颗种子发芽",
+    "category": "啾啾的朋友",
+    "src": "assets/friend-mole.webp",
+    "width": 900,
+    "height": 900,
+    "source": "小鼹鼠_独立角色图.png"
   }
 ]
