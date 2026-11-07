@@ -63,3 +63,33 @@
   .resident-text h3 { font-size:21px; }
   .resident-text > p { font-size:13px; }
 }
+
+/* The cove panorama remains readable with or without interactive place labels. */
+.atlas .map-board { overflow:hidden; border-radius:10px; }
+.atlas .map-board > img { display:block; }
+.map-tools { display:flex; flex-wrap:wrap; align-items:center; gap:10px 18px; }
+.map-tools button {
+  background:transparent; border:1px solid var(--line); border-radius:2rem;
+  padding:.4em .9em; color:var(--ink); font:inherit; font-size:13px; cursor:pointer;
+}
+.map-tools button:focus-visible, .map-pin:focus-visible { outline:3px solid #474e27; outline-offset:2px; }
+.map-board .map-pin[hidden], .map-tools button[hidden] { display:none; }
+.map-figure figcaption { color:var(--muted); font-size:13px; margin:.7rem 0 1rem; }
+.atlas .map-directory { grid-template-columns:repeat(auto-fit,minmax(155px,1fr)); gap:0 22px; }
+.atlas .map-directory a { display:flex; align-items:baseline; gap:.3em; line-height:1.5; }
+.map-directory small { display:block; font-size:12px; color:#617253; }
+.resident-text h3 small { margin-left:.55em; font:normal 14px/1.5 sans-serif; color:#617253; }
+.harbor-more { margin-left:1em; }
+.reserve-section { margin-top:clamp(45px,7vw,85px); border-top:1px solid var(--line); padding-top:24px; }
+.reserve-section h3, .reserve-section h4 { margin:0; font:600 25px/1.45 var(--serif); }
+.reserve-section .section-heading p { margin:.25rem 0; color:var(--muted); }
+.reserves { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.resident, .map-directory a, .reserve-section { scroll-margin-top:1rem; }
+@media(max-width:600px) {
+  .atlas .section-heading, .resident-section > .section-heading { align-items:flex-start; flex-wrap:wrap; gap:10px; }
+  .map-pin { width:22px; height:22px; font-size:11px; }
+  .atlas .map-directory { grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 14px; }
+  .map-tools { gap:8px 13px; }
+}
+
+@media(max-width:600px) { .reserves { grid-template-columns:repeat(2,minmax(0,1fr)); } }
