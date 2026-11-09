@@ -344,14 +344,15 @@
     "id": 301,
     "title": "海边小邮局",
     "category": "岛上地点",
-    "src": "assets/places/postoffice.webp",
-    "width": 121,
-    "height": 155,
+    "src": "assets/places/postoffice.webp?v=school-13",
+    "width": 1000,
+    "height": 1000,
     "character": "啾啾",
     "species": "蜂鸟",
     "building": "海边小邮局",
     "function": "日历 / 随手记录",
-    "tags": "啾啾 蜂鸟 海边小邮局 日历 / 随手记录"
+    "tags": "啾啾 蜂鸟 海边小邮局 日历 / 随手记录",
+    "source": "啾啾岛海边小邮局.png"
   },
   {
     "id": 202,
@@ -643,14 +644,15 @@
     "id": 309,
     "title": "树洞",
     "category": "岛上地点",
-    "src": "assets/places/hollow.webp",
-    "width": 386,
-    "height": 253,
+    "src": "assets/places/hollow.webp?v=school-13",
+    "width": 1000,
+    "height": 1000,
     "character": "松松",
     "species": "松鸦",
     "building": "树洞",
     "function": "密码",
-    "tags": "松松 松鸦 树洞 密码"
+    "tags": "松松 松鸦 树洞 密码",
+    "source": "啾啾岛橡树树洞屋图标.png"
   },
   {
     "id": 36,
@@ -721,14 +723,15 @@
     "id": 311,
     "title": "灯塔 + 漂流瓶",
     "category": "岛上地点",
-    "src": "assets/places/lighthouse.webp",
-    "width": 384,
-    "height": 399,
+    "src": "assets/places/lighthouse.webp?v=school-13",
+    "width": 1000,
+    "height": 1000,
     "character": "阿兜",
     "species": "鹈鹕",
     "building": "灯塔 + 漂流瓶",
     "function": "要做的事情 / 想做的事情",
-    "tags": "阿兜 鹈鹕 灯塔 + 漂流瓶 要做的事情 / 想做的事情"
+    "tags": "阿兜 鹈鹕 灯塔 + 漂流瓶 要做的事情 / 想做的事情",
+    "source": "灯塔与漂流瓶.png"
   },
   {
     "id": 154,
@@ -760,14 +763,15 @@
     "id": 312,
     "title": "汤屋",
     "category": "岛上地点",
-    "src": "assets/places/bath.webp",
-    "width": 364,
-    "height": 202,
+    "src": "assets/places/bath.webp?v=school-13",
+    "width": 1000,
+    "height": 1000,
     "character": "小卡",
     "species": "水豚",
     "building": "汤屋",
     "function": "娱乐",
-    "tags": "小卡 水豚 汤屋 娱乐"
+    "tags": "小卡 水豚 汤屋 娱乐",
+    "source": "温泉小屋建筑图标.png"
   },
   {
     "id": 153,
@@ -781,6 +785,48 @@
     "building": "汤屋",
     "function": "娱乐",
     "tags": "小卡 水豚 汤屋 娱乐"
+  },
+  {
+    "id": 213,
+    "title": "海风学堂，翘翘想通了",
+    "category": "岛民明信片",
+    "src": "assets/postcards/school.webp",
+    "width": 1536,
+    "height": 864,
+    "source": "海风学堂，翘翘想通了.png",
+    "character": "翘翘",
+    "species": "玄凤鹦鹉",
+    "building": "海风学堂",
+    "function": "学习",
+    "tags": "翘翘 玄凤鹦鹉 海风学堂 学习 外语 背诵"
+  },
+  {
+    "id": 313,
+    "title": "海风学堂",
+    "category": "岛上地点",
+    "src": "assets/places/school.webp",
+    "width": 1000,
+    "height": 1000,
+    "source": "海风学堂木屋.png",
+    "character": "翘翘",
+    "species": "玄凤鹦鹉",
+    "building": "海风学堂",
+    "function": "学习",
+    "tags": "翘翘 玄凤鹦鹉 海风学堂 学习 外语 背诵"
+  },
+  {
+    "id": 155,
+    "title": "翘翘 · 外语与背诵小课代表",
+    "category": "啾啾的朋友",
+    "src": "assets/friend-cockatiel.webp",
+    "width": 1000,
+    "height": 1000,
+    "source": "玄凤小课代表.png",
+    "character": "翘翘",
+    "species": "玄凤鹦鹉",
+    "building": "海风学堂",
+    "function": "学习",
+    "tags": "翘翘 玄凤鹦鹉 海风学堂 学习 外语 背诵"
   },
   {
     "id": 37,
