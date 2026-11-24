@@ -1,5 +1,5 @@
 {
-  "version": "3.12.0",
+  "version": "3.12.1",
   "baselineEntries": 78,
   "houses": {
     "post": {
@@ -2299,8 +2299,8 @@
       "line": "",
       "width": 520,
       "height": 520,
-      "bytes": 65414,
-      "sha256": "d4fab57978c271be416270a984f3b3cded80d66641cdb86de37ebcacbc86eeee",
+      "bytes": 62858,
+      "sha256": "ff7cd743eec07972d4ab2d675345dc7da7446e473796be59c5d0d631be51df9b",
       "format": "WEBP",
       "master": "board/art/brain-header.webp"
     },
@@ -2312,23 +2312,36 @@
       "line": "",
       "width": 520,
       "height": 520,
-      "bytes": 65414,
-      "sha256": "d4fab57978c271be416270a984f3b3cded80d66641cdb86de37ebcacbc86eeee",
+      "bytes": 62858,
+      "sha256": "ff7cd743eec07972d4ab2d675345dc7da7446e473796be59c5d0d631be51df9b",
       "format": "WEBP",
       "master": "board/art/brain-header.webp"
     },
     {
-      "title": "打招呼头像",
+      "title": "来信与全景岛头像",
       "src": "board/art/brain-char-app.webp",
       "source": "zidan/assets/ui/brain-char.webp",
-      "use": "打招呼头像",
+      "use": "来信与全景岛头像",
       "line": "",
       "width": 180,
       "height": 180,
-      "bytes": 9092,
-      "sha256": "8904419d95edc8ea5b52616a7ebc7b5c43b5b0a023044b1af14583cf67725940",
+      "bytes": 9216,
+      "sha256": "254ab39f4f5521ee1d8efa1605e958ba240025bd2efb99216aadac66511b8aeb",
       "format": "WEBP",
       "master": "board/art/brain-char-app.webp"
+    },
+    {
+      "title": "全景岛地块",
+      "src": "board/art/brain-pure-app.webp",
+      "source": "zidan/assets/ui/brain-pure.webp",
+      "use": "全景岛地块",
+      "line": "",
+      "width": 520,
+      "height": 520,
+      "bytes": 61616,
+      "sha256": "e2290c3f9b1053ecf38d39ab89266200a76f52bf39818a01a36dba6975bc9c94",
+      "format": "WEBP",
+      "master": "board/art/brain-pure-app.webp"
     },
     {
       "title": "完赛庆祝立绘",
@@ -2338,8 +2351,8 @@
       "line": "",
       "width": 520,
       "height": 520,
-      "bytes": 44608,
-      "sha256": "babf262d73d01a4e27e0af42cc82eff85ae4353b0c02a93ba7d0a01d54153dbf",
+      "bytes": 45596,
+      "sha256": "8be20921d90035172fc038d5a09a608fa6c9bf690bdb855011e2cc45d84c3da3",
       "format": "WEBP",
       "master": "board/art/brain-celebrate-app.webp"
     },
@@ -5332,8 +5345,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 122423,
-      "sha256": "abdde28988c8bf7f615e0897b31bdf54d11ca03d97df303e795637ce3e199b70",
+      "bytes": 122553,
+      "sha256": "73297970952987095adadb03360e7ef5536a83dcc47115f8083ba2736ab0096f",
       "format": "PNG"
     },
     {
@@ -5967,6 +5980,51 @@
       "format": "PNG"
     },
     {
+      "key": "brain",
+      "title": "健脑小屋",
+      "entry": "侧栏 → 训练",
+      "panel": "#view",
+      "width": 390,
+      "height": 844,
+      "state": "正常态",
+      "src": "screens/brain-390-2.png",
+      "styles": {
+        "容器": {
+          "element": "main#view",
+          "font": "16px",
+          "padding": "4px 20px 150px",
+          "gap": "normal",
+          "radius": "0px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgba(0, 0, 0, 0)",
+          "accent": "#B5483A"
+        },
+        "标题": {
+          "element": "b",
+          "font": "23px",
+          "padding": "0px",
+          "gap": "normal",
+          "radius": "0px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgba(0, 0, 0, 0)",
+          "accent": "#B5483A"
+        },
+        "控件": {
+          "element": "button.brain-entry",
+          "font": "16px",
+          "padding": "14px 9px 0px",
+          "gap": "7px",
+          "radius": "14px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgba(0, 0, 0, 0)",
+          "accent": "#B5483A"
+        }
+      },
+      "bytes": 126487,
+      "sha256": "eb812b4e612cea21be72903e4d78c7a895691ad4b0421b759df9c8a9b675caff",
+      "format": "PNG"
+    },
+    {
       "key": "birth",
       "title": "先天底色",
       "entry": "岛主小筑 → 先天底色",
@@ -6392,8 +6450,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 113064,
-      "sha256": "1701fc49eb22efc32a243b4cd9062eaa44ea7eae1bd4286d4950a52a7f5896d2",
+      "bytes": 112672,
+      "sha256": "d10bb578e6e5601fc356b915f043118d858463c430d34da83f43be915c55f910",
       "format": "PNG"
     },
     {
@@ -6507,8 +6565,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 287677,
-      "sha256": "14dceee1b4e3cdfa70497c3a1a74d3d0e693270f48e311f737f5fc8734938408",
+      "bytes": 288830,
+      "sha256": "ab01304424b4dc9106cb302bf88cb041f6ced535979c374122a8f907a2d3c9c0",
       "format": "PNG"
     },
     {
@@ -7407,8 +7465,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 82065,
-      "sha256": "1da56152034b0c85399094b3c01372a74905120ce0c2033907295435f03922db",
+      "bytes": 82102,
+      "sha256": "8e857c9483cf8654e75fdb77876cd3264d5f861ddae8a7978b6699662fbcdd80",
       "format": "PNG"
     },
     {
@@ -8037,8 +8095,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 70459,
-      "sha256": "136ee2029afb9a4a59d2e723edd5fac02fd12ff2f6be1229e38b85414b5ec7f6",
+      "bytes": 70458,
+      "sha256": "c8b60c019a6c9e5f78a0e94a4fdf499764cdb680cee59ab3c950fb60096c377f",
       "format": "PNG"
     },
     {
@@ -8127,8 +8185,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 92439,
-      "sha256": "ebd785362a78867a4ce72f6dc3e0980e1518152f687e54f1375aa0de69f0ae74",
+      "bytes": 92196,
+      "sha256": "738e731f08fff60e527e8e9a8a8f5b7fb646c4a2230c93656297304c17352ad9",
       "format": "PNG"
     },
     {
@@ -8307,8 +8365,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 96532,
-      "sha256": "4a3533ca491699efe3ed70a710a3700917d3ae8731bde8e8843a9da462ec8e73",
+      "bytes": 100691,
+      "sha256": "12dd7e2da32e94e2e473bc60df5904e31534d520b6a0e24370881101dbd0561d",
       "format": "PNG"
     },
     {
@@ -8432,8 +8490,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 76987,
-      "sha256": "d33543d8bc8be700db5b92c1f72d0b2bd2f058f8a99d74550e7e1edaf379f593",
+      "bytes": 76688,
+      "sha256": "45a23da074ccb15ff6cffa84566d9a40e2e63d85e8c5779714d9e7b5392fa25d",
       "format": "PNG"
     },
     {
@@ -8657,8 +8715,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 124099,
-      "sha256": "1c97d0747badc66aa795a303e341f4e7c6f94bd08f36eccafa7107d7bd52e92a",
+      "bytes": 123443,
+      "sha256": "317c5006cdd493b607c2c2dd65a41205a0e5aac980526342ccfc95020e69dfcb",
       "format": "PNG"
     },
     {
@@ -8747,8 +8805,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 228832,
-      "sha256": "a349395e4c23625cfbb4cb4b2d2135ca65e6a2d2904a08dda325779b22427117",
+      "bytes": 229179,
+      "sha256": "08bf33db1740f88e16aa9681c93af6fa1e166c26135f92712ba01056bdb7cb3e",
       "format": "PNG"
     },
     {
@@ -9412,8 +9470,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 184977,
-      "sha256": "8bcbe11b7ec21600d7bfeca8feea6f56c8695ba9d72b4709e807a68fde149c3b",
+      "bytes": 183108,
+      "sha256": "a8189f09bd6756faa9453bf4632ddb5b2aecfc97ec186e456a836ae6d43edae6",
       "format": "PNG"
     },
     {
@@ -12824,7 +12882,7 @@
     {
       "key": "brain",
       "title": "健脑小屋",
-      "entry": "侧栏 → 健脑小屋",
+      "entry": "侧栏 → 训练",
       "panel": "#view",
       "width": 390,
       "height": 844,
@@ -12842,28 +12900,28 @@
           "accent": "#B5483A"
         },
         "标题": {
-          "element": "h2",
-          "font": "24px",
+          "element": "b",
+          "font": "23px",
           "padding": "0px",
           "gap": "normal",
           "radius": "0px",
-          "ink": "rgb(46, 36, 28)",
+          "ink": "rgb(81, 62, 50)",
           "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         },
         "控件": {
           "element": "button.brain-entry",
           "font": "16px",
-          "padding": "12px 16px",
-          "gap": "normal",
-          "radius": "10px",
-          "ink": "rgb(46, 36, 28)",
-          "background": "rgb(255, 250, 240)",
+          "padding": "14px 9px 0px",
+          "gap": "7px",
+          "radius": "14px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 58670,
-      "sha256": "9a8e51a2f7ef76114c81a9495254127abd0dcfadd37ddadb64b73b0cf9d90350",
+      "bytes": 124214,
+      "sha256": "bbd473698691945cfbbcd1a1934671f366ae5042c7145c15f32bea04f2768a3a",
       "format": "PNG"
     },
     {
@@ -12888,27 +12946,27 @@
         },
         "标题": {
           "element": "h2",
-          "font": "24px",
+          "font": "23px",
           "padding": "0px",
           "gap": "normal",
           "radius": "0px",
-          "ink": "rgb(46, 36, 28)",
+          "ink": "rgb(81, 62, 50)",
           "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         },
         "控件": {
           "element": "button.brain-back",
-          "font": "16px",
+          "font": "14px",
           "padding": "6px 10px",
           "gap": "normal",
-          "radius": "10px",
-          "ink": "rgb(46, 36, 28)",
-          "background": "rgb(255, 250, 240)",
+          "radius": "12px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgb(255, 249, 237)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 29397,
-      "sha256": "6d18477bac9f9d666637a7c710554f88fff61e7b3ee5ea0f30a709f220282b6a",
+      "bytes": 41091,
+      "sha256": "a41cc8d71fd993d5198385660da56a9c18b0b74f743f86e1ac86991df83dde81",
       "format": "PNG"
     },
     {
@@ -12933,27 +12991,27 @@
         },
         "标题": {
           "element": "h2",
-          "font": "24px",
+          "font": "23px",
           "padding": "0px",
           "gap": "normal",
           "radius": "0px",
-          "ink": "rgb(46, 36, 28)",
+          "ink": "rgb(81, 62, 50)",
           "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         },
         "控件": {
           "element": "button.brain-back",
-          "font": "16px",
+          "font": "14px",
           "padding": "6px 10px",
           "gap": "normal",
-          "radius": "10px",
-          "ink": "rgb(46, 36, 28)",
-          "background": "rgb(255, 250, 240)",
+          "radius": "12px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgb(255, 249, 237)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 24831,
-      "sha256": "cff5dd1fd622b5b550832de6691a116ab0ddf28d0d2af8348e9dad8da04337e1",
+      "bytes": 31405,
+      "sha256": "93582346ebf3ec7331cfad5050e8b91a151b2f306fa70ee347407aba6ce03f67",
       "format": "PNG"
     },
     {
@@ -12978,27 +13036,27 @@
         },
         "标题": {
           "element": "h2",
-          "font": "24px",
+          "font": "23px",
           "padding": "0px",
           "gap": "normal",
           "radius": "0px",
-          "ink": "rgb(46, 36, 28)",
+          "ink": "rgb(81, 62, 50)",
           "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         },
         "控件": {
           "element": "button.brain-back",
-          "font": "16px",
+          "font": "14px",
           "padding": "6px 10px",
           "gap": "normal",
-          "radius": "10px",
-          "ink": "rgb(46, 36, 28)",
-          "background": "rgb(255, 250, 240)",
+          "radius": "12px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgb(255, 249, 237)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 20099,
-      "sha256": "4756ae10e32ff54d3e1491f4d7a954b536618b8894603c5af08231de8355fafc",
+      "bytes": 61277,
+      "sha256": "f4d407d49aad9dfd465e46d6ba8068b5663e670565c8fcf57fd2704bc1eeab76",
       "format": "PNG"
     },
     {
@@ -13023,27 +13081,72 @@
         },
         "标题": {
           "element": "h2",
-          "font": "24px",
+          "font": "23px",
           "padding": "0px",
+          "gap": "normal",
+          "radius": "0px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgba(0, 0, 0, 0)",
+          "accent": "#B5483A"
+        },
+        "控件": {
+          "element": "button.brain-back",
+          "font": "14px",
+          "padding": "6px 10px",
+          "gap": "normal",
+          "radius": "12px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgb(255, 249, 237)",
+          "accent": "#B5483A"
+        }
+      },
+      "bytes": 37763,
+      "sha256": "a43a69a95d87d5d69e780604a01f77bb84af102c6e483e2fc7fe1809c721b6ac",
+      "format": "PNG"
+    },
+    {
+      "key": "brain-result",
+      "title": "完赛结算",
+      "entry": "舒尔特方格 → 完成一局",
+      "panel": "#view",
+      "width": 390,
+      "height": 844,
+      "state": "空态",
+      "src": "screens/brain-result-390-0.png",
+      "styles": {
+        "容器": {
+          "element": "main#view",
+          "font": "16px",
+          "padding": "4px 20px 150px",
           "gap": "normal",
           "radius": "0px",
           "ink": "rgb(46, 36, 28)",
           "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         },
-        "控件": {
-          "element": "button.brain-back",
-          "font": "16px",
-          "padding": "6px 10px",
+        "标题": {
+          "element": "b",
+          "font": "23px",
+          "padding": "0px",
           "gap": "normal",
-          "radius": "10px",
-          "ink": "rgb(46, 36, 28)",
-          "background": "rgb(255, 250, 240)",
+          "radius": "0px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgba(0, 0, 0, 0)",
+          "accent": "#B5483A"
+        },
+        "控件": {
+          "element": "button.brain-entry",
+          "font": "16px",
+          "padding": "14px 9px 0px",
+          "gap": "7px",
+          "radius": "14px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 32141,
-      "sha256": "833eabb4fbcd6154ce7b9e14a2aab90dcd80a2e7e3f3bf883766f0c36d05062b",
+      "bytes": 122809,
+      "sha256": "9f31d1d7a2f298967c44fa7366e0520146d462bf905a2a26198ba3113ed7419a",
       "format": "PNG"
     },
     {
@@ -13587,8 +13690,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 84732,
-      "sha256": "69df6e2e7eb8fedca0e4503b327f405601c9f0c9d084f776877b90634c15560c",
+      "bytes": 84934,
+      "sha256": "60f3c25289c47ccea971e965c5845b6c3fc67120f4757ad41f70e27ae7909935",
       "format": "PNG"
     },
     {
@@ -15007,6 +15110,51 @@
       "format": "PNG"
     },
     {
+      "key": "brain",
+      "title": "健脑小屋",
+      "entry": "侧栏 → 训练",
+      "panel": "#view",
+      "width": 440,
+      "height": 956,
+      "state": "正常态",
+      "src": "screens/brain-440-2.png",
+      "styles": {
+        "容器": {
+          "element": "main#view",
+          "font": "16px",
+          "padding": "4px 20px 150px",
+          "gap": "normal",
+          "radius": "0px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgba(0, 0, 0, 0)",
+          "accent": "#B5483A"
+        },
+        "标题": {
+          "element": "b",
+          "font": "23px",
+          "padding": "0px",
+          "gap": "normal",
+          "radius": "0px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgba(0, 0, 0, 0)",
+          "accent": "#B5483A"
+        },
+        "控件": {
+          "element": "button.brain-entry",
+          "font": "16px",
+          "padding": "14px 9px 0px",
+          "gap": "7px",
+          "radius": "14px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgba(0, 0, 0, 0)",
+          "accent": "#B5483A"
+        }
+      },
+      "bytes": 136004,
+      "sha256": "c218d8ec707ab7f45b7815e84b435e44ebc792b71ee3093155901181cc99653f",
+      "format": "PNG"
+    },
+    {
       "key": "birth",
       "title": "先天底色",
       "entry": "岛主小筑 → 先天底色",
@@ -15432,8 +15580,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 131820,
-      "sha256": "cf1b24d798a03beb86e47e298fb85b4b8b2ee0592bd62ac931cda28d3b4a3ede",
+      "bytes": 131379,
+      "sha256": "49ffc1e7d792e9260d3235637696129f6cdf8722e3d6fb54b7d9fad41b4e0d2b",
       "format": "PNG"
     },
     {
@@ -15547,8 +15695,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 362305,
-      "sha256": "c59789d5b460c6e1550aaa771418b12e569ccfd748bf40ba049a002c4051a5eb",
+      "bytes": 363611,
+      "sha256": "ad5d4839260eeac3de2737beae4f028e0b9d51ee6d776a981ae7f8172ffe2dd6",
       "format": "PNG"
     },
     {
@@ -17077,8 +17225,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 81016,
-      "sha256": "21a12645d6f0826ba56ea3706fedc72b5c5dbf222495fac3dc13185d582557ba",
+      "bytes": 81006,
+      "sha256": "5e0881b7b4ae31e31c38de1ae7a7a664895d796d3c374f1e61d074e42ffc51ba",
       "format": "PNG"
     },
     {
@@ -17167,8 +17315,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 96143,
-      "sha256": "342955b49ac39eb37e4bbc3682038c17c2c4eb77f328e95424971cf672a56170",
+      "bytes": 95897,
+      "sha256": "1bdbe6389726f6d67b0ce4244c723d0850be09f37dbca01e427a627f116f3b00",
       "format": "PNG"
     },
     {
@@ -17347,8 +17495,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 119981,
-      "sha256": "8bec9d6683a6f1d68f9adfcb1164d332139a40d995261204a9e295d4ccea19d5",
+      "bytes": 120181,
+      "sha256": "f8edad6768208a7adfcb44642f6cc8f04fcc4742f1356d6b69920327cfaf72b5",
       "format": "PNG"
     },
     {
@@ -17472,8 +17620,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 90348,
-      "sha256": "1bbedcef82b6f8c30c84388030df1789f7b3fe7ad6a9fbc8e226b73b43e09e4c",
+      "bytes": 90244,
+      "sha256": "2495e8ec203c1d3c95f1ccdda8d36298b66db4ac2e98cf1811b049536756d74d",
       "format": "PNG"
     },
     {
@@ -17697,8 +17845,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 128104,
-      "sha256": "71f80a7745f54f029447809d56edc1aeb8b39d854366422c3c96d7c5c10d637f",
+      "bytes": 127313,
+      "sha256": "50fc1d8eafe86f95859c6972afddcec25f6eacc3bbe0e186979f3f5ef3895c9b",
       "format": "PNG"
     },
     {
@@ -17787,8 +17935,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 242341,
-      "sha256": "c6fd78fed55c6e5acdfcaff03a2b7717de25e270497a833f97651e2c5e0f2f2f",
+      "bytes": 243551,
+      "sha256": "7dd4cce26b5fc8f153819640f6c53fb2f7b3be6a027460ad430a8f00c3103d75",
       "format": "PNG"
     },
     {
@@ -18192,8 +18340,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 88036,
-      "sha256": "ed2d6869b87262c5897f8c8a33aba8a2af4223d5972d3c38d7ab3744e12b6b68",
+      "bytes": 88028,
+      "sha256": "cc8b82384245c5bb3590f80e1df4a6c04bc67a8fa76ca4c1c2533cf1455da664",
       "format": "PNG"
     },
     {
@@ -18452,8 +18600,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 222569,
-      "sha256": "a22ad5ebd15d0642b187719245f65377c61cb1333c71ce084d59dcb33c5fc4fe",
+      "bytes": 222593,
+      "sha256": "4de521ca396122e500b65a0032c1e73e43b125d99534bb30847394fd52840472",
       "format": "PNG"
     },
     {
@@ -21864,7 +22012,7 @@
     {
       "key": "brain",
       "title": "健脑小屋",
-      "entry": "侧栏 → 健脑小屋",
+      "entry": "侧栏 → 训练",
       "panel": "#view",
       "width": 440,
       "height": 956,
@@ -21882,28 +22030,28 @@
           "accent": "#B5483A"
         },
         "标题": {
-          "element": "h2",
-          "font": "24px",
+          "element": "b",
+          "font": "23px",
           "padding": "0px",
           "gap": "normal",
           "radius": "0px",
-          "ink": "rgb(46, 36, 28)",
+          "ink": "rgb(81, 62, 50)",
           "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         },
         "控件": {
           "element": "button.brain-entry",
           "font": "16px",
-          "padding": "12px 16px",
-          "gap": "normal",
-          "radius": "10px",
-          "ink": "rgb(46, 36, 28)",
-          "background": "rgb(255, 250, 240)",
+          "padding": "14px 9px 0px",
+          "gap": "7px",
+          "radius": "14px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 59382,
-      "sha256": "810578007b2800320cae4ba53025aad8ba460873f7d43011521a928799606237",
+      "bytes": 134142,
+      "sha256": "9ed47f32f5e390258f5e214597707cab729a3127e8b912fe8deecf92fccef1ea",
       "format": "PNG"
     },
     {
@@ -21928,27 +22076,27 @@
         },
         "标题": {
           "element": "h2",
-          "font": "24px",
+          "font": "23px",
           "padding": "0px",
           "gap": "normal",
           "radius": "0px",
-          "ink": "rgb(46, 36, 28)",
+          "ink": "rgb(81, 62, 50)",
           "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         },
         "控件": {
           "element": "button.brain-back",
-          "font": "16px",
+          "font": "14px",
           "padding": "6px 10px",
           "gap": "normal",
-          "radius": "10px",
-          "ink": "rgb(46, 36, 28)",
-          "background": "rgb(255, 250, 240)",
+          "radius": "12px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgb(255, 249, 237)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 30566,
-      "sha256": "37a653bb5ed48e8f4b75e548d0803686cfcd5f0ee3e8eb307009c94b1bd1d9ac",
+      "bytes": 41615,
+      "sha256": "c1a8698bbc4ee27975f6544672ed241a10c3de151f18cd65fa1d9c511be53e65",
       "format": "PNG"
     },
     {
@@ -21973,27 +22121,27 @@
         },
         "标题": {
           "element": "h2",
-          "font": "24px",
+          "font": "23px",
           "padding": "0px",
           "gap": "normal",
           "radius": "0px",
-          "ink": "rgb(46, 36, 28)",
+          "ink": "rgb(81, 62, 50)",
           "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         },
         "控件": {
           "element": "button.brain-back",
-          "font": "16px",
+          "font": "14px",
           "padding": "6px 10px",
           "gap": "normal",
-          "radius": "10px",
-          "ink": "rgb(46, 36, 28)",
-          "background": "rgb(255, 250, 240)",
+          "radius": "12px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgb(255, 249, 237)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 25474,
-      "sha256": "c204becfc8bb84b33d05b703751d97b17b447bb13a2416ec2fd507cfc9149d1b",
+      "bytes": 34450,
+      "sha256": "c9a86ad9e5d81d0ffad08d3119dc6ee013d7a0ad83ca71ee8aadf5817e343740",
       "format": "PNG"
     },
     {
@@ -22018,27 +22166,27 @@
         },
         "标题": {
           "element": "h2",
-          "font": "24px",
+          "font": "23px",
           "padding": "0px",
           "gap": "normal",
           "radius": "0px",
-          "ink": "rgb(46, 36, 28)",
+          "ink": "rgb(81, 62, 50)",
           "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         },
         "控件": {
           "element": "button.brain-back",
-          "font": "16px",
+          "font": "14px",
           "padding": "6px 10px",
           "gap": "normal",
-          "radius": "10px",
-          "ink": "rgb(46, 36, 28)",
-          "background": "rgb(255, 250, 240)",
+          "radius": "12px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgb(255, 249, 237)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 20752,
-      "sha256": "871136beb7b568213bfecd42607b93df31476b81c570053e7f3999a4df4de52e",
+      "bytes": 56132,
+      "sha256": "bef1648b215ec6530b6a17c5a09e1f828aeab37f1a006d1f51edb5ee5c5a09e1",
       "format": "PNG"
     },
     {
@@ -22063,27 +22211,72 @@
         },
         "标题": {
           "element": "h2",
-          "font": "24px",
+          "font": "23px",
           "padding": "0px",
+          "gap": "normal",
+          "radius": "0px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgba(0, 0, 0, 0)",
+          "accent": "#B5483A"
+        },
+        "控件": {
+          "element": "button.brain-back",
+          "font": "14px",
+          "padding": "6px 10px",
+          "gap": "normal",
+          "radius": "12px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgb(255, 249, 237)",
+          "accent": "#B5483A"
+        }
+      },
+      "bytes": 39245,
+      "sha256": "1faf0f89eeaa15dc4efe62c4d41e588d49d02e162a157e3ffe6d45e0e5e18f5d",
+      "format": "PNG"
+    },
+    {
+      "key": "brain-result",
+      "title": "完赛结算",
+      "entry": "舒尔特方格 → 完成一局",
+      "panel": "#view",
+      "width": 440,
+      "height": 956,
+      "state": "空态",
+      "src": "screens/brain-result-440-0.png",
+      "styles": {
+        "容器": {
+          "element": "main#view",
+          "font": "16px",
+          "padding": "4px 20px 150px",
           "gap": "normal",
           "radius": "0px",
           "ink": "rgb(46, 36, 28)",
           "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         },
-        "控件": {
-          "element": "button.brain-back",
-          "font": "16px",
-          "padding": "6px 10px",
+        "标题": {
+          "element": "b",
+          "font": "23px",
+          "padding": "0px",
           "gap": "normal",
-          "radius": "10px",
-          "ink": "rgb(46, 36, 28)",
-          "background": "rgb(255, 250, 240)",
+          "radius": "0px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgba(0, 0, 0, 0)",
+          "accent": "#B5483A"
+        },
+        "控件": {
+          "element": "button.brain-entry",
+          "font": "16px",
+          "padding": "14px 9px 0px",
+          "gap": "7px",
+          "radius": "14px",
+          "ink": "rgb(81, 62, 50)",
+          "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 32764,
-      "sha256": "45df429d473bb520cda4f032d9dcb2af621cab6c49cb80697384fc1c8d1deeba",
+      "bytes": 149041,
+      "sha256": "8dd0dd0bf1371a9815f1d31b1d97ed5be43d8defd4162f39ba1267f8bdfa6e34",
       "format": "PNG"
     },
     {
@@ -22252,8 +22445,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 58773,
-      "sha256": "ed5746983abec9d8e44357d33b7b568d303c64e9afacf4dbb8885e646b5e1831",
+      "bytes": 58782,
+      "sha256": "a8bbbc0e6dbac9ddb5b098ead6a351c92f03392f541d51f362f663c64faaaf2a",
       "format": "PNG"
     },
     {
@@ -23403,8 +23596,8 @@
       "height": 600
     },
     "board/art/brain-celebrate-app.webp": {
-      "bytes": 44608,
-      "sha256": "babf262d73d01a4e27e0af42cc82eff85ae4353b0c02a93ba7d0a01d54153dbf",
+      "bytes": 45596,
+      "sha256": "8be20921d90035172fc038d5a09a608fa6c9bf690bdb855011e2cc45d84c3da3",
       "format": "WEBP",
       "width": 520,
       "height": 520
@@ -23420,8 +23613,8 @@
       "use": "看板预览"
     },
     "board/art/brain-char-app.webp": {
-      "bytes": 9092,
-      "sha256": "8904419d95edc8ea5b52616a7ebc7b5c43b5b0a023044b1af14583cf67725940",
+      "bytes": 9216,
+      "sha256": "254ab39f4f5521ee1d8efa1605e958ba240025bd2efb99216aadac66511b8aeb",
       "format": "WEBP",
       "width": 180,
       "height": 180
@@ -23447,15 +23640,22 @@
       "use": "看板预览"
     },
     "board/art/brain-header.webp": {
-      "bytes": 65414,
-      "sha256": "d4fab57978c271be416270a984f3b3cded80d66641cdb86de37ebcacbc86eeee",
+      "bytes": 62858,
+      "sha256": "ff7cd743eec07972d4ab2d675345dc7da7446e473796be59c5d0d631be51df9b",
       "format": "WEBP",
       "width": 520,
       "height": 520
     },
     "board/art/brain-icon.webp": {
-      "bytes": 65414,
-      "sha256": "d4fab57978c271be416270a984f3b3cded80d66641cdb86de37ebcacbc86eeee",
+      "bytes": 62858,
+      "sha256": "ff7cd743eec07972d4ab2d675345dc7da7446e473796be59c5d0d631be51df9b",
+      "format": "WEBP",
+      "width": 520,
+      "height": 520
+    },
+    "board/art/brain-pure-app.webp": {
+      "bytes": 61616,
+      "sha256": "e2290c3f9b1053ecf38d39ab89266200a76f52bf39818a01a36dba6975bc9c94",
       "format": "WEBP",
       "width": 520,
       "height": 520
@@ -25648,8 +25848,8 @@
       "format": "CSS"
     },
     "index.html": {
-      "bytes": 905122,
-      "sha256": "d59a2ee7a2d8d51543244e92ed40a59b5f71424c94c8f9692132007a5a6debad",
+      "bytes": 911558,
+      "sha256": "e4794086477c05f9960ec1cd2671d42a85a3cfff15338bd9b76dd2f80b8ff051",
       "format": "HTML"
     },
     "screens/agg-ask-390-0.png": {
@@ -25891,8 +26091,8 @@
       "height": 956
     },
     "screens/agg-event-440-2.png": {
-      "bytes": 84732,
-      "sha256": "69df6e2e7eb8fedca0e4503b327f405601c9f0c9d084f776877b90634c15560c",
+      "bytes": 84934,
+      "sha256": "60f3c25289c47ccea971e965c5845b6c3fc67120f4757ad41f70e27ae7909935",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26115,15 +26315,15 @@
       "height": 956
     },
     "screens/amount-390-2.png": {
-      "bytes": 70459,
-      "sha256": "136ee2029afb9a4a59d2e723edd5fac02fd12ff2f6be1229e38b85414b5ec7f6",
+      "bytes": 70458,
+      "sha256": "c8b60c019a6c9e5f78a0e94a4fdf499764cdb680cee59ab3c950fb60096c377f",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/amount-440-2.png": {
-      "bytes": 81016,
-      "sha256": "21a12645d6f0826ba56ea3706fedc72b5c5dbf222495fac3dc13185d582557ba",
+      "bytes": 81006,
+      "sha256": "5e0881b7b4ae31e31c38de1ae7a7a664895d796d3c374f1e61d074e42ffc51ba",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26283,71 +26483,99 @@
       "height": 956
     },
     "screens/brain-390-0.png": {
-      "bytes": 58670,
-      "sha256": "9a8e51a2f7ef76114c81a9495254127abd0dcfadd37ddadb64b73b0cf9d90350",
+      "bytes": 124214,
+      "sha256": "bbd473698691945cfbbcd1a1934671f366ae5042c7145c15f32bea04f2768a3a",
+      "format": "PNG",
+      "width": 390,
+      "height": 844
+    },
+    "screens/brain-390-2.png": {
+      "bytes": 126487,
+      "sha256": "eb812b4e612cea21be72903e4d78c7a895691ad4b0421b759df9c8a9b675caff",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/brain-440-0.png": {
-      "bytes": 59382,
-      "sha256": "810578007b2800320cae4ba53025aad8ba460873f7d43011521a928799606237",
+      "bytes": 134142,
+      "sha256": "9ed47f32f5e390258f5e214597707cab729a3127e8b912fe8deecf92fccef1ea",
+      "format": "PNG",
+      "width": 440,
+      "height": 956
+    },
+    "screens/brain-440-2.png": {
+      "bytes": 136004,
+      "sha256": "c218d8ec707ab7f45b7815e84b435e44ebc792b71ee3093155901181cc99653f",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/brain-color-390-0.png": {
-      "bytes": 24831,
-      "sha256": "cff5dd1fd622b5b550832de6691a116ab0ddf28d0d2af8348e9dad8da04337e1",
+      "bytes": 31405,
+      "sha256": "93582346ebf3ec7331cfad5050e8b91a151b2f306fa70ee347407aba6ce03f67",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/brain-color-440-0.png": {
-      "bytes": 25474,
-      "sha256": "c204becfc8bb84b33d05b703751d97b17b447bb13a2416ec2fd507cfc9149d1b",
+      "bytes": 34450,
+      "sha256": "c9a86ad9e5d81d0ffad08d3119dc6ee013d7a0ad83ca71ee8aadf5817e343740",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/brain-grid-390-0.png": {
-      "bytes": 29397,
-      "sha256": "6d18477bac9f9d666637a7c710554f88fff61e7b3ee5ea0f30a709f220282b6a",
+      "bytes": 41091,
+      "sha256": "a41cc8d71fd993d5198385660da56a9c18b0b74f743f86e1ac86991df83dde81",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/brain-grid-440-0.png": {
-      "bytes": 30566,
-      "sha256": "37a653bb5ed48e8f4b75e548d0803686cfcd5f0ee3e8eb307009c94b1bd1d9ac",
+      "bytes": 41615,
+      "sha256": "c1a8698bbc4ee27975f6544672ed241a10c3de151f18cd65fa1d9c511be53e65",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/brain-memory-390-0.png": {
-      "bytes": 20099,
-      "sha256": "4756ae10e32ff54d3e1491f4d7a954b536618b8894603c5af08231de8355fafc",
+      "bytes": 61277,
+      "sha256": "f4d407d49aad9dfd465e46d6ba8068b5663e670565c8fcf57fd2704bc1eeab76",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/brain-memory-440-0.png": {
-      "bytes": 20752,
-      "sha256": "871136beb7b568213bfecd42607b93df31476b81c570053e7f3999a4df4de52e",
+      "bytes": 56132,
+      "sha256": "bef1648b215ec6530b6a17c5a09e1f828aeab37f1a006d1f51edb5ee5c5a09e1",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/brain-path-390-0.png": {
-      "bytes": 32141,
-      "sha256": "833eabb4fbcd6154ce7b9e14a2aab90dcd80a2e7e3f3bf883766f0c36d05062b",
+      "bytes": 37763,
+      "sha256": "a43a69a95d87d5d69e780604a01f77bb84af102c6e483e2fc7fe1809c721b6ac",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/brain-path-440-0.png": {
-      "bytes": 32764,
-      "sha256": "45df429d473bb520cda4f032d9dcb2af621cab6c49cb80697384fc1c8d1deeba",
+      "bytes": 39245,
+      "sha256": "1faf0f89eeaa15dc4efe62c4d41e588d49d02e162a157e3ffe6d45e0e5e18f5d",
+      "format": "PNG",
+      "width": 440,
+      "height": 956
+    },
+    "screens/brain-result-390-0.png": {
+      "bytes": 122809,
+      "sha256": "9f31d1d7a2f298967c44fa7366e0520146d462bf905a2a26198ba3113ed7419a",
+      "format": "PNG",
+      "width": 390,
+      "height": 844
+    },
+    "screens/brain-result-440-0.png": {
+      "bytes": 149041,
+      "sha256": "8dd0dd0bf1371a9815f1d31b1d97ed5be43d8defd4162f39ba1267f8bdfa6e34",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26430,22 +26658,22 @@
       "height": 844
     },
     "screens/category-440-2.png": {
-      "bytes": 88036,
-      "sha256": "ed2d6869b87262c5897f8c8a33aba8a2af4223d5972d3c38d7ab3744e12b6b68",
+      "bytes": 88028,
+      "sha256": "cc8b82384245c5bb3590f80e1df4a6c04bc67a8fa76ca4c1c2533cf1455da664",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/changes-390-2.png": {
-      "bytes": 96532,
-      "sha256": "4a3533ca491699efe3ed70a710a3700917d3ae8731bde8e8843a9da462ec8e73",
+      "bytes": 100691,
+      "sha256": "12dd7e2da32e94e2e473bc60df5904e31534d520b6a0e24370881101dbd0561d",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/changes-440-2.png": {
-      "bytes": 119981,
-      "sha256": "8bec9d6683a6f1d68f9adfcb1164d332139a40d995261204a9e295d4ccea19d5",
+      "bytes": 120181,
+      "sha256": "f8edad6768208a7adfcb44642f6cc8f04fcc4742f1356d6b69920327cfaf72b5",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26661,15 +26889,15 @@
       "height": 956
     },
     "screens/drawer-390-2.png": {
-      "bytes": 92439,
-      "sha256": "ebd785362a78867a4ce72f6dc3e0980e1518152f687e54f1375aa0de69f0ae74",
+      "bytes": 92196,
+      "sha256": "738e731f08fff60e527e8e9a8a8f5b7fb646c4a2230c93656297304c17352ad9",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/drawer-440-2.png": {
-      "bytes": 96143,
-      "sha256": "342955b49ac39eb37e4bbc3682038c17c2c4eb77f328e95424971cf672a56170",
+      "bytes": 95897,
+      "sha256": "1bdbe6389726f6d67b0ce4244c723d0850be09f37dbca01e427a627f116f3b00",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26689,8 +26917,8 @@
       "height": 956
     },
     "screens/expense-390-2.png": {
-      "bytes": 82065,
-      "sha256": "1da56152034b0c85399094b3c01372a74905120ce0c2033907295435f03922db",
+      "bytes": 82102,
+      "sha256": "8e857c9483cf8654e75fdb77876cd3264d5f861ddae8a7978b6699662fbcdd80",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -27151,15 +27379,15 @@
       "height": 956
     },
     "screens/isle-390-2.png": {
-      "bytes": 113064,
-      "sha256": "1701fc49eb22efc32a243b4cd9062eaa44ea7eae1bd4286d4950a52a7f5896d2",
+      "bytes": 112672,
+      "sha256": "d10bb578e6e5601fc356b915f043118d858463c430d34da83f43be915c55f910",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/isle-440-2.png": {
-      "bytes": 131820,
-      "sha256": "cf1b24d798a03beb86e47e298fb85b4b8b2ee0592bd62ac931cda28d3b4a3ede",
+      "bytes": 131379,
+      "sha256": "49ffc1e7d792e9260d3235637696129f6cdf8722e3d6fb54b7d9fad41b4e0d2b",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27522,8 +27750,8 @@
       "height": 844
     },
     "screens/notes-th-440-0.png": {
-      "bytes": 58773,
-      "sha256": "ed5746983abec9d8e44357d33b7b568d303c64e9afacf4dbb8885e646b5e1831",
+      "bytes": 58782,
+      "sha256": "a8bbbc0e6dbac9ddb5b098ead6a351c92f03392f541d51f362f663c64faaaf2a",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27571,15 +27799,15 @@
       "height": 956
     },
     "screens/onboard-3-390-2.png": {
-      "bytes": 124099,
-      "sha256": "1c97d0747badc66aa795a303e341f4e7c6f94bd08f36eccafa7107d7bd52e92a",
+      "bytes": 123443,
+      "sha256": "317c5006cdd493b607c2c2dd65a41205a0e5aac980526342ccfc95020e69dfcb",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/onboard-3-440-2.png": {
-      "bytes": 128104,
-      "sha256": "71f80a7745f54f029447809d56edc1aeb8b39d854366422c3c96d7c5c10d637f",
+      "bytes": 127313,
+      "sha256": "50fc1d8eafe86f95859c6972afddcec25f6eacc3bbe0e186979f3f5ef3895c9b",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27599,43 +27827,43 @@
       "height": 956
     },
     "screens/onboard-5-390-2.png": {
-      "bytes": 228832,
-      "sha256": "a349395e4c23625cfbb4cb4b2d2135ca65e6a2d2904a08dda325779b22427117",
+      "bytes": 229179,
+      "sha256": "08bf33db1740f88e16aa9681c93af6fa1e166c26135f92712ba01056bdb7cb3e",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/onboard-5-440-2.png": {
-      "bytes": 242341,
-      "sha256": "c6fd78fed55c6e5acdfcaff03a2b7717de25e270497a833f97651e2c5e0f2f2f",
+      "bytes": 243551,
+      "sha256": "7dd4cce26b5fc8f153819640f6c53fb2f7b3be6a027460ad430a8f00c3103d75",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/onboard-letter-390-2.png": {
-      "bytes": 184977,
-      "sha256": "8bcbe11b7ec21600d7bfeca8feea6f56c8695ba9d72b4709e807a68fde149c3b",
+      "bytes": 183108,
+      "sha256": "a8189f09bd6756faa9453bf4632ddb5b2aecfc97ec186e456a836ae6d43edae6",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/onboard-letter-440-2.png": {
-      "bytes": 222569,
-      "sha256": "a22ad5ebd15d0642b187719245f65377c61cb1333c71ce084d59dcb33c5fc4fe",
+      "bytes": 222593,
+      "sha256": "4de521ca396122e500b65a0032c1e73e43b125d99534bb30847394fd52840472",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/panorama-390-2.png": {
-      "bytes": 287677,
-      "sha256": "14dceee1b4e3cdfa70497c3a1a74d3d0e693270f48e311f737f5fc8734938408",
+      "bytes": 288830,
+      "sha256": "ab01304424b4dc9106cb302bf88cb041f6ced535979c374122a8f907a2d3c9c0",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/panorama-440-2.png": {
-      "bytes": 362305,
-      "sha256": "c59789d5b460c6e1550aaa771418b12e569ccfd748bf40ba049a002c4051a5eb",
+      "bytes": 363611,
+      "sha256": "ad5d4839260eeac3de2737beae4f028e0b9d51ee6d776a981ae7f8172ffe2dd6",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27830,8 +28058,8 @@
       "height": 844
     },
     "screens/postoffice-390-2.png": {
-      "bytes": 122423,
-      "sha256": "abdde28988c8bf7f615e0897b31bdf54d11ca03d97df303e795637ce3e199b70",
+      "bytes": 122553,
+      "sha256": "73297970952987095adadb03360e7ef5536a83dcc47115f8083ba2736ab0096f",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -28131,15 +28359,15 @@
       "height": 956
     },
     "screens/share-390-2.png": {
-      "bytes": 76987,
-      "sha256": "d33543d8bc8be700db5b92c1f72d0b2bd2f058f8a99d74550e7e1edaf379f593",
+      "bytes": 76688,
+      "sha256": "45a23da074ccb15ff6cffa84566d9a40e2e63d85e8c5779714d9e7b5392fa25d",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/share-440-2.png": {
-      "bytes": 90348,
-      "sha256": "1bbedcef82b6f8c30c84388030df1789f7b3fe7ad6a9fbc8e226b73b43e09e4c",
+      "bytes": 90244,
+      "sha256": "2495e8ec203c1d3c95f1ccdda8d36298b66db4ac2e98cf1811b049536756d74d",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -28593,5 +28821,5 @@
       "height": 956
     }
   },
-  "screenSignature": "7289d0d3ea830533e7394679929b52ae9bcee6826118746282d0e303ce9ce204"
+  "screenSignature": "305d5426407f16cfdded34e835af0c23e965a386bf48d0fb999e0175b6bf1df1"
 }
