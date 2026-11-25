@@ -1,5 +1,5 @@
 {
-  "version": "3.13.0",
+  "version": "3.13.1",
   "baselineEntries": 78,
   "houses": {
     "post": {
@@ -2821,6 +2821,1060 @@
       "master": "board/originals/abu-4.png"
     },
     {
+      "title": "青绿贝壳牌 · 定稿",
+      "src": "board/originals/shell-icon.png",
+      "source": "tools/asset-board/originals/shell-icon.png",
+      "use": "全岛公共素材 · 小贝壳",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/shell-icon-proof.webp",
+      "bytes": 978851,
+      "sha256": "67b818c84ebe6ad29440bfff86e9b1f0bde7945fad3e04490ee7445f1f6d90c9",
+      "format": "PNG",
+      "master": "board/originals/shell-icon.png"
+    },
+    {
+      "title": "青绿贝壳牌 · 透明运行图",
+      "src": "board/art/shell-icon.webp",
+      "source": "zidan/assets/ui/shell-icon.webp",
+      "use": "我的岛民证、信风邮局",
+      "line": "",
+      "width": 80,
+      "height": 80,
+      "bytes": 4334,
+      "sha256": "30deb7ba7ec83a7d075b4bf96ed1fa19eb53f08a62a4c0899f249ac4bde33d63",
+      "format": "WEBP",
+      "master": "board/art/shell-icon.webp"
+    },
+    {
+      "title": "软木塞玻璃罐 · 定稿",
+      "src": "board/originals/shell-jar.png",
+      "source": "tools/asset-board/originals/shell-jar.png",
+      "use": "全岛公共素材 · 小贝壳",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/shell-jar-proof.webp",
+      "bytes": 878949,
+      "sha256": "77f294b1cbe9ac2e6199304788b7384b16ab212b3093b286cea67c76b0bc4276",
+      "format": "PNG",
+      "master": "board/originals/shell-jar.png"
+    },
+    {
+      "title": "软木塞玻璃罐 · 透明运行图",
+      "src": "board/art/shell-jar.webp",
+      "source": "zidan/assets/ui/shell-jar.webp",
+      "use": "我的岛民证、信风邮局",
+      "line": "",
+      "width": 216,
+      "height": 216,
+      "bytes": 30974,
+      "sha256": "52aa2b510063472622a7ba1bdf5af126eeae13548cf56dc27e4ba0a979259294",
+      "format": "WEBP",
+      "master": "board/art/shell-jar.webp"
+    },
+    {
+      "title": "初登海岛 · 邮票画心",
+      "src": "board/originals/stamp-01-arrival.png",
+      "source": "tools/asset-board/originals/stamp-01-arrival.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-01-arrival-proof.webp",
+      "bytes": 2012944,
+      "sha256": "0b99dad62900a6d2797409d61d7d0481a5af3e5f0db28ee8874528df2b73d437",
+      "format": "PNG",
+      "master": "board/originals/stamp-01-arrival.png"
+    },
+    {
+      "title": "初登海岛 · 邮票",
+      "src": "board/art/stamp-01-arrival.webp",
+      "source": "zidan/assets/postcards/stamp-01-arrival.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 135450,
+      "sha256": "03d91e74aa05b6c19849f47fac749a3ed0fafd15e106c8016cd28c873a6dbee1",
+      "format": "WEBP",
+      "master": "board/originals/stamp-01-arrival.png"
+    },
+    {
+      "title": "初登海岛 · 缩略图",
+      "src": "board/art/stamp-01-arrival-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-01-arrival-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 12004,
+      "sha256": "11a0b03a0ee60561c29707c2eb91fab25981d943217736a5c2a500b47ecf3289",
+      "format": "WEBP",
+      "master": "board/art/stamp-01-arrival-thumb.webp"
+    },
+    {
+      "title": "灯塔守望 · 邮票画心",
+      "src": "board/originals/stamp-02-lighthouse.png",
+      "source": "tools/asset-board/originals/stamp-02-lighthouse.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-02-lighthouse-proof.webp",
+      "bytes": 1932117,
+      "sha256": "0eda21f2e136ac85159366984ddf3f4c34d110b765fff58506735c94a8d21d1d",
+      "format": "PNG",
+      "master": "board/originals/stamp-02-lighthouse.png"
+    },
+    {
+      "title": "灯塔守望 · 邮票",
+      "src": "board/art/stamp-02-lighthouse.webp",
+      "source": "zidan/assets/postcards/stamp-02-lighthouse.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 107566,
+      "sha256": "63b9ac34ab17b99497aeb0ec08eac625615987c79c4123cefff300db55aab693",
+      "format": "WEBP",
+      "master": "board/originals/stamp-02-lighthouse.png"
+    },
+    {
+      "title": "灯塔守望 · 缩略图",
+      "src": "board/art/stamp-02-lighthouse-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-02-lighthouse-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 9224,
+      "sha256": "c275a3241c9684e75af245b1d6493a89c26e4be5a91b13651fdb2ba046de67a6",
+      "format": "WEBP",
+      "master": "board/art/stamp-02-lighthouse-thumb.webp"
+    },
+    {
+      "title": "绣球花窗 · 邮票画心",
+      "src": "board/originals/stamp-03-hydrangea.png",
+      "source": "tools/asset-board/originals/stamp-03-hydrangea.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-03-hydrangea-proof.webp",
+      "bytes": 2028579,
+      "sha256": "99bad7dc175a5fafc8103883e8a556c56a8f9ea927f0a99da947f35cf2ddc392",
+      "format": "PNG",
+      "master": "board/originals/stamp-03-hydrangea.png"
+    },
+    {
+      "title": "绣球花窗 · 邮票",
+      "src": "board/art/stamp-03-hydrangea.webp",
+      "source": "zidan/assets/postcards/stamp-03-hydrangea.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 125478,
+      "sha256": "ca3bb8c2f360b2b77c7e13c5dda6cf19e88d844ad19c3878cff6b39a7db1c6b2",
+      "format": "WEBP",
+      "master": "board/originals/stamp-03-hydrangea.png"
+    },
+    {
+      "title": "绣球花窗 · 缩略图",
+      "src": "board/art/stamp-03-hydrangea-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-03-hydrangea-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 10870,
+      "sha256": "3aaadbb859ddad43713ee1c0b317973d21e55ab32224536968a0ebf25c17308b",
+      "format": "WEBP",
+      "master": "board/art/stamp-03-hydrangea-thumb.webp"
+    },
+    {
+      "title": "溪石清雾 · 邮票画心",
+      "src": "board/originals/stamp-04-pebbles.png",
+      "source": "tools/asset-board/originals/stamp-04-pebbles.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-04-pebbles-proof.webp",
+      "bytes": 1865923,
+      "sha256": "d906d2a7dae0efe656cca69ffa83b80e9b66da50194ff371058e89327fc06f04",
+      "format": "PNG",
+      "master": "board/originals/stamp-04-pebbles.png"
+    },
+    {
+      "title": "溪石清雾 · 邮票",
+      "src": "board/art/stamp-04-pebbles.webp",
+      "source": "zidan/assets/postcards/stamp-04-pebbles.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 109286,
+      "sha256": "62b455359b5436072679d63f2bb207bf065aa8f8bf511a9d0e60a4d8b6a23378",
+      "format": "WEBP",
+      "master": "board/originals/stamp-04-pebbles.png"
+    },
+    {
+      "title": "溪石清雾 · 缩略图",
+      "src": "board/art/stamp-04-pebbles-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-04-pebbles-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 11454,
+      "sha256": "fcbba65a11b4a5248082d8241e0efbd00fd1a0eb51c84e971abcd59ba8cac661",
+      "format": "WEBP",
+      "master": "board/art/stamp-04-pebbles-thumb.webp"
+    },
+    {
+      "title": "暖灯书签 · 邮票画心",
+      "src": "board/originals/stamp-05-lantern.png",
+      "source": "tools/asset-board/originals/stamp-05-lantern.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-05-lantern-proof.webp",
+      "bytes": 1945724,
+      "sha256": "bc798c89e33c0bf11605cfef64f374ef4e99eef9ec068508c3884dfdb8e49610",
+      "format": "PNG",
+      "master": "board/originals/stamp-05-lantern.png"
+    },
+    {
+      "title": "暖灯书签 · 邮票",
+      "src": "board/art/stamp-05-lantern.webp",
+      "source": "zidan/assets/postcards/stamp-05-lantern.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 106504,
+      "sha256": "3a16242e462e98c5441f37de4959000ec3830f28ffb7847801a84f41cfdce2c2",
+      "format": "WEBP",
+      "master": "board/originals/stamp-05-lantern.png"
+    },
+    {
+      "title": "暖灯书签 · 缩略图",
+      "src": "board/art/stamp-05-lantern-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-05-lantern-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 9338,
+      "sha256": "fcb5dc384cb087f11575087d7d8c17f039d6f4819803362b6a29242852932621",
+      "format": "WEBP",
+      "master": "board/art/stamp-05-lantern-thumb.webp"
+    },
+    {
+      "title": "星月海浪 · 邮票画心",
+      "src": "board/originals/stamp-06-moonsea.png",
+      "source": "tools/asset-board/originals/stamp-06-moonsea.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-06-moonsea-proof.webp",
+      "bytes": 1824941,
+      "sha256": "69a6b3a14abdd9aa5496a78ba5894d50359bd9f117584db203229b483edcd146",
+      "format": "PNG",
+      "master": "board/originals/stamp-06-moonsea.png"
+    },
+    {
+      "title": "星月海浪 · 邮票",
+      "src": "board/art/stamp-06-moonsea.webp",
+      "source": "zidan/assets/postcards/stamp-06-moonsea.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 86750,
+      "sha256": "3f2e58644298d79f6449670d534e2a89519d905de6f86d33d6f1db835d60af48",
+      "format": "WEBP",
+      "master": "board/originals/stamp-06-moonsea.png"
+    },
+    {
+      "title": "星月海浪 · 缩略图",
+      "src": "board/art/stamp-06-moonsea-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-06-moonsea-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 6742,
+      "sha256": "04996a2f2c54d7af37cd91ba07dd82494693c5c36c9bab3cca37226f634bb0c7",
+      "format": "WEBP",
+      "master": "board/art/stamp-06-moonsea-thumb.webp"
+    },
+    {
+      "title": "樱风小径 · 邮票画心",
+      "src": "board/originals/stamp-07-sakura.png",
+      "source": "tools/asset-board/originals/stamp-07-sakura.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-07-sakura-proof.webp",
+      "bytes": 2208589,
+      "sha256": "2d4e07efe2b6e3a6dd5854b7e66ef13a1baef8ad0b47aa34a11f7a00760cfe08",
+      "format": "PNG",
+      "master": "board/originals/stamp-07-sakura.png"
+    },
+    {
+      "title": "樱风小径 · 邮票",
+      "src": "board/art/stamp-07-sakura.webp",
+      "source": "zidan/assets/postcards/stamp-07-sakura.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 158460,
+      "sha256": "0f342cbfc9631316d5121931538feb476b1ba710ad007ca50de502a659daa983",
+      "format": "WEBP",
+      "master": "board/originals/stamp-07-sakura.png"
+    },
+    {
+      "title": "樱风小径 · 缩略图",
+      "src": "board/art/stamp-07-sakura-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-07-sakura-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 13762,
+      "sha256": "f7f28427d060bf236b68e83c76fd177d5eca38e7fd476a975d99d20908f86070",
+      "format": "WEBP",
+      "master": "board/art/stamp-07-sakura-thumb.webp"
+    },
+    {
+      "title": "橘子汽水 · 邮票画心",
+      "src": "board/originals/stamp-08-orange.png",
+      "source": "tools/asset-board/originals/stamp-08-orange.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-08-orange-proof.webp",
+      "bytes": 1962408,
+      "sha256": "6b551abeeac60b66299333fd995941b06e76f7b09dd9d86685d75778132cacf3",
+      "format": "PNG",
+      "master": "board/originals/stamp-08-orange.png"
+    },
+    {
+      "title": "橘子汽水 · 邮票",
+      "src": "board/art/stamp-08-orange.webp",
+      "source": "zidan/assets/postcards/stamp-08-orange.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 121182,
+      "sha256": "f8efb15725b2c9e6d9685322261981693535a74240803c6c1cfb5cd7a3e5b6ed",
+      "format": "WEBP",
+      "master": "board/originals/stamp-08-orange.png"
+    },
+    {
+      "title": "橘子汽水 · 缩略图",
+      "src": "board/art/stamp-08-orange-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-08-orange-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 10370,
+      "sha256": "7dd787799172117b913db65db6d927d8ef9a501d9e9a199001385838b32b9584",
+      "format": "WEBP",
+      "master": "board/art/stamp-08-orange-thumb.webp"
+    },
+    {
+      "title": "海风热气球 · 邮票画心",
+      "src": "board/originals/stamp-09-balloon.png",
+      "source": "tools/asset-board/originals/stamp-09-balloon.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-09-balloon-proof.webp",
+      "bytes": 1645368,
+      "sha256": "2574b5cb9c01e75b141ad39f531a800ef0ac2ef350719e19c24bdde6077bf81b",
+      "format": "PNG",
+      "master": "board/originals/stamp-09-balloon.png"
+    },
+    {
+      "title": "海风热气球 · 邮票",
+      "src": "board/art/stamp-09-balloon.webp",
+      "source": "zidan/assets/postcards/stamp-09-balloon.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 65704,
+      "sha256": "89de27a1bb316614111b521a13bbe0c18c304549cb1c0959b391c3568054b556",
+      "format": "WEBP",
+      "master": "board/originals/stamp-09-balloon.png"
+    },
+    {
+      "title": "海风热气球 · 缩略图",
+      "src": "board/art/stamp-09-balloon-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-09-balloon-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 6314,
+      "sha256": "4f46ccf53aa817b16cad0b861c5ca82cb81e05460badcf1bbd95974d52424093",
+      "format": "WEBP",
+      "master": "board/art/stamp-09-balloon-thumb.webp"
+    },
+    {
+      "title": "啾啾 · 邮票画心",
+      "src": "board/originals/stamp-char-post.png",
+      "source": "tools/asset-board/originals/stamp-char-post.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-char-post-proof.webp",
+      "bytes": 1657391,
+      "sha256": "21638d5f7485773f0e85487a70a104c8690b10f2ef7f5b34befb641fc8ca3ab8",
+      "format": "PNG",
+      "master": "board/originals/stamp-char-post.png"
+    },
+    {
+      "title": "啾啾 · 邮票",
+      "src": "board/art/stamp-char-post.webp",
+      "source": "zidan/assets/postcards/stamp-char-post.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 53588,
+      "sha256": "6582206b217dcab1c52367667f61709addb3aa49430d6bc89f617c812853045f",
+      "format": "WEBP",
+      "master": "board/originals/stamp-char-post.png"
+    },
+    {
+      "title": "啾啾 · 缩略图",
+      "src": "board/art/stamp-char-post-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-char-post-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 4178,
+      "sha256": "3fef1543707d962c7ffb4220e9eb552a6a860c02457b71058bde354ec02fa8fb",
+      "format": "WEBP",
+      "master": "board/art/stamp-char-post-thumb.webp"
+    },
+    {
+      "title": "呦呦 · 邮票画心",
+      "src": "board/originals/stamp-char-health.png",
+      "source": "tools/asset-board/originals/stamp-char-health.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-char-health-proof.webp",
+      "bytes": 1675125,
+      "sha256": "917fa2f531ff2f02435fdd89d01d7bc4de22a6cca5783cbac27b214972d10834",
+      "format": "PNG",
+      "master": "board/originals/stamp-char-health.png"
+    },
+    {
+      "title": "呦呦 · 邮票",
+      "src": "board/art/stamp-char-health.webp",
+      "source": "zidan/assets/postcards/stamp-char-health.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 59524,
+      "sha256": "5b7d27e85cc231b52e3c6ccf653fb22d784cb7cf44c1bb58df33a660ca151c83",
+      "format": "WEBP",
+      "master": "board/originals/stamp-char-health.png"
+    },
+    {
+      "title": "呦呦 · 缩略图",
+      "src": "board/art/stamp-char-health-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-char-health-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 5742,
+      "sha256": "27f148db619cbc697a170953b4981c6b593854822c1ec73cd0e145150754ef17",
+      "format": "WEBP",
+      "master": "board/art/stamp-char-health-thumb.webp"
+    },
+    {
+      "title": "阿卜 · 邮票画心",
+      "src": "board/originals/stamp-char-abu.png",
+      "source": "tools/asset-board/originals/stamp-char-abu.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-char-abu-proof.webp",
+      "bytes": 1764863,
+      "sha256": "4caae6da7efc61698ea713a81d5dd50712c1c0ed204c00ad77e11df3cde0059f",
+      "format": "PNG",
+      "master": "board/originals/stamp-char-abu.png"
+    },
+    {
+      "title": "阿卜 · 邮票",
+      "src": "board/art/stamp-char-abu.webp",
+      "source": "zidan/assets/postcards/stamp-char-abu.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 67208,
+      "sha256": "fff747b1e6a63c2ffe0273fc87e498102afe645d9081d9eda9035e8b9d294c9d",
+      "format": "WEBP",
+      "master": "board/originals/stamp-char-abu.png"
+    },
+    {
+      "title": "阿卜 · 缩略图",
+      "src": "board/art/stamp-char-abu-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-char-abu-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 5614,
+      "sha256": "2dd52dceaed4425888e9e677e51aafc5f9fb5862388ae7a3b964ba2dedef8fb4",
+      "format": "WEBP",
+      "master": "board/art/stamp-char-abu-thumb.webp"
+    },
+    {
+      "title": "阿饱 · 邮票画心",
+      "src": "board/originals/stamp-char-food.png",
+      "source": "tools/asset-board/originals/stamp-char-food.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-char-food-proof.webp",
+      "bytes": 1883400,
+      "sha256": "070d8922f6fe9020474784cfd18940ce731b5a86192201af76cb57fe55a42ac8",
+      "format": "PNG",
+      "master": "board/originals/stamp-char-food.png"
+    },
+    {
+      "title": "阿饱 · 邮票",
+      "src": "board/art/stamp-char-food.webp",
+      "source": "zidan/assets/postcards/stamp-char-food.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 88508,
+      "sha256": "912c7718caf4e1a590690603cc1b90ce0ce010cbd81e39ac2510ea59b8306baa",
+      "format": "WEBP",
+      "master": "board/originals/stamp-char-food.png"
+    },
+    {
+      "title": "阿饱 · 缩略图",
+      "src": "board/art/stamp-char-food-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-char-food-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 6192,
+      "sha256": "c3d4e37fc87c06db00b3186beb0756bd3b0760706fbabf945c928344978d577e",
+      "format": "WEBP",
+      "master": "board/art/stamp-char-food-thumb.webp"
+    },
+    {
+      "title": "阿影 · 邮票画心",
+      "src": "board/originals/stamp-char-movie.png",
+      "source": "tools/asset-board/originals/stamp-char-movie.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-char-movie-proof.webp",
+      "bytes": 1874857,
+      "sha256": "5e631721dbefca3636b41e98f129e7d3a03f4e3b136791ba2d74d84f25677c3c",
+      "format": "PNG",
+      "master": "board/originals/stamp-char-movie.png"
+    },
+    {
+      "title": "阿影 · 邮票",
+      "src": "board/art/stamp-char-movie.webp",
+      "source": "zidan/assets/postcards/stamp-char-movie.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 79948,
+      "sha256": "3d8491d235f7ee793d41faf3f621f792c97172d33b46ef60c4dadfd427e32c16",
+      "format": "WEBP",
+      "master": "board/originals/stamp-char-movie.png"
+    },
+    {
+      "title": "阿影 · 缩略图",
+      "src": "board/art/stamp-char-movie-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-char-movie-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 6186,
+      "sha256": "4a9aade90219a1140246233f30cb4f28bd1fe0b1e2e5e69dc8ab72555805fd76",
+      "format": "WEBP",
+      "master": "board/art/stamp-char-movie-thumb.webp"
+    },
+    {
+      "title": "酥酥 · 邮票画心",
+      "src": "board/originals/stamp-char-book.png",
+      "source": "tools/asset-board/originals/stamp-char-book.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-char-book-proof.webp",
+      "bytes": 1757375,
+      "sha256": "8161a177e32c2ad50c78464a40ea84f43f9a7b08c1996ced29228cdce7441bac",
+      "format": "PNG",
+      "master": "board/originals/stamp-char-book.png"
+    },
+    {
+      "title": "酥酥 · 邮票",
+      "src": "board/art/stamp-char-book.webp",
+      "source": "zidan/assets/postcards/stamp-char-book.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 65798,
+      "sha256": "fb6c47fc5256d05e3454f72c4ba4c4f31d82993ac341f27cf577a485333e687f",
+      "format": "WEBP",
+      "master": "board/originals/stamp-char-book.png"
+    },
+    {
+      "title": "酥酥 · 缩略图",
+      "src": "board/art/stamp-char-book-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-char-book-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 4642,
+      "sha256": "a25cea491a9656f6dba6906a209c941426bfc6f06d062b2b80eb2a2b62d34a49",
+      "format": "WEBP",
+      "master": "board/art/stamp-char-book-thumb.webp"
+    },
+    {
+      "title": "团团 · 邮票画心",
+      "src": "board/originals/stamp-char-people.png",
+      "source": "tools/asset-board/originals/stamp-char-people.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-char-people-proof.webp",
+      "bytes": 1688718,
+      "sha256": "d03bae8a1ad38f1b5b2e10cf15f7ae82fe03f4bf37ac929c054a60d0c0b7baa9",
+      "format": "PNG",
+      "master": "board/originals/stamp-char-people.png"
+    },
+    {
+      "title": "团团 · 邮票",
+      "src": "board/art/stamp-char-people.webp",
+      "source": "zidan/assets/postcards/stamp-char-people.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 67472,
+      "sha256": "e6992c1ebf09746d9bf7f1e70096cb3556e13e07b9c6d53113894963c65358b1",
+      "format": "WEBP",
+      "master": "board/originals/stamp-char-people.png"
+    },
+    {
+      "title": "团团 · 缩略图",
+      "src": "board/art/stamp-char-people-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-char-people-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 6292,
+      "sha256": "1691a2c9d977883e6482b904d5afc172c21b595f855b17787b32e24bd84776b5",
+      "format": "WEBP",
+      "master": "board/art/stamp-char-people-thumb.webp"
+    },
+    {
+      "title": "小铜板 · 邮票画心",
+      "src": "board/originals/stamp-char-money.png",
+      "source": "tools/asset-board/originals/stamp-char-money.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-char-money-proof.webp",
+      "bytes": 1711749,
+      "sha256": "7f9276952a2da27104cf947c51a06acbcb029d14034396f3ef996df1044bfb32",
+      "format": "PNG",
+      "master": "board/originals/stamp-char-money.png"
+    },
+    {
+      "title": "小铜板 · 邮票",
+      "src": "board/art/stamp-char-money.webp",
+      "source": "zidan/assets/postcards/stamp-char-money.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 70564,
+      "sha256": "8743b95f8214c87714bfb22267a11775e7be7a69fe60651515d17d3a50aaba53",
+      "format": "WEBP",
+      "master": "board/originals/stamp-char-money.png"
+    },
+    {
+      "title": "小铜板 · 缩略图",
+      "src": "board/art/stamp-char-money-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-char-money-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 4918,
+      "sha256": "8688728d21d48a18a24e0ad524d64cfcacb0784ecb1a3e075f61d1622c659cc1",
+      "format": "WEBP",
+      "master": "board/art/stamp-char-money-thumb.webp"
+    },
+    {
+      "title": "笃笃 · 邮票画心",
+      "src": "board/originals/stamp-char-cycles.png",
+      "source": "tools/asset-board/originals/stamp-char-cycles.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-char-cycles-proof.webp",
+      "bytes": 1864994,
+      "sha256": "d3d4504dc5ab26566823041e337ff2b58117b9d83279193d9ea7ca343be716dc",
+      "format": "PNG",
+      "master": "board/originals/stamp-char-cycles.png"
+    },
+    {
+      "title": "笃笃 · 邮票",
+      "src": "board/art/stamp-char-cycles.webp",
+      "source": "zidan/assets/postcards/stamp-char-cycles.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 83884,
+      "sha256": "f23fdc3687ab8a1fb5e0b86e4ac2d8660e92a9a1f054be46d39b4b18cb07912c",
+      "format": "WEBP",
+      "master": "board/originals/stamp-char-cycles.png"
+    },
+    {
+      "title": "笃笃 · 缩略图",
+      "src": "board/art/stamp-char-cycles-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-char-cycles-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 5762,
+      "sha256": "b3650ac31d38127f4d07275c4173d076263c1e3fb41a4879f717763847a82b2e",
+      "format": "WEBP",
+      "master": "board/art/stamp-char-cycles-thumb.webp"
+    },
+    {
+      "title": "阿鼠 · 邮票画心",
+      "src": "board/originals/stamp-char-notes.png",
+      "source": "tools/asset-board/originals/stamp-char-notes.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-char-notes-proof.webp",
+      "bytes": 1738361,
+      "sha256": "adc653436c929eb5c0c13cec987c6e7cd5b18ca6a0a9a1d18a57d6bb102fb38b",
+      "format": "PNG",
+      "master": "board/originals/stamp-char-notes.png"
+    },
+    {
+      "title": "阿鼠 · 邮票",
+      "src": "board/art/stamp-char-notes.webp",
+      "source": "zidan/assets/postcards/stamp-char-notes.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 72264,
+      "sha256": "38e964b6db55360191d96fd97e49d4350bc95fec157d45a3c57fc53782913fd9",
+      "format": "WEBP",
+      "master": "board/originals/stamp-char-notes.png"
+    },
+    {
+      "title": "阿鼠 · 缩略图",
+      "src": "board/art/stamp-char-notes-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-char-notes-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 4770,
+      "sha256": "3306a6f29b5c6ae0e6a54d462b78810573a6c827fc7010bb8f1e4080d608f6fd",
+      "format": "WEBP",
+      "master": "board/art/stamp-char-notes-thumb.webp"
+    },
+    {
+      "title": "松松 · 邮票画心",
+      "src": "board/originals/stamp-char-vault.png",
+      "source": "tools/asset-board/originals/stamp-char-vault.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-char-vault-proof.webp",
+      "bytes": 1821726,
+      "sha256": "522d827c43dd46bea167bcb579060d5a7c159c2cdb763e2d7bbaa1904b1933c0",
+      "format": "PNG",
+      "master": "board/originals/stamp-char-vault.png"
+    },
+    {
+      "title": "松松 · 邮票",
+      "src": "board/art/stamp-char-vault.webp",
+      "source": "zidan/assets/postcards/stamp-char-vault.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 79732,
+      "sha256": "7353b1c90c3f60f1916a7b712f23874418c59bd3f4411f7f350218300deccdac",
+      "format": "WEBP",
+      "master": "board/originals/stamp-char-vault.png"
+    },
+    {
+      "title": "松松 · 缩略图",
+      "src": "board/art/stamp-char-vault-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-char-vault-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 5668,
+      "sha256": "a34d91cf24f3ef81e2b22ff52c0ab3e9e8d5d5289cf011c6fbd914f4a405a674",
+      "format": "WEBP",
+      "master": "board/art/stamp-char-vault-thumb.webp"
+    },
+    {
+      "title": "大力 · 邮票画心",
+      "src": "board/originals/stamp-char-work.png",
+      "source": "tools/asset-board/originals/stamp-char-work.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-char-work-proof.webp",
+      "bytes": 1699437,
+      "sha256": "7cf5e8c88cfff627cda4cc69bdd24ad0483feedf703e2326e1a1f993bb679da3",
+      "format": "PNG",
+      "master": "board/originals/stamp-char-work.png"
+    },
+    {
+      "title": "大力 · 邮票",
+      "src": "board/art/stamp-char-work.webp",
+      "source": "zidan/assets/postcards/stamp-char-work.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 65052,
+      "sha256": "1761eac30e2a186c2d793e12331718636bbf7ead311d6b1b7aa716e7d6baee25",
+      "format": "WEBP",
+      "master": "board/originals/stamp-char-work.png"
+    },
+    {
+      "title": "大力 · 缩略图",
+      "src": "board/art/stamp-char-work-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-char-work-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 5260,
+      "sha256": "4a8a4078f4e51e163abd19033e7a936a4fe6aa7d3351ead62f1f5f1912b9c964",
+      "format": "WEBP",
+      "master": "board/art/stamp-char-work-thumb.webp"
+    },
+    {
+      "title": "翘翘 · 邮票画心",
+      "src": "board/originals/stamp-char-study.png",
+      "source": "tools/asset-board/originals/stamp-char-study.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-char-study-proof.webp",
+      "bytes": 1606887,
+      "sha256": "e2edff54260edf3997286309e87d65446fc3b69ebb06bcebc08fbcfbb8a2a0b7",
+      "format": "PNG",
+      "master": "board/originals/stamp-char-study.png"
+    },
+    {
+      "title": "翘翘 · 邮票",
+      "src": "board/art/stamp-char-study.webp",
+      "source": "zidan/assets/postcards/stamp-char-study.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 38392,
+      "sha256": "8ab6625938f4bf593c5721c0b8d475fde109e22ec4c9a9c3592388e15778e940",
+      "format": "WEBP",
+      "master": "board/originals/stamp-char-study.png"
+    },
+    {
+      "title": "翘翘 · 缩略图",
+      "src": "board/art/stamp-char-study-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-char-study-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 3818,
+      "sha256": "a2bdcf85117dfbbe62609329aa7c93440a489cd7fb4e2a74f55a13411bb1cfa1",
+      "format": "WEBP",
+      "master": "board/art/stamp-char-study-thumb.webp"
+    },
+    {
+      "title": "阿兜 · 邮票画心",
+      "src": "board/originals/stamp-char-someday.png",
+      "source": "tools/asset-board/originals/stamp-char-someday.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-char-someday-proof.webp",
+      "bytes": 1643306,
+      "sha256": "37325dd26204570332e4450f28f04d06009aef48d49f96b28b18a19ec406e155",
+      "format": "PNG",
+      "master": "board/originals/stamp-char-someday.png"
+    },
+    {
+      "title": "阿兜 · 邮票",
+      "src": "board/art/stamp-char-someday.webp",
+      "source": "zidan/assets/postcards/stamp-char-someday.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 57100,
+      "sha256": "1e96a2e6baea24654331b94ef6f3fe4cebac747cbdbec439776721dbca60c271",
+      "format": "WEBP",
+      "master": "board/originals/stamp-char-someday.png"
+    },
+    {
+      "title": "阿兜 · 缩略图",
+      "src": "board/art/stamp-char-someday-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-char-someday-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 4908,
+      "sha256": "9d187b74053f72f253967d73de0e9c2ca37dbbf2ce9863d0925e0b1fe89d27ec",
+      "format": "WEBP",
+      "master": "board/art/stamp-char-someday-thumb.webp"
+    },
+    {
+      "title": "小卡 · 邮票画心",
+      "src": "board/originals/stamp-char-fun.png",
+      "source": "tools/asset-board/originals/stamp-char-fun.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-char-fun-proof.webp",
+      "bytes": 1670602,
+      "sha256": "a2dc6f0212cb40d869dfdd33aba534023d4d2fa7f66ab47ae660c72cbcb04acb",
+      "format": "PNG",
+      "master": "board/originals/stamp-char-fun.png"
+    },
+    {
+      "title": "小卡 · 邮票",
+      "src": "board/art/stamp-char-fun.webp",
+      "source": "zidan/assets/postcards/stamp-char-fun.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 54778,
+      "sha256": "b128a5d043188faea69b85ce77facb2607234e4f3b4c36f80ee285a618ecfb6d",
+      "format": "WEBP",
+      "master": "board/originals/stamp-char-fun.png"
+    },
+    {
+      "title": "小卡 · 缩略图",
+      "src": "board/art/stamp-char-fun-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-char-fun-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 3352,
+      "sha256": "9323d84fc0e8db2df9e8ddf1690c33d534da17cbf5dca79993ef209676aab92e",
+      "format": "WEBP",
+      "master": "board/art/stamp-char-fun-thumb.webp"
+    },
+    {
+      "title": "脑脑 · 邮票画心",
+      "src": "board/originals/stamp-char-brain.png",
+      "source": "tools/asset-board/originals/stamp-char-brain.png",
+      "use": "集邮册、明信片背面与角色卡",
+      "line": "",
+      "width": 1024,
+      "height": 1024,
+      "preview": "board/art/stamp-char-brain-proof.webp",
+      "bytes": 1743649,
+      "sha256": "e33819d06482d6cdda698b69a48a8616177836874ab06acf735ac21f44225989",
+      "format": "PNG",
+      "master": "board/originals/stamp-char-brain.png"
+    },
+    {
+      "title": "脑脑 · 邮票",
+      "src": "board/art/stamp-char-brain.webp",
+      "source": "zidan/assets/postcards/stamp-char-brain.webp",
+      "use": "邮票赏析与明信片",
+      "line": "",
+      "width": 640,
+      "height": 640,
+      "bytes": 71418,
+      "sha256": "4246b9d83a29c3efbf4d88ea8f5f3c5967aa4a0f6ddeec689d7609e69c7197c4",
+      "format": "WEBP",
+      "master": "board/originals/stamp-char-brain.png"
+    },
+    {
+      "title": "脑脑 · 缩略图",
+      "src": "board/art/stamp-char-brain-thumb.webp",
+      "source": "zidan/assets/postcards/stamp-char-brain-thumb.webp",
+      "use": "集邮册列表",
+      "line": "",
+      "width": 180,
+      "height": 180,
+      "bytes": 5208,
+      "sha256": "a3cfd32974de86819cb3b44feba4e78183b82c89c528ffca77a5e26ba3b24b3e",
+      "format": "WEBP",
+      "master": "board/art/stamp-char-brain-thumb.webp"
+    },
+    {
       "title": "全景岛与上岛引导 · 空岛底图",
       "src": "board/art/ob_isle.webp",
       "source": "zidan/assets/ui/0d052e003b79b3f2.webp",
@@ -4455,8 +5509,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 50883,
-      "sha256": "15fc83ea10afcd7bdf181517649d7da801dd391fe782471329306015fde37576",
+      "bytes": 51960,
+      "sha256": "b3df3b9817b59ccb0668d9f38ad33a8168fd4ab0fdedca80af8882dffe172364",
       "format": "PNG"
     },
     {
@@ -5075,8 +6129,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 65368,
-      "sha256": "b35fcb466ea124af89e121635fc9863d717366eb01dce4d5bdd871d3ee4de326",
+      "bytes": 50892,
+      "sha256": "d8b4fbecee06301757719b474813ce3f2c262ede14d9f4355a5c3ed367bbc9af",
       "format": "PNG"
     },
     {
@@ -5120,8 +6174,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 67083,
-      "sha256": "70516dc6e782a4e658c402b621dc551d41ac7b619ab21e3d433b6b520ccd02e6",
+      "bytes": 52487,
+      "sha256": "e9641a447ab781cc07672e1050ed34833bd326f29d81f3ff3fd89073c69df914",
       "format": "PNG"
     },
     {
@@ -5345,8 +6399,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 122423,
-      "sha256": "abdde28988c8bf7f615e0897b31bdf54d11ca03d97df303e795637ce3e199b70",
+      "bytes": 99247,
+      "sha256": "7ada931e1d178c4f26bbe7489bd0ca7184168cfc421c9aef9f5f099a90e29220",
       "format": "PNG"
     },
     {
@@ -5435,8 +6489,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 65688,
-      "sha256": "0d5126d6626fe2aee98c0548150cefb21a4dc7a62e992c75e10c982fb2e645df",
+      "bytes": 65663,
+      "sha256": "04898c74d18d39505414e9c49a6d832580d65e501276b712a8d3f6e8b4cecf56",
       "format": "PNG"
     },
     {
@@ -5615,8 +6669,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 85183,
-      "sha256": "5e65c9002b65a44fbe7f44e9bed7e69f839d610557aaae4ef26487c2cca129dc",
+      "bytes": 87538,
+      "sha256": "5eace465ca2f54c2558425e2a7fc51a45800e95442158827c65dc93e6b2964ca",
       "format": "PNG"
     },
     {
@@ -6305,18 +7359,18 @@
           "accent": "#B5483A"
         },
         "控件": {
-          "element": "button#postcardCollect",
-          "font": "14px",
-          "padding": "10px 16px",
+          "element": "button.paper-flip",
+          "font": "13.3333px",
+          "padding": "0px",
           "gap": "normal",
-          "radius": "12px",
-          "ink": "rgb(255, 255, 255)",
-          "background": "rgb(181, 72, 58)",
+          "radius": "0px",
+          "ink": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 130147,
-      "sha256": "e2e0c7882dc9f3548c8e6849eaf417b510431bfe596a4c8f78d6b7db62dd615c",
+      "bytes": 114340,
+      "sha256": "0ce0ee46ab004bda7ca7904933a4909710d2b2e673a2899adfa032b1f9284e79",
       "format": "PNG"
     },
     {
@@ -6405,8 +7459,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 48393,
-      "sha256": "f29e1a24fcb1834c9c1d67f7f8e5ac5cc8bdb7a5e378f19d3bca65f501a67c5b",
+      "bytes": 48525,
+      "sha256": "e84b680fbb855552d9edd4d97add02601c6665cf1aabaf1a2503453065c14c0a",
       "format": "PNG"
     },
     {
@@ -6485,8 +7539,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 37927,
-      "sha256": "cac7b302429f6af266d9c7ff2b17c7ef2c17778fdd0c95c00e0372a463acc513",
+      "bytes": 37928,
+      "sha256": "6af755dc10f08b83f9af0ce88a72b056303988633635d6e75451b561d784be2a",
       "format": "PNG"
     },
     {
@@ -6565,8 +7619,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 288830,
-      "sha256": "ab01304424b4dc9106cb302bf88cb041f6ced535979c374122a8f907a2d3c9c0",
+      "bytes": 285151,
+      "sha256": "4fe385944bd06d26312e2f3e54bc4061ef319aa01a5421912bad0c6ac19fc8d5",
       "format": "PNG"
     },
     {
@@ -6970,8 +8024,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 67268,
-      "sha256": "8c636291808c1a6239123431d7ef9b2c130c336236c84a4c566271912ab99017",
+      "bytes": 67167,
+      "sha256": "baaa38387642cbce87cb9d4b233c1e452174947ef0cc6b68daa8d0d65ce74f06",
       "format": "PNG"
     },
     {
@@ -7015,8 +8069,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 97167,
-      "sha256": "b01b9bc3fd87c35b883440d44e4c6315eea87891488bee60c6cfd7dcd2614417",
+      "bytes": 76620,
+      "sha256": "3002e112c5bf1c704d765052641db2e15e86e173d82333571593ac7b6191ad07",
       "format": "PNG"
     },
     {
@@ -8140,8 +9194,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 70458,
-      "sha256": "c8b60c019a6c9e5f78a0e94a4fdf499764cdb680cee59ab3c950fb60096c377f",
+      "bytes": 70459,
+      "sha256": "136ee2029afb9a4a59d2e723edd5fac02fd12ff2f6be1229e38b85414b5ec7f6",
       "format": "PNG"
     },
     {
@@ -8410,8 +9464,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 94485,
-      "sha256": "e5eb15bddd0746d4288057e1aca094e59b0ed09166f804a9a754e3e745551660",
+      "bytes": 88806,
+      "sha256": "d4f49078d7629c454fdb47750f3be9c80debbe1b35c1356abff1e21f28d94f64",
       "format": "PNG"
     },
     {
@@ -8455,8 +9509,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 186188,
-      "sha256": "3d424a94070578af0ba96d598a7c94acedc3046a1b147461eead2a17b44120c5",
+      "bytes": 186535,
+      "sha256": "7004b74ebe9dcd19265b3fea955e76fbf69ab28d4f399e775353594f76ede61c",
       "format": "PNG"
     },
     {
@@ -8535,8 +9589,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 76856,
-      "sha256": "2fe438a82ba80088502c53b85cb657599677923410b370cd801c96c27fb071b0",
+      "bytes": 76942,
+      "sha256": "f02732974b672359f64ed7ef7f7b77ac72c065a8297b5e6d1e06ce8a288c6a1b",
       "format": "PNG"
     },
     {
@@ -8715,8 +9769,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 69485,
-      "sha256": "f08153f6065f2f5cb6c1fab812f4ccfcb1ad7ced0f4e182469e6d89654c922c0",
+      "bytes": 69383,
+      "sha256": "eab0930d83ab363fdabea785c72782a486dd1548247a4b601513f25ed63b06d3",
       "format": "PNG"
     },
     {
@@ -8760,8 +9814,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 65561,
-      "sha256": "ef448ec2678ad64cf69c788bd2b604b0a3261c46aa8f7e8789a37db808745ffd",
+      "bytes": 64376,
+      "sha256": "9dbe8d082016f765d83e681ef37a0b2d7d558c1b804ab8e7ff81c267e7ede48a",
       "format": "PNG"
     },
     {
@@ -9030,8 +10084,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 69688,
-      "sha256": "cc79ecfccd7344f9a3193f880bd198f8185490bbc22c9b82836105db59847183",
+      "bytes": 69698,
+      "sha256": "e80abbfb36135b51f6b825cd60203aef21af424420a098c878e466522984b518",
       "format": "PNG"
     },
     {
@@ -9165,8 +10219,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 76426,
-      "sha256": "7ad187da93d694d7c3a7b873eb8b84db1c405daf8e7063d562fc2ac611ad445c",
+      "bytes": 62230,
+      "sha256": "b05c9605d4fe773f7655de783428c172fc4fc25ca6552c7c2e25471e38717234",
       "format": "PNG"
     },
     {
@@ -9720,8 +10774,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 51319,
-      "sha256": "bfd474c4c9a500837f483a52bcfeffa647f5d13a9a781d1c8af85b81017850a6",
+      "bytes": 52398,
+      "sha256": "a13375101d75ec09445abf264090aca8ed93d9bee574ab1682fd34656949ac5b",
       "format": "PNG"
     },
     {
@@ -10360,8 +11414,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 81145,
-      "sha256": "0b98ca04b7d0af55dfbf4e47895369072a3da9b09c8b36b68cc0543e26c08254",
+      "bytes": 66142,
+      "sha256": "8599c5b66d058f944d04663a6b1c8fdcf542fcb445d5386793b1c2049a0be29f",
       "format": "PNG"
     },
     {
@@ -10405,8 +11459,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 83881,
-      "sha256": "a038c887210561cd52656ba0e3add72e0543a22e1fe6c628c6daf84b4f29615d",
+      "bytes": 69588,
+      "sha256": "be974d500af6a3b3dbe781b3346f65de3ce7b9c71cfbec6d16be25f15a6c9892",
       "format": "PNG"
     },
     {
@@ -10495,8 +11549,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 77167,
-      "sha256": "2e94b406ac5431611c458bd5d6b9ea7baad55826ebfc97a568513a8d1e974f6d",
+      "bytes": 77178,
+      "sha256": "7fdb6f2494a4be23823121e6deed3fae8be3bdfda216a1649c38215222f2e828",
       "format": "PNG"
     },
     {
@@ -10630,8 +11684,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 118682,
-      "sha256": "3d91fb5e0f48194c982544f4436266aaa5ee34c15218b4d761c0e8080551abab",
+      "bytes": 99487,
+      "sha256": "d4cbdd5ac010dc02106dc71464b0eec58d803f3c52bfa52ec18e42b565d8a696",
       "format": "PNG"
     },
     {
@@ -10900,8 +11954,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 236730,
-      "sha256": "0f97fcce5eeafb71f57b67b961db67be77287db7f947a73bbd425dea5dfe06fc",
+      "bytes": 203781,
+      "sha256": "c1c7c31699df1aff3e0da260676675c5c7b2ad7a05a124354022e7f72b734f89",
       "format": "PNG"
     },
     {
@@ -11490,8 +12544,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 50803,
-      "sha256": "42ea405407f1dbde0524e91dc1745c3dadf39d335d57c92c3140d9cb9e00960e",
+      "bytes": 52034,
+      "sha256": "d7dd991de9fd85d793c008985c502a244ce1605128f8987faaca65ba6c371c78",
       "format": "PNG"
     },
     {
@@ -12110,8 +13164,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 44849,
-      "sha256": "dfb995a858b3acd3a44da0446d763221acd99eb1dfbcba70c3199624f4d10baf",
+      "bytes": 44416,
+      "sha256": "8743aeba19ce5a9d3d1610bad310aa15fb8e5d12edbff47ec953175d26ce283b",
       "format": "PNG"
     },
     {
@@ -12155,8 +13209,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 46186,
-      "sha256": "2e216b5bccdecbf0f9f572ae2e96f54dc85de2977a1bcd137ca7fb40d4238815",
+      "bytes": 45758,
+      "sha256": "d91495683b1c1907055b7af6f138b73e4b73b88c0877c7e3da6dc5b3edf83f96",
       "format": "PNG"
     },
     {
@@ -12380,8 +13434,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 62466,
-      "sha256": "0735f659afb488e093ab41336a04c038fa84e38be0179b8a1fa012e20fd0fe19",
+      "bytes": 98147,
+      "sha256": "da56f90d9d54a2df50552682aa5c663a9981b470316916819b597ae3184d223a",
       "format": "PNG"
     },
     {
@@ -12650,8 +13704,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 50469,
-      "sha256": "e2a7e548ef3a7faccddd3b519f38f478eefeb9ec590e5c01a1d4c1eac9fd39e5",
+      "bytes": 61451,
+      "sha256": "924f476a31895f2456da8688a7f66b5567a48e900aa6486d11112ba2c4fa466f",
       "format": "PNG"
     },
     {
@@ -12920,8 +13974,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 40763,
-      "sha256": "274d64ee32b154e0e415f8a5b983badc06102a82956a44be68bba234b2c719de",
+      "bytes": 41549,
+      "sha256": "53be1b2a16ed550e8bce9c1892111f99f70645fd8ddf9f26f45cce17c9098cf0",
       "format": "PNG"
     },
     {
@@ -12965,8 +14019,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 31260,
-      "sha256": "804175d1f30ec336599d5db829b801e15e6c096ed40c2bab25be8d958181f732",
+      "bytes": 31332,
+      "sha256": "59acd5d48d9d2789630214559cad499a4086362569f1f9fdbaa6c81320695167",
       "format": "PNG"
     },
     {
@@ -13010,8 +14064,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 57548,
-      "sha256": "1c85a74c88a43ba5c010464ed35c185094c56963d52bed4785a3e4114096e06c",
+      "bytes": 61272,
+      "sha256": "688137ad120e4fcfd683d388191eb7655ccd32b148f8439c7d2b882a16ba668d",
       "format": "PNG"
     },
     {
@@ -13055,8 +14109,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 37918,
-      "sha256": "a6be008db0c2f51d96424a05d1c11fb4cc15c86e738a34d26fc9fc431ddc7bc1",
+      "bytes": 37911,
+      "sha256": "9368a4b1968713b68964d4cd7500a4d35ad47e44d2b6f60688755398418ba6fd",
       "format": "PNG"
     },
     {
@@ -13540,8 +14594,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 54900,
-      "sha256": "1b7fcff58beda837c8020eca36d97bb47cd19d705cecbf5c39b98fab9ae502ff",
+      "bytes": 55809,
+      "sha256": "f28261f4a97455bdff655bc84d66a8f0eead98fd3780d61abbd6ab24f86cfb91",
       "format": "PNG"
     },
     {
@@ -14160,8 +15214,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 70812,
-      "sha256": "c7a2514f487d05dbcf98ebab5ce3390a0daa79273e135152651cad53f8052e47",
+      "bytes": 58182,
+      "sha256": "64790685d3a044e95c9fc496377bba1ee200e110cc6dd1005ec1696945140353",
       "format": "PNG"
     },
     {
@@ -14205,8 +15259,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 68797,
-      "sha256": "7feecad93fd6a1ba17337c5e077e4b9aebde8842d37f912250918aceaf4cfadb",
+      "bytes": 56238,
+      "sha256": "015d7917f1f21c57eb97ef9afbea68d51d762a271c06a1a4772e7bad52403a4b",
       "format": "PNG"
     },
     {
@@ -14250,8 +15304,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 96611,
-      "sha256": "4e0bb646f4327f5d6c9c1fb611c8624ec31ed62b85bed67f1962b10ca846fc45",
+      "bytes": 96623,
+      "sha256": "e9968cd217b076c617f3ee3ac526da06c11bd906e1281e492a42e9bfcd062c7c",
       "format": "PNG"
     },
     {
@@ -14430,8 +15484,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 130636,
-      "sha256": "08b141cbe59f5e79049a0ba77cd7959d96514f063c05180953be6fdfc6f80e02",
+      "bytes": 144316,
+      "sha256": "0aaa58dc874a3812117ada8a4111aaf2e9ac804c9d57c09851d26b87bbc27bc3",
       "format": "PNG"
     },
     {
@@ -14700,8 +15754,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 103191,
-      "sha256": "44cf2667ce39515607859d35cb113cbe3a79b806e7cbdfe7b768a9c6490f94de",
+      "bytes": 111698,
+      "sha256": "0a7c993b66f1f87fe0cf5ae23fea6245cacfd8e117d8c3d2a77150b56c2b5fd5",
       "format": "PNG"
     },
     {
@@ -15390,18 +16444,18 @@
           "accent": "#B5483A"
         },
         "控件": {
-          "element": "button#postcardCollect",
-          "font": "14px",
-          "padding": "10px 16px",
+          "element": "button.paper-flip",
+          "font": "13.3333px",
+          "padding": "0px",
           "gap": "normal",
-          "radius": "12px",
-          "ink": "rgb(255, 255, 255)",
-          "background": "rgb(181, 72, 58)",
+          "radius": "0px",
+          "ink": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 153546,
-      "sha256": "b025014f8a72f79a2d10a868ac239c7dbce1b6e9ca2dcad6e0ce254db87baec0",
+      "bytes": 138959,
+      "sha256": "929c1daa70c611a2e9e759181a8a73a1b3f5734854deed1f3d1eb5912abb54b0",
       "format": "PNG"
     },
     {
@@ -15490,8 +16544,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 55679,
-      "sha256": "50e40b57aedb25a643eae8ea53cf454050ee29d8fac6fd83d02dd7161cc7f0ec",
+      "bytes": 55813,
+      "sha256": "7de2a12916babc81950ccaa6a85fd4c5802124ee6083689c702b040b766c3a62",
       "format": "PNG"
     },
     {
@@ -15535,8 +16589,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 131379,
-      "sha256": "49ffc1e7d792e9260d3235637696129f6cdf8722e3d6fb54b7d9fad41b4e0d2b",
+      "bytes": 131474,
+      "sha256": "e94d3e758fbdcc55eae8bc84e5d2345b8e03f80a4dce10af3186066092b65087",
       "format": "PNG"
     },
     {
@@ -15570,8 +16624,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 38662,
-      "sha256": "a65ffee2a61e3f0acb3313d71852d960883f57119312d293aa05b75338096420",
+      "bytes": 38661,
+      "sha256": "51d52be8d1fa215c03d36497cd35bed1b12b8393b778a71044bb799b62599fbe",
       "format": "PNG"
     },
     {
@@ -15650,8 +16704,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 363690,
-      "sha256": "da5b5086736daae4e85a3cce1014f446e04836319f13fed3d9a75a6657a33f18",
+      "bytes": 363705,
+      "sha256": "e1cac0cae69d778d0c46c3ea2b1f0ec20822090d003cb97abd16aa4d9c5d52f7",
       "format": "PNG"
     },
     {
@@ -15920,8 +16974,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 64495,
-      "sha256": "8d909798f674e289e7afdd33587dee3cc0c6961157b1e27de30d22d78b0dff3b",
+      "bytes": 64625,
+      "sha256": "e98d4877dc15318bd4f9c99f0b3812fcf1c5c4736382d803573fa7d0b2c6d2e0",
       "format": "PNG"
     },
     {
@@ -16055,8 +17109,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 68148,
-      "sha256": "3a6ffe913d686c07de3c109b2178c3be9cd447bcf76535288bdd046befd70534",
+      "bytes": 68046,
+      "sha256": "9ed358dce882831e876f85341e9e68bbc34aafe88d32f57a4db97e8e73a08c12",
       "format": "PNG"
     },
     {
@@ -16100,8 +17154,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 128853,
-      "sha256": "9d13f894a89489c22e481ae669308d27890cc147318b022eaa8a7296527cf364",
+      "bytes": 114962,
+      "sha256": "ab46d99d095d7f3c1d13190fa7dd1f20947a0c68dcfa992394a0ce5012a9ef9c",
       "format": "PNG"
     },
     {
@@ -17495,8 +18549,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 111437,
-      "sha256": "ee6220bcb8fd4bed63d90ff6ba4dd78ff49057bce75d86276e5bad2814f678ed",
+      "bytes": 112990,
+      "sha256": "bb843c84db8dd9727f4a0f3d12555646be3fce8e06791e7f0b35f33ab4f9660d",
       "format": "PNG"
     },
     {
@@ -17540,8 +18594,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 237080,
-      "sha256": "70590d98540a9c9a51435b0590f89c3f9d957a0c95513af5cabbace186fb8d14",
+      "bytes": 227694,
+      "sha256": "2447a2e635906fd774583f87b22e96e3f0f50a6d6eb762608a44a1b4c4b4ae98",
       "format": "PNG"
     },
     {
@@ -17620,8 +18674,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 90296,
-      "sha256": "568d6e6028a25562c59f67a3a2d1e7145b3c0751f1e4bf5aea9300104a729267",
+      "bytes": 90576,
+      "sha256": "36744467b0e8894fd79b4a9b8654da5ded714696e71a90d066cd348be1a07afe",
       "format": "PNG"
     },
     {
@@ -17845,8 +18899,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 75049,
-      "sha256": "d4f5656f9349be1fa6f390e7a5a11d3163ffb9a27e1cba5415eaf5cfd92f4ddc",
+      "bytes": 73920,
+      "sha256": "c4182c0026dec043164dceea444d9048e40a0918975ee81d0758f2600a261988",
       "format": "PNG"
     },
     {
@@ -18250,8 +19304,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 78223,
-      "sha256": "42a872ac91be144ed2d61f21788c8aa2f678e39de679b8c7995c55bc67b05b89",
+      "bytes": 66024,
+      "sha256": "54bde7965a364356e2937dcd11cc7adc8bcf9789ca2510d35fb7bc4ff0070558",
       "format": "PNG"
     },
     {
@@ -18805,8 +19859,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 55366,
-      "sha256": "b1eae12d1b499839f6123110dd7681351814f28071e04f15604f0cc8823df2e8",
+      "bytes": 56282,
+      "sha256": "92f823d4395604a94b90bf592ae9299ae9e96df1daff11d625267055f736db52",
       "format": "PNG"
     },
     {
@@ -19445,8 +20499,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 95619,
-      "sha256": "0209c85e891c4a31790be2fafa6f8949a625fe9bfbf9a5e0e1aafd580612cf70",
+      "bytes": 83282,
+      "sha256": "ed88bba768ee3a7e951bc7a152301211aba2db965356af20fea07b796b06d226",
       "format": "PNG"
     },
     {
@@ -19490,8 +20544,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 94337,
-      "sha256": "b45576ffbaefa952473875111f7e7f54f400bd1164e9ce3fa78281ed37c16b02",
+      "bytes": 84170,
+      "sha256": "9fcb7207a7cb4e07d70d821ae23e317d4f8aaec5007f9000a1eda9c2bf1b9de0",
       "format": "PNG"
     },
     {
@@ -19715,8 +20769,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 154752,
-      "sha256": "e8ff4b9c295199e6f07172bc702169cd4755f90b3d5184f94bf41983b2c4512d",
+      "bytes": 145271,
+      "sha256": "8aea4d61638c46bd264f8ca7831e95e22422284e0d3c49d8fa8d60b78c3d1795",
       "format": "PNG"
     },
     {
@@ -19985,8 +21039,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 351027,
-      "sha256": "a4ab1c7a2f9ba7bf14a86cc7110d5a9e50b51676f05b91f44317a0e74f9d654f",
+      "bytes": 320438,
+      "sha256": "6bd92c817bd98e67365e2e59e9421e2aea213aae78c69ecf3497ef8b6a089f8b",
       "format": "PNG"
     },
     {
@@ -20575,8 +21629,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 54828,
-      "sha256": "740f6f61f5d7977aed029f494a89263b2401d3e75083c4cdc72ed8795be5ca77",
+      "bytes": 55878,
+      "sha256": "4af7e490094c3178fa3a196d36ce2a469981755b729251f531ea5bbcba9b4054",
       "format": "PNG"
     },
     {
@@ -21195,8 +22249,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 49799,
-      "sha256": "45ab181a54852230c40f2e0b40cd69f350ee483cc86784c5ba36fc0d88b8a3ae",
+      "bytes": 49436,
+      "sha256": "c337f643da753c4be06e72d17b6204be7f52edaf428e3b2a0e8f085333ebd978",
       "format": "PNG"
     },
     {
@@ -21240,8 +22294,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 47611,
-      "sha256": "8c6e4038a5437bdb64485140766fc92531997c558762c60f8bed04d047cf3886",
+      "bytes": 47204,
+      "sha256": "0dea68d0075cbb2781b40e64e6cc26bd07dff03d4032862e81cb7738e2e1f404",
       "format": "PNG"
     },
     {
@@ -21465,8 +22519,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 66161,
-      "sha256": "e21a53f176b18848a7480d3ed252ff9b362619c8dc3ccc6b6218aa62825ca736",
+      "bytes": 103162,
+      "sha256": "315a7365ac421a0273a7accc1126ffcbb54c201a823d856d36bc47db2ed3da3b",
       "format": "PNG"
     },
     {
@@ -21735,8 +22789,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 53377,
-      "sha256": "b5f39d3604f972ae9236548ffd48e326e30fb1b55b2a5eb1fbe5dd0162277665",
+      "bytes": 64513,
+      "sha256": "3c9d63d4d349249d9dc020ef0d2b9d30c834f00af40efdaefed1ead943b44499",
       "format": "PNG"
     },
     {
@@ -22005,8 +23059,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 42232,
-      "sha256": "2a1224814c021184adfcb42b4384895d7ba9373b4550db53c9e89228b563619e",
+      "bytes": 41577,
+      "sha256": "c236192f8575ffb015b426a7850fe8aeacdd5684cde8913876554c621f554491",
       "format": "PNG"
     },
     {
@@ -22050,8 +23104,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 32310,
-      "sha256": "f4f4133848fe90a06cb930ed5ff3c236d1e2711187b3b78729c35e878e9f6e54",
+      "bytes": 34658,
+      "sha256": "efdbbc40165ffb94c43887e0adcb92a9fcbbda215f61fde011c5f9f08ce211f3",
       "format": "PNG"
     },
     {
@@ -22095,8 +23149,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 55902,
-      "sha256": "11d23e9a3b47324732809e1436ddadc2fd2a8444b98cb11b09b4b8be25bc5b99",
+      "bytes": 51011,
+      "sha256": "86e652482c2f83229b4fb907bce6bbeec34111e9c3af73ed0d0b3bc56e86527d",
       "format": "PNG"
     },
     {
@@ -22140,8 +23194,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 39321,
-      "sha256": "cc8afbd71bb5a9bda84f26bf2c972fa7f4497db51851f66a13032f7ceb05d6f0",
+      "bytes": 39399,
+      "sha256": "3995b9de0383d5b5cbd2bae4ea93d75d7e9ba8b714abc9757e3697f9334f0a1d",
       "format": "PNG"
     },
     {
@@ -22355,8 +23409,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 58773,
-      "sha256": "ed5746983abec9d8e44357d33b7b568d303c64e9afacf4dbb8885e646b5e1831",
+      "bytes": 58782,
+      "sha256": "a8bbbc0e6dbac9ddb5b098ead6a351c92f03392f541d51f362f663c64faaaf2a",
       "format": "PNG"
     },
     {
@@ -24719,6 +25773,40 @@
       "width": 260,
       "height": 249
     },
+    "board/art/shell-icon-proof.webp": {
+      "bytes": 34098,
+      "sha256": "6c9c28e78fd3a1c89176bfbb3d8ea1cf1ff6d73db6d8664b6e6af1a5e99a0828",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/shell-icon.png",
+      "derivedFrom": "board/originals/shell-icon.png",
+      "use": "看板预览"
+    },
+    "board/art/shell-icon.webp": {
+      "bytes": 4334,
+      "sha256": "30deb7ba7ec83a7d075b4bf96ed1fa19eb53f08a62a4c0899f249ac4bde33d63",
+      "format": "WEBP",
+      "width": 80,
+      "height": 80
+    },
+    "board/art/shell-jar-proof.webp": {
+      "bytes": 49446,
+      "sha256": "10e4c74c03ae41debcd6fe6a5b8542053a41b417cfb4d4915089ea971f85c4ec",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/shell-jar.png",
+      "derivedFrom": "board/originals/shell-jar.png",
+      "use": "看板预览"
+    },
+    "board/art/shell-jar.webp": {
+      "bytes": 30974,
+      "sha256": "52aa2b510063472622a7ba1bdf5af126eeae13548cf56dc27e4ba0a979259294",
+      "format": "WEBP",
+      "width": 216,
+      "height": 216
+    },
     "board/art/sign.webp": {
       "bytes": 4226,
       "sha256": "bde1a39c28fcda7a13dabc7f96608c928ab60d0d16754275ab8f8b453e6fccb1",
@@ -24841,6 +25929,606 @@
       "format": "WEBP",
       "width": 160,
       "height": 101
+    },
+    "board/art/stamp-01-arrival-proof.webp": {
+      "bytes": 67352,
+      "sha256": "b43f94a360b20f9cd593759927c874a5425f7eb6100db776d85d0ae79243c397",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-01-arrival.png",
+      "derivedFrom": "board/originals/stamp-01-arrival.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-01-arrival-thumb.webp": {
+      "bytes": 12004,
+      "sha256": "11a0b03a0ee60561c29707c2eb91fab25981d943217736a5c2a500b47ecf3289",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-01-arrival.webp": {
+      "bytes": 135450,
+      "sha256": "03d91e74aa05b6c19849f47fac749a3ed0fafd15e106c8016cd28c873a6dbee1",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-02-lighthouse-proof.webp": {
+      "bytes": 55648,
+      "sha256": "8d641c99f8454adb36328ddb655af4fac882eee3fb4457749f7ba936129af69f",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-02-lighthouse.png",
+      "derivedFrom": "board/originals/stamp-02-lighthouse.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-02-lighthouse-thumb.webp": {
+      "bytes": 9224,
+      "sha256": "c275a3241c9684e75af245b1d6493a89c26e4be5a91b13651fdb2ba046de67a6",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-02-lighthouse.webp": {
+      "bytes": 107566,
+      "sha256": "63b9ac34ab17b99497aeb0ec08eac625615987c79c4123cefff300db55aab693",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-03-hydrangea-proof.webp": {
+      "bytes": 62908,
+      "sha256": "e5a1b3a68fc10c42c7ec14adcb62b3ef9484c9261a6e6ce21845a1af1dd2ad33",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-03-hydrangea.png",
+      "derivedFrom": "board/originals/stamp-03-hydrangea.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-03-hydrangea-thumb.webp": {
+      "bytes": 10870,
+      "sha256": "3aaadbb859ddad43713ee1c0b317973d21e55ab32224536968a0ebf25c17308b",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-03-hydrangea.webp": {
+      "bytes": 125478,
+      "sha256": "ca3bb8c2f360b2b77c7e13c5dda6cf19e88d844ad19c3878cff6b39a7db1c6b2",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-04-pebbles-proof.webp": {
+      "bytes": 61036,
+      "sha256": "79294b67635b15d349fe7bb58867aaf93899dbde427382b925857f65918892eb",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-04-pebbles.png",
+      "derivedFrom": "board/originals/stamp-04-pebbles.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-04-pebbles-thumb.webp": {
+      "bytes": 11454,
+      "sha256": "fcbba65a11b4a5248082d8241e0efbd00fd1a0eb51c84e971abcd59ba8cac661",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-04-pebbles.webp": {
+      "bytes": 109286,
+      "sha256": "62b455359b5436072679d63f2bb207bf065aa8f8bf511a9d0e60a4d8b6a23378",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-05-lantern-proof.webp": {
+      "bytes": 54420,
+      "sha256": "ebf1ab1869cbc0549a900713bee8a7419d916fefc5f60596b3b933a4d0eb4a5e",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-05-lantern.png",
+      "derivedFrom": "board/originals/stamp-05-lantern.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-05-lantern-thumb.webp": {
+      "bytes": 9338,
+      "sha256": "fcb5dc384cb087f11575087d7d8c17f039d6f4819803362b6a29242852932621",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-05-lantern.webp": {
+      "bytes": 106504,
+      "sha256": "3a16242e462e98c5441f37de4959000ec3830f28ffb7847801a84f41cfdce2c2",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-06-moonsea-proof.webp": {
+      "bytes": 41092,
+      "sha256": "9580ca2735274dcb84bed86765a5c4fadb8fc0c876b2b8004a3957c5bc70d462",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-06-moonsea.png",
+      "derivedFrom": "board/originals/stamp-06-moonsea.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-06-moonsea-thumb.webp": {
+      "bytes": 6742,
+      "sha256": "04996a2f2c54d7af37cd91ba07dd82494693c5c36c9bab3cca37226f634bb0c7",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-06-moonsea.webp": {
+      "bytes": 86750,
+      "sha256": "3f2e58644298d79f6449670d534e2a89519d905de6f86d33d6f1db835d60af48",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-07-sakura-proof.webp": {
+      "bytes": 77106,
+      "sha256": "9f82869fbdef6bb760c8214ca609d2b8ca9fdfb9ffefc1676a1bea0512e6aca0",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-07-sakura.png",
+      "derivedFrom": "board/originals/stamp-07-sakura.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-07-sakura-thumb.webp": {
+      "bytes": 13762,
+      "sha256": "f7f28427d060bf236b68e83c76fd177d5eca38e7fd476a975d99d20908f86070",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-07-sakura.webp": {
+      "bytes": 158460,
+      "sha256": "0f342cbfc9631316d5121931538feb476b1ba710ad007ca50de502a659daa983",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-08-orange-proof.webp": {
+      "bytes": 60602,
+      "sha256": "4230e13ff6d98135dd16f75a8b908e228c32600ac227f41f6c9448ac3c052aee",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-08-orange.png",
+      "derivedFrom": "board/originals/stamp-08-orange.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-08-orange-thumb.webp": {
+      "bytes": 10370,
+      "sha256": "7dd787799172117b913db65db6d927d8ef9a501d9e9a199001385838b32b9584",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-08-orange.webp": {
+      "bytes": 121182,
+      "sha256": "f8efb15725b2c9e6d9685322261981693535a74240803c6c1cfb5cd7a3e5b6ed",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-09-balloon-proof.webp": {
+      "bytes": 35666,
+      "sha256": "59084037fb442a6b0b1ccc0d57f151646308fbaad50cc4c3b5df0cf6c11567e3",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-09-balloon.png",
+      "derivedFrom": "board/originals/stamp-09-balloon.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-09-balloon-thumb.webp": {
+      "bytes": 6314,
+      "sha256": "4f46ccf53aa817b16cad0b861c5ca82cb81e05460badcf1bbd95974d52424093",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-09-balloon.webp": {
+      "bytes": 65704,
+      "sha256": "89de27a1bb316614111b521a13bbe0c18c304549cb1c0959b391c3568054b556",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-char-abu-proof.webp": {
+      "bytes": 31898,
+      "sha256": "a34231bfe8e368141bc08b11aab23a75f69fd07fc03d72f20a56ee8cdcc59056",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-char-abu.png",
+      "derivedFrom": "board/originals/stamp-char-abu.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-char-abu-thumb.webp": {
+      "bytes": 5614,
+      "sha256": "2dd52dceaed4425888e9e677e51aafc5f9fb5862388ae7a3b964ba2dedef8fb4",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-char-abu.webp": {
+      "bytes": 67208,
+      "sha256": "fff747b1e6a63c2ffe0273fc87e498102afe645d9081d9eda9035e8b9d294c9d",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-char-book-proof.webp": {
+      "bytes": 34648,
+      "sha256": "4fccbe674e7a3314b544130187f8b26c52cd5578f594b84dd4310d823dc1b733",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-char-book.png",
+      "derivedFrom": "board/originals/stamp-char-book.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-char-book-thumb.webp": {
+      "bytes": 4642,
+      "sha256": "a25cea491a9656f6dba6906a209c941426bfc6f06d062b2b80eb2a2b62d34a49",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-char-book.webp": {
+      "bytes": 65798,
+      "sha256": "fb6c47fc5256d05e3454f72c4ba4c4f31d82993ac341f27cf577a485333e687f",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-char-brain-proof.webp": {
+      "bytes": 36100,
+      "sha256": "e56e4c6e2ebc2277b34b9ae28e0f4631481e74928fe36fee035a7af495a42f35",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-char-brain.png",
+      "derivedFrom": "board/originals/stamp-char-brain.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-char-brain-thumb.webp": {
+      "bytes": 5208,
+      "sha256": "a3cfd32974de86819cb3b44feba4e78183b82c89c528ffca77a5e26ba3b24b3e",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-char-brain.webp": {
+      "bytes": 71418,
+      "sha256": "4246b9d83a29c3efbf4d88ea8f5f3c5967aa4a0f6ddeec689d7609e69c7197c4",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-char-cycles-proof.webp": {
+      "bytes": 40538,
+      "sha256": "7316dda3e453e02e9380432468b9c8351f3f38ea6fed1ca58ecc0e5e33ca66a8",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-char-cycles.png",
+      "derivedFrom": "board/originals/stamp-char-cycles.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-char-cycles-thumb.webp": {
+      "bytes": 5762,
+      "sha256": "b3650ac31d38127f4d07275c4173d076263c1e3fb41a4879f717763847a82b2e",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-char-cycles.webp": {
+      "bytes": 83884,
+      "sha256": "f23fdc3687ab8a1fb5e0b86e4ac2d8660e92a9a1f054be46d39b4b18cb07912c",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-char-food-proof.webp": {
+      "bytes": 43926,
+      "sha256": "d7bfe48c8b0bf85775d8eea99c824b8a77e880a1064666821c979f2f2b55aec6",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-char-food.png",
+      "derivedFrom": "board/originals/stamp-char-food.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-char-food-thumb.webp": {
+      "bytes": 6192,
+      "sha256": "c3d4e37fc87c06db00b3186beb0756bd3b0760706fbabf945c928344978d577e",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-char-food.webp": {
+      "bytes": 88508,
+      "sha256": "912c7718caf4e1a590690603cc1b90ce0ce010cbd81e39ac2510ea59b8306baa",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-char-fun-proof.webp": {
+      "bytes": 25544,
+      "sha256": "38a01b2bbca0d9737b1e84ebd7c483fbdafaf19d0176f28da27b9634003bece1",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-char-fun.png",
+      "derivedFrom": "board/originals/stamp-char-fun.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-char-fun-thumb.webp": {
+      "bytes": 3352,
+      "sha256": "9323d84fc0e8db2df9e8ddf1690c33d534da17cbf5dca79993ef209676aab92e",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-char-fun.webp": {
+      "bytes": 54778,
+      "sha256": "b128a5d043188faea69b85ce77facb2607234e4f3b4c36f80ee285a618ecfb6d",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-char-health-proof.webp": {
+      "bytes": 33150,
+      "sha256": "958d690bacff23c369f77db0ce8ecec01e13a69d963cc1d586df5508deb2003d",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-char-health.png",
+      "derivedFrom": "board/originals/stamp-char-health.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-char-health-thumb.webp": {
+      "bytes": 5742,
+      "sha256": "27f148db619cbc697a170953b4981c6b593854822c1ec73cd0e145150754ef17",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-char-health.webp": {
+      "bytes": 59524,
+      "sha256": "5b7d27e85cc231b52e3c6ccf653fb22d784cb7cf44c1bb58df33a660ca151c83",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-char-money-proof.webp": {
+      "bytes": 38368,
+      "sha256": "5c0e1a77ea3e038e4e984bb87b6918a966198988e4d213c3fea16e8645e3e49f",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-char-money.png",
+      "derivedFrom": "board/originals/stamp-char-money.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-char-money-thumb.webp": {
+      "bytes": 4918,
+      "sha256": "8688728d21d48a18a24e0ad524d64cfcacb0784ecb1a3e075f61d1622c659cc1",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-char-money.webp": {
+      "bytes": 70564,
+      "sha256": "8743b95f8214c87714bfb22267a11775e7be7a69fe60651515d17d3a50aaba53",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-char-movie-proof.webp": {
+      "bytes": 38102,
+      "sha256": "e0e08ea34367a3633e9373bfeaad1a387d8d8b82659dfe6a0608a778a3c57dbd",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-char-movie.png",
+      "derivedFrom": "board/originals/stamp-char-movie.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-char-movie-thumb.webp": {
+      "bytes": 6186,
+      "sha256": "4a9aade90219a1140246233f30cb4f28bd1fe0b1e2e5e69dc8ab72555805fd76",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-char-movie.webp": {
+      "bytes": 79948,
+      "sha256": "3d8491d235f7ee793d41faf3f621f792c97172d33b46ef60c4dadfd427e32c16",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-char-notes-proof.webp": {
+      "bytes": 37860,
+      "sha256": "e3fe6554b33c7500ebf3ecacfd627e3446b1638e8c2dc40e7565788cedeaf938",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-char-notes.png",
+      "derivedFrom": "board/originals/stamp-char-notes.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-char-notes-thumb.webp": {
+      "bytes": 4770,
+      "sha256": "3306a6f29b5c6ae0e6a54d462b78810573a6c827fc7010bb8f1e4080d608f6fd",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-char-notes.webp": {
+      "bytes": 72264,
+      "sha256": "38e964b6db55360191d96fd97e49d4350bc95fec157d45a3c57fc53782913fd9",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-char-people-proof.webp": {
+      "bytes": 36350,
+      "sha256": "efe5486e1146d1922ccaf326fbde1d235e40cf85f8717469b75ff8a5b937cc70",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-char-people.png",
+      "derivedFrom": "board/originals/stamp-char-people.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-char-people-thumb.webp": {
+      "bytes": 6292,
+      "sha256": "1691a2c9d977883e6482b904d5afc172c21b595f855b17787b32e24bd84776b5",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-char-people.webp": {
+      "bytes": 67472,
+      "sha256": "e6992c1ebf09746d9bf7f1e70096cb3556e13e07b9c6d53113894963c65358b1",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-char-post-proof.webp": {
+      "bytes": 27174,
+      "sha256": "bc8934e48055ecddc2c4d281f289833a2cd54bc77b8b2d6b0155b7bf8665635f",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-char-post.png",
+      "derivedFrom": "board/originals/stamp-char-post.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-char-post-thumb.webp": {
+      "bytes": 4178,
+      "sha256": "3fef1543707d962c7ffb4220e9eb552a6a860c02457b71058bde354ec02fa8fb",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-char-post.webp": {
+      "bytes": 53588,
+      "sha256": "6582206b217dcab1c52367667f61709addb3aa49430d6bc89f617c812853045f",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-char-someday-proof.webp": {
+      "bytes": 29492,
+      "sha256": "2b67ad604e9c1a56c4dfeb466a1ddd97e50b60ea7570dd602d4cb9b8d7fbe864",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-char-someday.png",
+      "derivedFrom": "board/originals/stamp-char-someday.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-char-someday-thumb.webp": {
+      "bytes": 4908,
+      "sha256": "9d187b74053f72f253967d73de0e9c2ca37dbbf2ce9863d0925e0b1fe89d27ec",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-char-someday.webp": {
+      "bytes": 57100,
+      "sha256": "1e96a2e6baea24654331b94ef6f3fe4cebac747cbdbec439776721dbca60c271",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-char-study-proof.webp": {
+      "bytes": 21232,
+      "sha256": "8fc187eee1769371b3a2aa81cc1a557ce4e975e469e36ab87c9eeb2557f7104c",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-char-study.png",
+      "derivedFrom": "board/originals/stamp-char-study.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-char-study-thumb.webp": {
+      "bytes": 3818,
+      "sha256": "a2bdcf85117dfbbe62609329aa7c93440a489cd7fb4e2a74f55a13411bb1cfa1",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-char-study.webp": {
+      "bytes": 38392,
+      "sha256": "8ab6625938f4bf593c5721c0b8d475fde109e22ec4c9a9c3592388e15778e940",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-char-vault-proof.webp": {
+      "bytes": 39902,
+      "sha256": "aaa8610a5279e0b5cf13f609c5e6c5f1775eef2da3763f702e64603fa8a68a57",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-char-vault.png",
+      "derivedFrom": "board/originals/stamp-char-vault.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-char-vault-thumb.webp": {
+      "bytes": 5668,
+      "sha256": "a34d91cf24f3ef81e2b22ff52c0ab3e9e8d5d5289cf011c6fbd914f4a405a674",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-char-vault.webp": {
+      "bytes": 79732,
+      "sha256": "7353b1c90c3f60f1916a7b712f23874418c59bd3f4411f7f350218300deccdac",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
+    },
+    "board/art/stamp-char-work-proof.webp": {
+      "bytes": 32186,
+      "sha256": "64cc535be5a27a427345ac99963ac763fbd4996cbe6d6458bacd09f4ead9931d",
+      "format": "WEBP",
+      "width": 420,
+      "height": 420,
+      "master": "board/originals/stamp-char-work.png",
+      "derivedFrom": "board/originals/stamp-char-work.png",
+      "use": "看板预览"
+    },
+    "board/art/stamp-char-work-thumb.webp": {
+      "bytes": 5260,
+      "sha256": "4a8a4078f4e51e163abd19033e7a936a4fe6aa7d3351ead62f1f5f1912b9c964",
+      "format": "WEBP",
+      "width": 180,
+      "height": 180
+    },
+    "board/art/stamp-char-work.webp": {
+      "bytes": 65052,
+      "sha256": "1761eac30e2a186c2d793e12331718636bbf7ead311d6b1b7aa716e7d6baee25",
+      "format": "WEBP",
+      "width": 640,
+      "height": 640
     },
     "board/art/story-1-thumb.webp": {
       "bytes": 16324,
@@ -25668,6 +27356,20 @@
       "width": 1254,
       "height": 1254
     },
+    "board/originals/shell-icon.png": {
+      "bytes": 978851,
+      "sha256": "67b818c84ebe6ad29440bfff86e9b1f0bde7945fad3e04490ee7445f1f6d90c9",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/shell-jar.png": {
+      "bytes": 878949,
+      "sha256": "77f294b1cbe9ac2e6199304788b7384b16ab212b3093b286cea67c76b0bc4276",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
     "board/originals/someday-char.png": {
       "bytes": 1926812,
       "sha256": "24a6768a39e90b0bace4380166e3e528ede084410939c881140e8173f9199be1",
@@ -25688,6 +27390,181 @@
       "format": "PNG",
       "width": 1254,
       "height": 1254
+    },
+    "board/originals/stamp-01-arrival.png": {
+      "bytes": 2012944,
+      "sha256": "0b99dad62900a6d2797409d61d7d0481a5af3e5f0db28ee8874528df2b73d437",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-02-lighthouse.png": {
+      "bytes": 1932117,
+      "sha256": "0eda21f2e136ac85159366984ddf3f4c34d110b765fff58506735c94a8d21d1d",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-03-hydrangea.png": {
+      "bytes": 2028579,
+      "sha256": "99bad7dc175a5fafc8103883e8a556c56a8f9ea927f0a99da947f35cf2ddc392",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-04-pebbles.png": {
+      "bytes": 1865923,
+      "sha256": "d906d2a7dae0efe656cca69ffa83b80e9b66da50194ff371058e89327fc06f04",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-05-lantern.png": {
+      "bytes": 1945724,
+      "sha256": "bc798c89e33c0bf11605cfef64f374ef4e99eef9ec068508c3884dfdb8e49610",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-06-moonsea.png": {
+      "bytes": 1824941,
+      "sha256": "69a6b3a14abdd9aa5496a78ba5894d50359bd9f117584db203229b483edcd146",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-07-sakura.png": {
+      "bytes": 2208589,
+      "sha256": "2d4e07efe2b6e3a6dd5854b7e66ef13a1baef8ad0b47aa34a11f7a00760cfe08",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-08-orange.png": {
+      "bytes": 1962408,
+      "sha256": "6b551abeeac60b66299333fd995941b06e76f7b09dd9d86685d75778132cacf3",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-09-balloon.png": {
+      "bytes": 1645368,
+      "sha256": "2574b5cb9c01e75b141ad39f531a800ef0ac2ef350719e19c24bdde6077bf81b",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-char-abu.png": {
+      "bytes": 1764863,
+      "sha256": "4caae6da7efc61698ea713a81d5dd50712c1c0ed204c00ad77e11df3cde0059f",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-char-book.png": {
+      "bytes": 1757375,
+      "sha256": "8161a177e32c2ad50c78464a40ea84f43f9a7b08c1996ced29228cdce7441bac",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-char-brain.png": {
+      "bytes": 1743649,
+      "sha256": "e33819d06482d6cdda698b69a48a8616177836874ab06acf735ac21f44225989",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-char-cycles.png": {
+      "bytes": 1864994,
+      "sha256": "d3d4504dc5ab26566823041e337ff2b58117b9d83279193d9ea7ca343be716dc",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-char-food.png": {
+      "bytes": 1883400,
+      "sha256": "070d8922f6fe9020474784cfd18940ce731b5a86192201af76cb57fe55a42ac8",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-char-fun.png": {
+      "bytes": 1670602,
+      "sha256": "a2dc6f0212cb40d869dfdd33aba534023d4d2fa7f66ab47ae660c72cbcb04acb",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-char-health.png": {
+      "bytes": 1675125,
+      "sha256": "917fa2f531ff2f02435fdd89d01d7bc4de22a6cca5783cbac27b214972d10834",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-char-money.png": {
+      "bytes": 1711749,
+      "sha256": "7f9276952a2da27104cf947c51a06acbcb029d14034396f3ef996df1044bfb32",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-char-movie.png": {
+      "bytes": 1874857,
+      "sha256": "5e631721dbefca3636b41e98f129e7d3a03f4e3b136791ba2d74d84f25677c3c",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-char-notes.png": {
+      "bytes": 1738361,
+      "sha256": "adc653436c929eb5c0c13cec987c6e7cd5b18ca6a0a9a1d18a57d6bb102fb38b",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-char-people.png": {
+      "bytes": 1688718,
+      "sha256": "d03bae8a1ad38f1b5b2e10cf15f7ae82fe03f4bf37ac929c054a60d0c0b7baa9",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-char-post.png": {
+      "bytes": 1657391,
+      "sha256": "21638d5f7485773f0e85487a70a104c8690b10f2ef7f5b34befb641fc8ca3ab8",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-char-someday.png": {
+      "bytes": 1643306,
+      "sha256": "37325dd26204570332e4450f28f04d06009aef48d49f96b28b18a19ec406e155",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-char-study.png": {
+      "bytes": 1606887,
+      "sha256": "e2edff54260edf3997286309e87d65446fc3b69ebb06bcebc08fbcfbb8a2a0b7",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-char-vault.png": {
+      "bytes": 1821726,
+      "sha256": "522d827c43dd46bea167bcb579060d5a7c159c2cdb763e2d7bbaa1904b1933c0",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
+    },
+    "board/originals/stamp-char-work.png": {
+      "bytes": 1699437,
+      "sha256": "7cf5e8c88cfff627cda4cc69bdd24ad0483feedf703e2326e1a1f993bb679da3",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024
     },
     "board/originals/study-char.png": {
       "bytes": 1937403,
@@ -25758,8 +27635,8 @@
       "format": "CSS"
     },
     "index.html": {
-      "bytes": 909504,
-      "sha256": "b1b3753983e6b8bdfa13eb42e59b777a68c86f162a81462cbb497565f8642ded",
+      "bytes": 989383,
+      "sha256": "30476857bebc651ad3d4d827457543cd58d44510173200b182d6bb161c59f1fe",
       "format": "HTML"
     },
     "screens/agg-ask-390-0.png": {
@@ -26183,50 +28060,50 @@
       "height": 956
     },
     "screens/album-390-0.png": {
-      "bytes": 50469,
-      "sha256": "e2a7e548ef3a7faccddd3b519f38f478eefeb9ec590e5c01a1d4c1eac9fd39e5",
+      "bytes": 61451,
+      "sha256": "924f476a31895f2456da8688a7f66b5567a48e900aa6486d11112ba2c4fa466f",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/album-390-2.png": {
-      "bytes": 85183,
-      "sha256": "5e65c9002b65a44fbe7f44e9bed7e69f839d610557aaae4ef26487c2cca129dc",
+      "bytes": 87538,
+      "sha256": "5eace465ca2f54c2558425e2a7fc51a45800e95442158827c65dc93e6b2964ca",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/album-390-24.png": {
-      "bytes": 236730,
-      "sha256": "0f97fcce5eeafb71f57b67b961db67be77287db7f947a73bbd425dea5dfe06fc",
+      "bytes": 203781,
+      "sha256": "c1c7c31699df1aff3e0da260676675c5c7b2ad7a05a124354022e7f72b734f89",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/album-440-0.png": {
-      "bytes": 53377,
-      "sha256": "b5f39d3604f972ae9236548ffd48e326e30fb1b55b2a5eb1fbe5dd0162277665",
+      "bytes": 64513,
+      "sha256": "3c9d63d4d349249d9dc020ef0d2b9d30c834f00af40efdaefed1ead943b44499",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/album-440-2.png": {
-      "bytes": 103191,
-      "sha256": "44cf2667ce39515607859d35cb113cbe3a79b806e7cbdfe7b768a9c6490f94de",
+      "bytes": 111698,
+      "sha256": "0a7c993b66f1f87fe0cf5ae23fea6245cacfd8e117d8c3d2a77150b56c2b5fd5",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/album-440-24.png": {
-      "bytes": 351027,
-      "sha256": "a4ab1c7a2f9ba7bf14a86cc7110d5a9e50b51676f05b91f44317a0e74f9d654f",
+      "bytes": 320438,
+      "sha256": "6bd92c817bd98e67365e2e59e9421e2aea213aae78c69ecf3497ef8b6a089f8b",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/amount-390-2.png": {
-      "bytes": 70458,
-      "sha256": "c8b60c019a6c9e5f78a0e94a4fdf499764cdb680cee59ab3c950fb60096c377f",
+      "bytes": 70459,
+      "sha256": "136ee2029afb9a4a59d2e723edd5fac02fd12ff2f6be1229e38b85414b5ec7f6",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -26337,43 +28214,43 @@
       "height": 956
     },
     "screens/book-390-0.png": {
-      "bytes": 44849,
-      "sha256": "dfb995a858b3acd3a44da0446d763221acd99eb1dfbcba70c3199624f4d10baf",
+      "bytes": 44416,
+      "sha256": "8743aeba19ce5a9d3d1610bad310aa15fb8e5d12edbff47ec953175d26ce283b",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/book-390-2.png": {
-      "bytes": 65368,
-      "sha256": "b35fcb466ea124af89e121635fc9863d717366eb01dce4d5bdd871d3ee4de326",
+      "bytes": 50892,
+      "sha256": "d8b4fbecee06301757719b474813ce3f2c262ede14d9f4355a5c3ed367bbc9af",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/book-390-24.png": {
-      "bytes": 81145,
-      "sha256": "0b98ca04b7d0af55dfbf4e47895369072a3da9b09c8b36b68cc0543e26c08254",
+      "bytes": 66142,
+      "sha256": "8599c5b66d058f944d04663a6b1c8fdcf542fcb445d5386793b1c2049a0be29f",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/book-440-0.png": {
-      "bytes": 49799,
-      "sha256": "45ab181a54852230c40f2e0b40cd69f350ee483cc86784c5ba36fc0d88b8a3ae",
+      "bytes": 49436,
+      "sha256": "c337f643da753c4be06e72d17b6204be7f52edaf428e3b2a0e8f085333ebd978",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/book-440-2.png": {
-      "bytes": 70812,
-      "sha256": "c7a2514f487d05dbcf98ebab5ce3390a0daa79273e135152651cad53f8052e47",
+      "bytes": 58182,
+      "sha256": "64790685d3a044e95c9fc496377bba1ee200e110cc6dd1005ec1696945140353",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/book-440-24.png": {
-      "bytes": 95619,
-      "sha256": "0209c85e891c4a31790be2fafa6f8949a625fe9bfbf9a5e0e1aafd580612cf70",
+      "bytes": 83282,
+      "sha256": "ed88bba768ee3a7e951bc7a152301211aba2db965356af20fea07b796b06d226",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26421,57 +28298,57 @@
       "height": 956
     },
     "screens/brain-color-390-0.png": {
-      "bytes": 31260,
-      "sha256": "804175d1f30ec336599d5db829b801e15e6c096ed40c2bab25be8d958181f732",
+      "bytes": 31332,
+      "sha256": "59acd5d48d9d2789630214559cad499a4086362569f1f9fdbaa6c81320695167",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/brain-color-440-0.png": {
-      "bytes": 32310,
-      "sha256": "f4f4133848fe90a06cb930ed5ff3c236d1e2711187b3b78729c35e878e9f6e54",
+      "bytes": 34658,
+      "sha256": "efdbbc40165ffb94c43887e0adcb92a9fcbbda215f61fde011c5f9f08ce211f3",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/brain-grid-390-0.png": {
-      "bytes": 40763,
-      "sha256": "274d64ee32b154e0e415f8a5b983badc06102a82956a44be68bba234b2c719de",
+      "bytes": 41549,
+      "sha256": "53be1b2a16ed550e8bce9c1892111f99f70645fd8ddf9f26f45cce17c9098cf0",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/brain-grid-440-0.png": {
-      "bytes": 42232,
-      "sha256": "2a1224814c021184adfcb42b4384895d7ba9373b4550db53c9e89228b563619e",
+      "bytes": 41577,
+      "sha256": "c236192f8575ffb015b426a7850fe8aeacdd5684cde8913876554c621f554491",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/brain-memory-390-0.png": {
-      "bytes": 57548,
-      "sha256": "1c85a74c88a43ba5c010464ed35c185094c56963d52bed4785a3e4114096e06c",
+      "bytes": 61272,
+      "sha256": "688137ad120e4fcfd683d388191eb7655ccd32b148f8439c7d2b882a16ba668d",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/brain-memory-440-0.png": {
-      "bytes": 55902,
-      "sha256": "11d23e9a3b47324732809e1436ddadc2fd2a8444b98cb11b09b4b8be25bc5b99",
+      "bytes": 51011,
+      "sha256": "86e652482c2f83229b4fb907bce6bbeec34111e9c3af73ed0d0b3bc56e86527d",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/brain-path-390-0.png": {
-      "bytes": 37918,
-      "sha256": "a6be008db0c2f51d96424a05d1c11fb4cc15c86e738a34d26fc9fc431ddc7bc1",
+      "bytes": 37911,
+      "sha256": "9368a4b1968713b68964d4cd7500a4d35ad47e44d2b6f60688755398418ba6fd",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/brain-path-440-0.png": {
-      "bytes": 39321,
-      "sha256": "cc8afbd71bb5a9bda84f26bf2c972fa7f4497db51851f66a13032f7ceb05d6f0",
+      "bytes": 39399,
+      "sha256": "3995b9de0383d5b5cbd2bae4ea93d75d7e9ba8b714abc9757e3697f9334f0a1d",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26491,57 +28368,57 @@
       "height": 956
     },
     "screens/cal-390-0.png": {
-      "bytes": 50803,
-      "sha256": "42ea405407f1dbde0524e91dc1745c3dadf39d335d57c92c3140d9cb9e00960e",
+      "bytes": 52034,
+      "sha256": "d7dd991de9fd85d793c008985c502a244ce1605128f8987faaca65ba6c371c78",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/cal-390-2.png": {
-      "bytes": 50883,
-      "sha256": "15fc83ea10afcd7bdf181517649d7da801dd391fe782471329306015fde37576",
+      "bytes": 51960,
+      "sha256": "b3df3b9817b59ccb0668d9f38ad33a8168fd4ab0fdedca80af8882dffe172364",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/cal-390-24.png": {
-      "bytes": 51319,
-      "sha256": "bfd474c4c9a500837f483a52bcfeffa647f5d13a9a781d1c8af85b81017850a6",
+      "bytes": 52398,
+      "sha256": "a13375101d75ec09445abf264090aca8ed93d9bee574ab1682fd34656949ac5b",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/cal-440-0.png": {
-      "bytes": 54828,
-      "sha256": "740f6f61f5d7977aed029f494a89263b2401d3e75083c4cdc72ed8795be5ca77",
+      "bytes": 55878,
+      "sha256": "4af7e490094c3178fa3a196d36ce2a469981755b729251f531ea5bbcba9b4054",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/cal-440-2.png": {
-      "bytes": 54900,
-      "sha256": "1b7fcff58beda837c8020eca36d97bb47cd19d705cecbf5c39b98fab9ae502ff",
+      "bytes": 55809,
+      "sha256": "f28261f4a97455bdff655bc84d66a8f0eead98fd3780d61abbd6ab24f86cfb91",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/cal-440-24.png": {
-      "bytes": 55366,
-      "sha256": "b1eae12d1b499839f6123110dd7681351814f28071e04f15604f0cc8823df2e8",
+      "bytes": 56282,
+      "sha256": "92f823d4395604a94b90bf592ae9299ae9e96df1daff11d625267055f736db52",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/card-390-2.png": {
-      "bytes": 130147,
-      "sha256": "e2e0c7882dc9f3548c8e6849eaf417b510431bfe596a4c8f78d6b7db62dd615c",
+      "bytes": 114340,
+      "sha256": "0ce0ee46ab004bda7ca7904933a4909710d2b2e673a2899adfa032b1f9284e79",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/card-440-2.png": {
-      "bytes": 153546,
-      "sha256": "b025014f8a72f79a2d10a868ac239c7dbce1b6e9ca2dcad6e0ce254db87baec0",
+      "bytes": 138959,
+      "sha256": "929c1daa70c611a2e9e759181a8a73a1b3f5734854deed1f3d1eb5912abb54b0",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26575,15 +28452,15 @@
       "height": 956
     },
     "screens/changes-390-2.png": {
-      "bytes": 94485,
-      "sha256": "e5eb15bddd0746d4288057e1aca094e59b0ed09166f804a9a754e3e745551660",
+      "bytes": 88806,
+      "sha256": "d4f49078d7629c454fdb47750f3be9c80debbe1b35c1356abff1e21f28d94f64",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/changes-440-2.png": {
-      "bytes": 111437,
-      "sha256": "ee6220bcb8fd4bed63d90ff6ba4dd78ff49057bce75d86276e5bad2814f678ed",
+      "bytes": 112990,
+      "sha256": "bb843c84db8dd9727f4a0f3d12555646be3fce8e06791e7f0b35f33ab4f9660d",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26603,15 +28480,15 @@
       "height": 956
     },
     "screens/cloud-390-2.png": {
-      "bytes": 67268,
-      "sha256": "8c636291808c1a6239123431d7ef9b2c130c336236c84a4c566271912ab99017",
+      "bytes": 67167,
+      "sha256": "baaa38387642cbce87cb9d4b233c1e452174947ef0cc6b68daa8d0d65ce74f06",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/cloud-440-2.png": {
-      "bytes": 68148,
-      "sha256": "3a6ffe913d686c07de3c109b2178c3be9cd447bcf76535288bdd046befd70534",
+      "bytes": 68046,
+      "sha256": "9ed358dce882831e876f85341e9e68bbc34aafe88d32f57a4db97e8e73a08c12",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26673,15 +28550,15 @@
       "height": 956
     },
     "screens/data-390-2.png": {
-      "bytes": 37927,
-      "sha256": "cac7b302429f6af266d9c7ff2b17c7ef2c17778fdd0c95c00e0372a463acc513",
+      "bytes": 37928,
+      "sha256": "6af755dc10f08b83f9af0ce88a72b056303988633635d6e75451b561d784be2a",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/data-440-2.png": {
-      "bytes": 38662,
-      "sha256": "a65ffee2a61e3f0acb3313d71852d960883f57119312d293aa05b75338096420",
+      "bytes": 38661,
+      "sha256": "51d52be8d1fa215c03d36497cd35bed1b12b8393b778a71044bb799b62599fbe",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26897,8 +28774,8 @@
       "height": 956
     },
     "screens/food-440-2.png": {
-      "bytes": 96611,
-      "sha256": "4e0bb646f4327f5d6c9c1fb611c8624ec31ed62b85bed67f1962b10ca846fc45",
+      "bytes": 96623,
+      "sha256": "e9968cd217b076c617f3ee3ac526da06c11bd906e1281e492a42e9bfcd062c7c",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27191,15 +29068,15 @@
       "height": 956
     },
     "screens/hello-390-2.png": {
-      "bytes": 186188,
-      "sha256": "3d424a94070578af0ba96d598a7c94acedc3046a1b147461eead2a17b44120c5",
+      "bytes": 186535,
+      "sha256": "7004b74ebe9dcd19265b3fea955e76fbf69ab28d4f399e775353594f76ede61c",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/hello-440-2.png": {
-      "bytes": 237080,
-      "sha256": "70590d98540a9c9a51435b0590f89c3f9d957a0c95513af5cabbace186fb8d14",
+      "bytes": 227694,
+      "sha256": "2447a2e635906fd774583f87b22e96e3f0f50a6d6eb762608a44a1b4c4b4ae98",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27296,8 +29173,8 @@
       "height": 844
     },
     "screens/isle-440-2.png": {
-      "bytes": 131379,
-      "sha256": "49ffc1e7d792e9260d3235637696129f6cdf8722e3d6fb54b7d9fad41b4e0d2b",
+      "bytes": 131474,
+      "sha256": "e94d3e758fbdcc55eae8bc84e5d2345b8e03f80a4dce10af3186066092b65087",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27331,8 +29208,8 @@
       "height": 844
     },
     "screens/ledger-390-24.png": {
-      "bytes": 77167,
-      "sha256": "2e94b406ac5431611c458bd5d6b9ea7baad55826ebfc97a568513a8d1e974f6d",
+      "bytes": 77178,
+      "sha256": "7fdb6f2494a4be23823121e6deed3fae8be3bdfda216a1649c38215222f2e828",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -27359,15 +29236,15 @@
       "height": 956
     },
     "screens/mail-settings-390-2.png": {
-      "bytes": 97167,
-      "sha256": "b01b9bc3fd87c35b883440d44e4c6315eea87891488bee60c6cfd7dcd2614417",
+      "bytes": 76620,
+      "sha256": "3002e112c5bf1c704d765052641db2e15e86e173d82333571593ac7b6191ad07",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/mail-settings-440-2.png": {
-      "bytes": 128853,
-      "sha256": "9d13f894a89489c22e481ae669308d27890cc147318b022eaa8a7296527cf364",
+      "bytes": 114962,
+      "sha256": "ab46d99d095d7f3c1d13190fa7dd1f20947a0c68dcfa992394a0ce5012a9ef9c",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27527,43 +29404,43 @@
       "height": 956
     },
     "screens/movie-390-0.png": {
-      "bytes": 46186,
-      "sha256": "2e216b5bccdecbf0f9f572ae2e96f54dc85de2977a1bcd137ca7fb40d4238815",
+      "bytes": 45758,
+      "sha256": "d91495683b1c1907055b7af6f138b73e4b73b88c0877c7e3da6dc5b3edf83f96",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/movie-390-2.png": {
-      "bytes": 67083,
-      "sha256": "70516dc6e782a4e658c402b621dc551d41ac7b619ab21e3d433b6b520ccd02e6",
+      "bytes": 52487,
+      "sha256": "e9641a447ab781cc07672e1050ed34833bd326f29d81f3ff3fd89073c69df914",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/movie-390-24.png": {
-      "bytes": 83881,
-      "sha256": "a038c887210561cd52656ba0e3add72e0543a22e1fe6c628c6daf84b4f29615d",
+      "bytes": 69588,
+      "sha256": "be974d500af6a3b3dbe781b3346f65de3ce7b9c71cfbec6d16be25f15a6c9892",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/movie-440-0.png": {
-      "bytes": 47611,
-      "sha256": "8c6e4038a5437bdb64485140766fc92531997c558762c60f8bed04d047cf3886",
+      "bytes": 47204,
+      "sha256": "0dea68d0075cbb2781b40e64e6cc26bd07dff03d4032862e81cb7738e2e1f404",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/movie-440-2.png": {
-      "bytes": 68797,
-      "sha256": "7feecad93fd6a1ba17337c5e077e4b9aebde8842d37f912250918aceaf4cfadb",
+      "bytes": 56238,
+      "sha256": "015d7917f1f21c57eb97ef9afbea68d51d762a271c06a1a4772e7bad52403a4b",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/movie-440-24.png": {
-      "bytes": 94337,
-      "sha256": "b45576ffbaefa952473875111f7e7f54f400bd1164e9ce3fa78281ed37c16b02",
+      "bytes": 84170,
+      "sha256": "9fcb7207a7cb4e07d70d821ae23e317d4f8aaec5007f9000a1eda9c2bf1b9de0",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27674,8 +29551,8 @@
       "height": 844
     },
     "screens/notes-th-440-0.png": {
-      "bytes": 58773,
-      "sha256": "ed5746983abec9d8e44357d33b7b568d303c64e9afacf4dbb8885e646b5e1831",
+      "bytes": 58782,
+      "sha256": "a8bbbc0e6dbac9ddb5b098ead6a351c92f03392f541d51f362f663c64faaaf2a",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27709,8 +29586,8 @@
       "height": 956
     },
     "screens/onboard-2-390-2.png": {
-      "bytes": 69485,
-      "sha256": "f08153f6065f2f5cb6c1fab812f4ccfcb1ad7ced0f4e182469e6d89654c922c0",
+      "bytes": 69383,
+      "sha256": "eab0930d83ab363fdabea785c72782a486dd1548247a4b601513f25ed63b06d3",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -27723,15 +29600,15 @@
       "height": 956
     },
     "screens/onboard-3-390-2.png": {
-      "bytes": 65561,
-      "sha256": "ef448ec2678ad64cf69c788bd2b604b0a3261c46aa8f7e8789a37db808745ffd",
+      "bytes": 64376,
+      "sha256": "9dbe8d082016f765d83e681ef37a0b2d7d558c1b804ab8e7ff81c267e7ede48a",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/onboard-3-440-2.png": {
-      "bytes": 75049,
-      "sha256": "d4f5656f9349be1fa6f390e7a5a11d3163ffb9a27e1cba5415eaf5cfd92f4ddc",
+      "bytes": 73920,
+      "sha256": "c4182c0026dec043164dceea444d9048e40a0918975ee81d0758f2600a261988",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27751,15 +29628,15 @@
       "height": 956
     },
     "screens/panorama-390-2.png": {
-      "bytes": 288830,
-      "sha256": "ab01304424b4dc9106cb302bf88cb041f6ced535979c374122a8f907a2d3c9c0",
+      "bytes": 285151,
+      "sha256": "4fe385944bd06d26312e2f3e54bc4061ef319aa01a5421912bad0c6ac19fc8d5",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/panorama-440-2.png": {
-      "bytes": 363690,
-      "sha256": "da5b5086736daae4e85a3cce1014f446e04836319f13fed3d9a75a6657a33f18",
+      "bytes": 363705,
+      "sha256": "e1cac0cae69d778d0c46c3ea2b1f0ec20822090d003cb97abd16aa4d9c5d52f7",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27870,8 +29747,8 @@
       "height": 844
     },
     "screens/pick-390-2.png": {
-      "bytes": 65688,
-      "sha256": "0d5126d6626fe2aee98c0548150cefb21a4dc7a62e992c75e10c982fb2e645df",
+      "bytes": 65663,
+      "sha256": "04898c74d18d39505414e9c49a6d832580d65e501276b712a8d3f6e8b4cecf56",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -27947,43 +29824,43 @@
       "height": 956
     },
     "screens/postoffice-390-0.png": {
-      "bytes": 62466,
-      "sha256": "0735f659afb488e093ab41336a04c038fa84e38be0179b8a1fa012e20fd0fe19",
+      "bytes": 98147,
+      "sha256": "da56f90d9d54a2df50552682aa5c663a9981b470316916819b597ae3184d223a",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/postoffice-390-2.png": {
-      "bytes": 122423,
-      "sha256": "abdde28988c8bf7f615e0897b31bdf54d11ca03d97df303e795637ce3e199b70",
+      "bytes": 99247,
+      "sha256": "7ada931e1d178c4f26bbe7489bd0ca7184168cfc421c9aef9f5f099a90e29220",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/postoffice-390-24.png": {
-      "bytes": 118682,
-      "sha256": "3d91fb5e0f48194c982544f4436266aaa5ee34c15218b4d761c0e8080551abab",
+      "bytes": 99487,
+      "sha256": "d4cbdd5ac010dc02106dc71464b0eec58d803f3c52bfa52ec18e42b565d8a696",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/postoffice-440-0.png": {
-      "bytes": 66161,
-      "sha256": "e21a53f176b18848a7480d3ed252ff9b362619c8dc3ccc6b6218aa62825ca736",
+      "bytes": 103162,
+      "sha256": "315a7365ac421a0273a7accc1126ffcbb54c201a823d856d36bc47db2ed3da3b",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/postoffice-440-2.png": {
-      "bytes": 130636,
-      "sha256": "08b141cbe59f5e79049a0ba77cd7959d96514f063c05180953be6fdfc6f80e02",
+      "bytes": 144316,
+      "sha256": "0aaa58dc874a3812117ada8a4111aaf2e9ac804c9d57c09851d26b87bbc27bc3",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/postoffice-440-24.png": {
-      "bytes": 154752,
-      "sha256": "e8ff4b9c295199e6f07172bc702169cd4755f90b3d5184f94bf41983b2c4512d",
+      "bytes": 145271,
+      "sha256": "8aea4d61638c46bd264f8ca7831e95e22422284e0d3c49d8fa8d60b78c3d1795",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -28157,8 +30034,8 @@
       "height": 956
     },
     "screens/row-group-390-2.png": {
-      "bytes": 69688,
-      "sha256": "cc79ecfccd7344f9a3193f880bd198f8185490bbc22c9b82836105db59847183",
+      "bytes": 69698,
+      "sha256": "e80abbfb36135b51f6b825cd60203aef21af424420a098c878e466522984b518",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -28185,15 +30062,15 @@
       "height": 956
     },
     "screens/score-390-2.png": {
-      "bytes": 76426,
-      "sha256": "7ad187da93d694d7c3a7b873eb8b84db1c405daf8e7063d562fc2ac611ad445c",
+      "bytes": 62230,
+      "sha256": "b05c9605d4fe773f7655de783428c172fc4fc25ca6552c7c2e25471e38717234",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/score-440-2.png": {
-      "bytes": 78223,
-      "sha256": "42a872ac91be144ed2d61f21788c8aa2f678e39de679b8c7995c55bc67b05b89",
+      "bytes": 66024,
+      "sha256": "54bde7965a364356e2937dcd11cc7adc8bcf9789ca2510d35fb7bc4ff0070558",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -28241,29 +30118,29 @@
       "height": 956
     },
     "screens/settings-390-2.png": {
-      "bytes": 48393,
-      "sha256": "f29e1a24fcb1834c9c1d67f7f8e5ac5cc8bdb7a5e378f19d3bca65f501a67c5b",
+      "bytes": 48525,
+      "sha256": "e84b680fbb855552d9edd4d97add02601c6665cf1aabaf1a2503453065c14c0a",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/settings-440-2.png": {
-      "bytes": 55679,
-      "sha256": "50e40b57aedb25a643eae8ea53cf454050ee29d8fac6fd83d02dd7161cc7f0ec",
+      "bytes": 55813,
+      "sha256": "7de2a12916babc81950ccaa6a85fd4c5802124ee6083689c702b040b766c3a62",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/share-390-2.png": {
-      "bytes": 76856,
-      "sha256": "2fe438a82ba80088502c53b85cb657599677923410b370cd801c96c27fb071b0",
+      "bytes": 76942,
+      "sha256": "f02732974b672359f64ed7ef7f7b77ac72c065a8297b5e6d1e06ce8a288c6a1b",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/share-440-2.png": {
-      "bytes": 90296,
-      "sha256": "568d6e6028a25562c59f67a3a2d1e7145b3c0751f1e4bf5aea9300104a729267",
+      "bytes": 90576,
+      "sha256": "36744467b0e8894fd79b4a9b8654da5ded714696e71a90d066cd348be1a07afe",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -28388,8 +30265,8 @@
       "height": 844
     },
     "screens/symbols-440-2.png": {
-      "bytes": 64495,
-      "sha256": "8d909798f674e289e7afdd33587dee3cc0c6961157b1e27de30d22d78b0dff3b",
+      "bytes": 64625,
+      "sha256": "e98d4877dc15318bd4f9c99f0b3812fcf1c5c4736382d803573fa7d0b2c6d2e0",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -28717,5 +30594,5 @@
       "height": 956
     }
   },
-  "screenSignature": "56521c592f18add50fdb9fe76cea182d6460513900a100e38ef0afc3a2639ef2"
+  "screenSignature": "faa29634afd0d64753685abf24c3ff6256e430a0faa0514352dcde84ebcae217"
 }
