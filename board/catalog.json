@@ -1,5 +1,5 @@
 {
-  "version": "3.12.2",
+  "version": "3.12.3",
   "baselineEntries": 78,
   "houses": {
     "post": {
@@ -5210,8 +5210,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 68158,
-      "sha256": "c85f0727639e370cb7e044cb947a2235a684bcac8d51cac17f4add0d0babf73e",
+      "bytes": 68169,
+      "sha256": "58058a1f53ede9c98508543409ceeebbb41e951130cdc19793f4b262b59b7310",
       "format": "PNG"
     },
     {
@@ -6315,8 +6315,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 130143,
-      "sha256": "b318dc6d13d2c175f9eb565ba3c130a6f8b6fe57778514cc885c15a56efe5737",
+      "bytes": 130147,
+      "sha256": "e2e0c7882dc9f3548c8e6849eaf417b510431bfe596a4c8f78d6b7db62dd615c",
       "format": "PNG"
     },
     {
@@ -6566,7 +6566,7 @@
         }
       },
       "bytes": 288830,
-      "sha256": "8c10cc1e0d4dbdbc9eb0d68ceb0acbb239f13c315f5fd57d11f1c9312be067cc",
+      "sha256": "ab01304424b4dc9106cb302bf88cb041f6ced535979c374122a8f907a2d3c9c0",
       "format": "PNG"
     },
     {
@@ -8095,8 +8095,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 70458,
-      "sha256": "c8b60c019a6c9e5f78a0e94a4fdf499764cdb680cee59ab3c950fb60096c377f",
+      "bytes": 70459,
+      "sha256": "136ee2029afb9a4a59d2e723edd5fac02fd12ff2f6be1229e38b85414b5ec7f6",
       "format": "PNG"
     },
     {
@@ -8185,8 +8185,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 92485,
-      "sha256": "c9bc845f08758db1fbbd8e3c5ff3baa3443dc064495bdd2b0372ad9ed366a3f6",
+      "bytes": 92480,
+      "sha256": "9c86ed3127aea7015b9b68fa8eae47afa9ff426fa002b26077bd4a5acf0f1e62",
       "format": "PNG"
     },
     {
@@ -8365,8 +8365,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 97037,
-      "sha256": "993c7a7c2559375f604041e7a0bef5c36b883d772365712a78e0655bbbcd0543",
+      "bytes": 95826,
+      "sha256": "53af060dd198c51df3b0152c9207816026609957f17088951c4c6bfee9f76cb0",
       "format": "PNG"
     },
     {
@@ -8490,8 +8490,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 77030,
-      "sha256": "7febffa737791d47bb06434662c4cbb6cd14b75fb4e420dd7a354c8c36a83a54",
+      "bytes": 76971,
+      "sha256": "7f2d08bd50ab0132165ff80298e6c052189580268474b7233a832b4e76f51b02",
       "format": "PNG"
     },
     {
@@ -8606,7 +8606,7 @@
         },
         "标题": {
           "element": "h1",
-          "font": "24px",
+          "font": "23.4px",
           "padding": "0px",
           "gap": "normal",
           "radius": "0px",
@@ -8625,14 +8625,14 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 163545,
-      "sha256": "342e916c6bbf904d2e148374bfae40899dcffb5f67169309d54894631da03b13",
+      "bytes": 159918,
+      "sha256": "3542de1ee1f2d1c136859e23a1b8f658c2a4731ac43fddd458a767ee93c9ef04",
       "format": "PNG"
     },
     {
       "key": "onboard-2",
-      "title": "先发第一条试试看",
-      "entry": "设置 → 先发第一条试试看",
+      "title": "一段话自动分拣",
+      "entry": "设置 → 一段话自动分拣",
       "panel": "#ob.on",
       "width": 390,
       "height": 844,
@@ -8651,7 +8651,7 @@
         },
         "标题": {
           "element": "h1",
-          "font": "24px",
+          "font": "23.4px",
           "padding": "0px",
           "gap": "normal",
           "radius": "0px",
@@ -8670,14 +8670,14 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 40099,
-      "sha256": "5ffc9a9d55dca6675ffd84f967fc738016f7152f9ce7957fd9a696c272fd0a73",
+      "bytes": 69485,
+      "sha256": "f08153f6065f2f5cb6c1fab812f4ccfcb1ad7ced0f4e182469e6d89654c922c0",
       "format": "PNG"
     },
     {
       "key": "onboard-3",
-      "title": "挑几栋常用的房子",
-      "entry": "设置 → 挑几栋常用的房子",
+      "title": "挑常用功能",
+      "entry": "设置 → 挑常用功能",
       "panel": "#ob.on",
       "width": 390,
       "height": 844,
@@ -8696,7 +8696,7 @@
         },
         "标题": {
           "element": "h1",
-          "font": "24px",
+          "font": "23.4px",
           "padding": "0px",
           "gap": "normal",
           "radius": "0px",
@@ -8715,8 +8715,53 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 69645,
-      "sha256": "f00f319eb7a9e8171ad7ad872853dbc7ed4bce1b33a70e0135ca135868abbba7",
+      "bytes": 65561,
+      "sha256": "ef448ec2678ad64cf69c788bd2b604b0a3261c46aa8f7e8789a37db808745ffd",
+      "format": "PNG"
+    },
+    {
+      "key": "onboard-4",
+      "title": "怎么称呼你",
+      "entry": "设置 → 怎么称呼你",
+      "panel": "#ob.on",
+      "width": 390,
+      "height": 844,
+      "state": "弹层态",
+      "src": "screens/onboard-4-390-2.png",
+      "styles": {
+        "容器": {
+          "element": "div#ob",
+          "font": "16px",
+          "padding": "0px",
+          "gap": "normal",
+          "radius": "0px",
+          "ink": "rgb(67, 51, 41)",
+          "background": "rgb(247, 240, 226)",
+          "accent": "#B5483A"
+        },
+        "标题": {
+          "element": "h1",
+          "font": "23.4px",
+          "padding": "0px",
+          "gap": "normal",
+          "radius": "0px",
+          "ink": "rgb(67, 51, 41)",
+          "background": "rgba(0, 0, 0, 0)",
+          "accent": "#B5483A"
+        },
+        "控件": {
+          "element": "button#obSkip",
+          "font": "13.3333px",
+          "padding": "0px",
+          "gap": "normal",
+          "radius": "0px",
+          "ink": "rgb(118, 103, 86)",
+          "background": "rgba(0, 0, 0, 0)",
+          "accent": "#B5483A"
+        }
+      },
+      "bytes": 46276,
+      "sha256": "b18efc5c4cf7f235387344c17c94b797c0e7d0d414000f597c1c45001f6244a1",
       "format": "PNG"
     },
     {
@@ -12830,8 +12875,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 41359,
-      "sha256": "69cc22707e1fd8bbaf891ffa0d5639a91aa66d13fd0cb8470c01b8b99de25ebd",
+      "bytes": 40717,
+      "sha256": "ced82fa484fdf5ee6c5df2072e00cf09440b42e0e866021e9d6a9e1c75216d70",
       "format": "PNG"
     },
     {
@@ -12875,8 +12920,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 31340,
-      "sha256": "3396ab6ea07382fa62dfabb1deef1db0115366b02bf6b2019426899929c91570",
+      "bytes": 32733,
+      "sha256": "cfc8e153f56b97d9bb0fe6d5a8e6b8c7084abe2d1e109d4ca386b525751ea454",
       "format": "PNG"
     },
     {
@@ -12920,8 +12965,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 58034,
-      "sha256": "61d9d4bea1d0e9c7b27b7eab2d84fcc7b610aff6c204ded5158fd8aa0e1afafa",
+      "bytes": 61493,
+      "sha256": "eea2300feba4ec2c69a4a9193a278b3ad1becd7b1d63d788ea09807af2489e6d",
       "format": "PNG"
     },
     {
@@ -13315,8 +13360,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 87443,
-      "sha256": "6e058910a8e69729af91dd46267bfb45d6e38ffe7e6713ec7edd7dda18d589a6",
+      "bytes": 87410,
+      "sha256": "1b65fdbb229fbb5d3a49d7c27e0c73ed2d0d0657fdc136f24a326b1fdf4a9b54",
       "format": "PNG"
     },
     {
@@ -13485,8 +13530,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 78863,
-      "sha256": "d0ccf71b7424d63bdb25b88d58df0c9e684e57dac98f9197d5d37401991c3381",
+      "bytes": 78867,
+      "sha256": "10dca30adf8cd09c28758b54a1c1fc5f72d3c407591633a06d731a3c1d6d3b0c",
       "format": "PNG"
     },
     {
@@ -14340,8 +14385,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 130636,
-      "sha256": "08b141cbe59f5e79049a0ba77cd7959d96514f063c05180953be6fdfc6f80e02",
+      "bytes": 130573,
+      "sha256": "68ff4f34fe890187cf3475d8225d204c67435614b912af39aae72cfa7bff2a5d",
       "format": "PNG"
     },
     {
@@ -15560,8 +15605,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 363500,
-      "sha256": "7bf0d0eaf24d28c78c716fbb01ca578405473df531abf310fb4973de3b65e251",
+      "bytes": 363611,
+      "sha256": "ad5d4839260eeac3de2737beae4f028e0b9d51ee6d776a981ae7f8172ffe2dd6",
       "format": "PNG"
     },
     {
@@ -16460,8 +16505,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 90511,
-      "sha256": "0f6f992434dbd79ba6047d9f6fdd7789e4464f5de5d22cb445bd99979448181b",
+      "bytes": 90510,
+      "sha256": "873945d16e462bf0246eceb5a207036587cfe5f6039d2c64458909c1119c4c5b",
       "format": "PNG"
     },
     {
@@ -17360,8 +17405,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 119688,
-      "sha256": "a10dd50846a57c05a41f10e5e947a592664e25a318bce12e5760e0465ec82593",
+      "bytes": 112541,
+      "sha256": "503f9966dca47819c9b9469b31cb5a6bd1ba53b9e04636c9b0266a184c7a3fb8",
       "format": "PNG"
     },
     {
@@ -17485,8 +17530,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 90251,
-      "sha256": "3e48048fef1846d7097a017dc684fa535e108fb349b262442f50091b98a7b8c2",
+      "bytes": 90506,
+      "sha256": "b60c8b8c33a4bd2b019c9d884f5665aae1db63594dfa71d9aff145ba2fa282ea",
       "format": "PNG"
     },
     {
@@ -17601,7 +17646,7 @@
         },
         "标题": {
           "element": "h1",
-          "font": "24px",
+          "font": "26.4px",
           "padding": "0px",
           "gap": "normal",
           "radius": "0px",
@@ -17620,14 +17665,14 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 200830,
-      "sha256": "8f333c19fc96e65bf21ce2c4c245a00992a61d7e7618fc6535af35377b0a850f",
+      "bytes": 191995,
+      "sha256": "4437dda9158ccea1592490c54ac4975a721960aace0007c8f100b3cf387c11ec",
       "format": "PNG"
     },
     {
       "key": "onboard-2",
-      "title": "先发第一条试试看",
-      "entry": "设置 → 先发第一条试试看",
+      "title": "一段话自动分拣",
+      "entry": "设置 → 一段话自动分拣",
       "panel": "#ob.on",
       "width": 440,
       "height": 956,
@@ -17646,7 +17691,7 @@
         },
         "标题": {
           "element": "h1",
-          "font": "24px",
+          "font": "26.4px",
           "padding": "0px",
           "gap": "normal",
           "radius": "0px",
@@ -17665,14 +17710,14 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 40865,
-      "sha256": "37c89045fbacb060192b263fda79c8943c191ca8ea4bbce0933b13d5775fc259",
+      "bytes": 71478,
+      "sha256": "b36d867eaa0e8d4c99197d047b2e5e3dcc3e09f758f0b14ffb1350ed8399d6bc",
       "format": "PNG"
     },
     {
       "key": "onboard-3",
-      "title": "挑几栋常用的房子",
-      "entry": "设置 → 挑几栋常用的房子",
+      "title": "挑常用功能",
+      "entry": "设置 → 挑常用功能",
       "panel": "#ob.on",
       "width": 440,
       "height": 956,
@@ -17691,7 +17736,7 @@
         },
         "标题": {
           "element": "h1",
-          "font": "24px",
+          "font": "26.4px",
           "padding": "0px",
           "gap": "normal",
           "radius": "0px",
@@ -17710,8 +17755,53 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 70799,
-      "sha256": "cfaf7afd8d0766507eb22b064277c07b14ffea97445f3a212f884cb5b29ddea2",
+      "bytes": 75049,
+      "sha256": "d4f5656f9349be1fa6f390e7a5a11d3163ffb9a27e1cba5415eaf5cfd92f4ddc",
+      "format": "PNG"
+    },
+    {
+      "key": "onboard-4",
+      "title": "怎么称呼你",
+      "entry": "设置 → 怎么称呼你",
+      "panel": "#ob.on",
+      "width": 440,
+      "height": 956,
+      "state": "弹层态",
+      "src": "screens/onboard-4-440-2.png",
+      "styles": {
+        "容器": {
+          "element": "div#ob",
+          "font": "16px",
+          "padding": "0px",
+          "gap": "normal",
+          "radius": "0px",
+          "ink": "rgb(67, 51, 41)",
+          "background": "rgb(247, 240, 226)",
+          "accent": "#B5483A"
+        },
+        "标题": {
+          "element": "h1",
+          "font": "26.4px",
+          "padding": "0px",
+          "gap": "normal",
+          "radius": "0px",
+          "ink": "rgb(67, 51, 41)",
+          "background": "rgba(0, 0, 0, 0)",
+          "accent": "#B5483A"
+        },
+        "控件": {
+          "element": "button#obSkip",
+          "font": "13.3333px",
+          "padding": "0px",
+          "gap": "normal",
+          "radius": "0px",
+          "ink": "rgb(118, 103, 86)",
+          "background": "rgba(0, 0, 0, 0)",
+          "accent": "#B5483A"
+        }
+      },
+      "bytes": 51445,
+      "sha256": "6cfb863cced8d892a4155ef1df825b5788262fb1ef5aec3c2cb430161620a9e0",
       "format": "PNG"
     },
     {
@@ -17935,8 +18025,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 84401,
-      "sha256": "a0582eb9abdcc876e105a3d728847f3a1512d887c0cc58038acd34ae7b887caf",
+      "bytes": 84404,
+      "sha256": "b744b6da07ea21f4e68dce8685714f9ad2d76628190914f92433830cda17ca2f",
       "format": "PNG"
     },
     {
@@ -21825,8 +21915,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 42172,
-      "sha256": "4c95a08f04362b453281f652b3ffea3729293918a1c4a5829cfb6d7ec37a36c2",
+      "bytes": 42007,
+      "sha256": "d5e7556c56e532fac5cede086ce183ac573f220bd56c48fe28ec5599130e7b35",
       "format": "PNG"
     },
     {
@@ -21870,8 +21960,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 33664,
-      "sha256": "2e6a48b959b660321f0f4c60429efcc4ce902e59047ab768378264ee87673ce2",
+      "bytes": 32310,
+      "sha256": "f4f4133848fe90a06cb930ed5ff3c236d1e2711187b3b78729c35e878e9f6e54",
       "format": "PNG"
     },
     {
@@ -21915,8 +22005,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 55160,
-      "sha256": "7bad7164f90f4d330656a874f3d4e8ec7d6395c5a583b7bbdbc76557c3d8613c",
+      "bytes": 55902,
+      "sha256": "11d23e9a3b47324732809e1436ddadc2fd2a8444b98cb11b09b4b8be25bc5b99",
       "format": "PNG"
     },
     {
@@ -21960,8 +22050,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 39337,
-      "sha256": "5a1b3f165ced44c9aa196d9fefe4ebe7e6498651d19e80eebf96d97dd6ebb611",
+      "bytes": 39321,
+      "sha256": "cc8afbd71bb5a9bda84f26bf2c972fa7f4497db51851f66a13032f7ceb05d6f0",
       "format": "PNG"
     },
     {
@@ -22050,8 +22140,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 46448,
-      "sha256": "558fab60725bc9fb86ef93afedd5d4c55ae68a3c531805160c0ef1885c93fc08",
+      "bytes": 46434,
+      "sha256": "f25e290c60dabeff17c6e775df1a99a6a61bf4c5ef63d3343116750e034d08f5",
       "format": "PNG"
     },
     {
@@ -22175,8 +22265,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 58782,
-      "sha256": "a8bbbc0e6dbac9ddb5b098ead6a351c92f03392f541d51f362f663c64faaaf2a",
+      "bytes": 58773,
+      "sha256": "ed5746983abec9d8e44357d33b7b568d303c64e9afacf4dbb8885e646b5e1831",
       "format": "PNG"
     },
     {
@@ -25578,8 +25668,8 @@
       "format": "CSS"
     },
     "index.html": {
-      "bytes": 903578,
-      "sha256": "f818cd3077dd708026b0c9598873785b194a79a593b61f3a8b97df282bac0c9b",
+      "bytes": 906273,
+      "sha256": "1c8e4345afce02a56f7c8dc05459547d95e327ba73b9d2d2fd6f7e94e6d67765",
       "format": "HTML"
     },
     "screens/agg-ask-390-0.png": {
@@ -26045,8 +26135,8 @@
       "height": 956
     },
     "screens/amount-390-2.png": {
-      "bytes": 70458,
-      "sha256": "c8b60c019a6c9e5f78a0e94a4fdf499764cdb680cee59ab3c950fb60096c377f",
+      "bytes": 70459,
+      "sha256": "136ee2029afb9a4a59d2e723edd5fac02fd12ff2f6be1229e38b85414b5ec7f6",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -26115,8 +26205,8 @@
       "height": 844
     },
     "screens/birth-440-0.png": {
-      "bytes": 46448,
-      "sha256": "558fab60725bc9fb86ef93afedd5d4c55ae68a3c531805160c0ef1885c93fc08",
+      "bytes": 46434,
+      "sha256": "f25e290c60dabeff17c6e775df1a99a6a61bf4c5ef63d3343116750e034d08f5",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26241,43 +26331,43 @@
       "height": 956
     },
     "screens/brain-color-390-0.png": {
-      "bytes": 31340,
-      "sha256": "3396ab6ea07382fa62dfabb1deef1db0115366b02bf6b2019426899929c91570",
+      "bytes": 32733,
+      "sha256": "cfc8e153f56b97d9bb0fe6d5a8e6b8c7084abe2d1e109d4ca386b525751ea454",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/brain-color-440-0.png": {
-      "bytes": 33664,
-      "sha256": "2e6a48b959b660321f0f4c60429efcc4ce902e59047ab768378264ee87673ce2",
+      "bytes": 32310,
+      "sha256": "f4f4133848fe90a06cb930ed5ff3c236d1e2711187b3b78729c35e878e9f6e54",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/brain-grid-390-0.png": {
-      "bytes": 41359,
-      "sha256": "69cc22707e1fd8bbaf891ffa0d5639a91aa66d13fd0cb8470c01b8b99de25ebd",
+      "bytes": 40717,
+      "sha256": "ced82fa484fdf5ee6c5df2072e00cf09440b42e0e866021e9d6a9e1c75216d70",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/brain-grid-440-0.png": {
-      "bytes": 42172,
-      "sha256": "4c95a08f04362b453281f652b3ffea3729293918a1c4a5829cfb6d7ec37a36c2",
+      "bytes": 42007,
+      "sha256": "d5e7556c56e532fac5cede086ce183ac573f220bd56c48fe28ec5599130e7b35",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/brain-memory-390-0.png": {
-      "bytes": 58034,
-      "sha256": "61d9d4bea1d0e9c7b27b7eab2d84fcc7b610aff6c204ded5158fd8aa0e1afafa",
+      "bytes": 61493,
+      "sha256": "eea2300feba4ec2c69a4a9193a278b3ad1becd7b1d63d788ea09807af2489e6d",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/brain-memory-440-0.png": {
-      "bytes": 55160,
-      "sha256": "7bad7164f90f4d330656a874f3d4e8ec7d6395c5a583b7bbdbc76557c3d8613c",
+      "bytes": 55902,
+      "sha256": "11d23e9a3b47324732809e1436ddadc2fd2a8444b98cb11b09b4b8be25bc5b99",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26290,8 +26380,8 @@
       "height": 844
     },
     "screens/brain-path-440-0.png": {
-      "bytes": 39337,
-      "sha256": "5a1b3f165ced44c9aa196d9fefe4ebe7e6498651d19e80eebf96d97dd6ebb611",
+      "bytes": 39321,
+      "sha256": "cc8afbd71bb5a9bda84f26bf2c972fa7f4497db51851f66a13032f7ceb05d6f0",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26353,8 +26443,8 @@
       "height": 956
     },
     "screens/card-390-2.png": {
-      "bytes": 130143,
-      "sha256": "b318dc6d13d2c175f9eb565ba3c130a6f8b6fe57778514cc885c15a56efe5737",
+      "bytes": 130147,
+      "sha256": "e2e0c7882dc9f3548c8e6849eaf417b510431bfe596a4c8f78d6b7db62dd615c",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -26395,15 +26485,15 @@
       "height": 956
     },
     "screens/changes-390-2.png": {
-      "bytes": 97037,
-      "sha256": "993c7a7c2559375f604041e7a0bef5c36b883d772365712a78e0655bbbcd0543",
+      "bytes": 95826,
+      "sha256": "53af060dd198c51df3b0152c9207816026609957f17088951c4c6bfee9f76cb0",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/changes-440-2.png": {
-      "bytes": 119688,
-      "sha256": "a10dd50846a57c05a41f10e5e947a592664e25a318bce12e5760e0465ec82593",
+      "bytes": 112541,
+      "sha256": "503f9966dca47819c9b9469b31cb5a6bd1ba53b9e04636c9b0266a184c7a3fb8",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26619,8 +26709,8 @@
       "height": 956
     },
     "screens/drawer-390-2.png": {
-      "bytes": 92485,
-      "sha256": "c9bc845f08758db1fbbd8e3c5ff3baa3443dc064495bdd2b0372ad9ed366a3f6",
+      "bytes": 92480,
+      "sha256": "9c86ed3127aea7015b9b68fa8eae47afa9ff426fa002b26077bd4a5acf0f1e62",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -26654,8 +26744,8 @@
       "height": 844
     },
     "screens/expense-440-2.png": {
-      "bytes": 90511,
-      "sha256": "0f6f992434dbd79ba6047d9f6fdd7789e4464f5de5d22cb445bd99979448181b",
+      "bytes": 90510,
+      "sha256": "873945d16e462bf0246eceb5a207036587cfe5f6039d2c64458909c1119c4c5b",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27144,8 +27234,8 @@
       "height": 844
     },
     "screens/ledger-390-2.png": {
-      "bytes": 68158,
-      "sha256": "c85f0727639e370cb7e044cb947a2235a684bcac8d51cac17f4add0d0babf73e",
+      "bytes": 68169,
+      "sha256": "58058a1f53ede9c98508543409ceeebbb41e951130cdc19793f4b262b59b7310",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -27480,8 +27570,8 @@
       "height": 844
     },
     "screens/notes-th-440-0.png": {
-      "bytes": 58782,
-      "sha256": "a8bbbc0e6dbac9ddb5b098ead6a351c92f03392f541d51f362f663c64faaaf2a",
+      "bytes": 58773,
+      "sha256": "ed5746983abec9d8e44357d33b7b568d303c64e9afacf4dbb8885e646b5e1831",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27501,57 +27591,71 @@
       "height": 956
     },
     "screens/onboard-1-390-2.png": {
-      "bytes": 163545,
-      "sha256": "342e916c6bbf904d2e148374bfae40899dcffb5f67169309d54894631da03b13",
+      "bytes": 159918,
+      "sha256": "3542de1ee1f2d1c136859e23a1b8f658c2a4731ac43fddd458a767ee93c9ef04",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/onboard-1-440-2.png": {
-      "bytes": 200830,
-      "sha256": "8f333c19fc96e65bf21ce2c4c245a00992a61d7e7618fc6535af35377b0a850f",
+      "bytes": 191995,
+      "sha256": "4437dda9158ccea1592490c54ac4975a721960aace0007c8f100b3cf387c11ec",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/onboard-2-390-2.png": {
-      "bytes": 40099,
-      "sha256": "5ffc9a9d55dca6675ffd84f967fc738016f7152f9ce7957fd9a696c272fd0a73",
+      "bytes": 69485,
+      "sha256": "f08153f6065f2f5cb6c1fab812f4ccfcb1ad7ced0f4e182469e6d89654c922c0",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/onboard-2-440-2.png": {
-      "bytes": 40865,
-      "sha256": "37c89045fbacb060192b263fda79c8943c191ca8ea4bbce0933b13d5775fc259",
+      "bytes": 71478,
+      "sha256": "b36d867eaa0e8d4c99197d047b2e5e3dcc3e09f758f0b14ffb1350ed8399d6bc",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/onboard-3-390-2.png": {
-      "bytes": 69645,
-      "sha256": "f00f319eb7a9e8171ad7ad872853dbc7ed4bce1b33a70e0135ca135868abbba7",
+      "bytes": 65561,
+      "sha256": "ef448ec2678ad64cf69c788bd2b604b0a3261c46aa8f7e8789a37db808745ffd",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/onboard-3-440-2.png": {
-      "bytes": 70799,
-      "sha256": "cfaf7afd8d0766507eb22b064277c07b14ffea97445f3a212f884cb5b29ddea2",
+      "bytes": 75049,
+      "sha256": "d4f5656f9349be1fa6f390e7a5a11d3163ffb9a27e1cba5415eaf5cfd92f4ddc",
+      "format": "PNG",
+      "width": 440,
+      "height": 956
+    },
+    "screens/onboard-4-390-2.png": {
+      "bytes": 46276,
+      "sha256": "b18efc5c4cf7f235387344c17c94b797c0e7d0d414000f597c1c45001f6244a1",
+      "format": "PNG",
+      "width": 390,
+      "height": 844
+    },
+    "screens/onboard-4-440-2.png": {
+      "bytes": 51445,
+      "sha256": "6cfb863cced8d892a4155ef1df825b5788262fb1ef5aec3c2cb430161620a9e0",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/panorama-390-2.png": {
       "bytes": 288830,
-      "sha256": "8c10cc1e0d4dbdbc9eb0d68ceb0acbb239f13c315f5fd57d11f1c9312be067cc",
+      "sha256": "ab01304424b4dc9106cb302bf88cb041f6ced535979c374122a8f907a2d3c9c0",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/panorama-440-2.png": {
-      "bytes": 363500,
-      "sha256": "7bf0d0eaf24d28c78c716fbb01ca578405473df531abf310fb4973de3b65e251",
+      "bytes": 363611,
+      "sha256": "ad5d4839260eeac3de2737beae4f028e0b9d51ee6d776a981ae7f8172ffe2dd6",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27767,8 +27871,8 @@
       "height": 956
     },
     "screens/postoffice-440-2.png": {
-      "bytes": 130636,
-      "sha256": "08b141cbe59f5e79049a0ba77cd7959d96514f063c05180953be6fdfc6f80e02",
+      "bytes": 130573,
+      "sha256": "68ff4f34fe890187cf3475d8225d204c67435614b912af39aae72cfa7bff2a5d",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27956,8 +28060,8 @@
       "height": 844
     },
     "screens/row-group-440-2.png": {
-      "bytes": 84401,
-      "sha256": "a0582eb9abdcc876e105a3d728847f3a1512d887c0cc58038acd34ae7b887caf",
+      "bytes": 84404,
+      "sha256": "b744b6da07ea21f4e68dce8685714f9ad2d76628190914f92433830cda17ca2f",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -28019,8 +28123,8 @@
       "height": 956
     },
     "screens/search-440-2.png": {
-      "bytes": 78863,
-      "sha256": "d0ccf71b7424d63bdb25b88d58df0c9e684e57dac98f9197d5d37401991c3381",
+      "bytes": 78867,
+      "sha256": "10dca30adf8cd09c28758b54a1c1fc5f72d3c407591633a06d731a3c1d6d3b0c",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -28047,15 +28151,15 @@
       "height": 956
     },
     "screens/share-390-2.png": {
-      "bytes": 77030,
-      "sha256": "7febffa737791d47bb06434662c4cbb6cd14b75fb4e420dd7a354c8c36a83a54",
+      "bytes": 76971,
+      "sha256": "7f2d08bd50ab0132165ff80298e6c052189580268474b7233a832b4e76f51b02",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/share-440-2.png": {
-      "bytes": 90251,
-      "sha256": "3e48048fef1846d7097a017dc684fa535e108fb349b262442f50091b98a7b8c2",
+      "bytes": 90506,
+      "sha256": "b60c8b8c33a4bd2b019c9d884f5665aae1db63594dfa71d9aff145ba2fa282ea",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -28271,8 +28375,8 @@
       "height": 956
     },
     "screens/today-440-2.png": {
-      "bytes": 87443,
-      "sha256": "6e058910a8e69729af91dd46267bfb45d6e38ffe7e6713ec7edd7dda18d589a6",
+      "bytes": 87410,
+      "sha256": "1b65fdbb229fbb5d3a49d7c27e0c73ed2d0d0657fdc136f24a326b1fdf4a9b54",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -28509,5 +28613,5 @@
       "height": 956
     }
   },
-  "screenSignature": "2d539e823bf8208ceaf04bdc995185cb143380ef656410cd3c8cdaefef513607"
+  "screenSignature": "d79e6553ce2be0763284d22d1708cf16a1c310db0f6c20ffff0450a325299790"
 }
