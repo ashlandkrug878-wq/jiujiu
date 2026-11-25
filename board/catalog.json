@@ -1,5 +1,5 @@
 {
-  "version": "3.12.3",
+  "version": "3.13.0",
   "baselineEntries": 78,
   "houses": {
     "post": {
@@ -5036,7 +5036,7 @@
     },
     {
       "key": "book",
-      "title": "小岛书屋",
+      "title": "书影音 · 阅读",
       "entry": "选房启用 → 侧栏 → 阅读",
       "panel": "#view",
       "width": 390,
@@ -5065,23 +5065,23 @@
           "accent": "#B5483A"
         },
         "控件": {
-          "element": "button#rcAdd",
+          "element": "button",
           "font": "13px",
-          "padding": "6px 14px",
+          "padding": "0px 4px",
           "gap": "normal",
-          "radius": "999px",
-          "ink": "rgb(255, 255, 255)",
-          "background": "rgb(181, 72, 58)",
+          "radius": "9px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 61119,
-      "sha256": "ffa1188a20df30b94421e7b6ebb58314bd96173aec81885201756e83639287fb",
+      "bytes": 65368,
+      "sha256": "b35fcb466ea124af89e121635fc9863d717366eb01dce4d5bdd871d3ee4de326",
       "format": "PNG"
     },
     {
       "key": "movie",
-      "title": "小岛影院",
+      "title": "书影音 · 电影",
       "entry": "选房启用 → 侧栏 → 电影",
       "panel": "#view",
       "width": 390,
@@ -5110,18 +5110,18 @@
           "accent": "#B5483A"
         },
         "控件": {
-          "element": "button#rcAdd",
+          "element": "button",
           "font": "13px",
-          "padding": "6px 14px",
+          "padding": "0px 4px",
           "gap": "normal",
-          "radius": "999px",
-          "ink": "rgb(255, 255, 255)",
-          "background": "rgb(181, 72, 58)",
+          "radius": "9px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgb(255, 252, 245)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 60431,
-      "sha256": "72546020f5f8b4ccab1a751732f4958b490d1eda85c2d86ef511ef473cd6d5f1",
+      "bytes": 67083,
+      "sha256": "70516dc6e782a4e658c402b621dc551d41ac7b619ab21e3d433b6b520ccd02e6",
       "format": "PNG"
     },
     {
@@ -5210,8 +5210,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 68169,
-      "sha256": "58058a1f53ede9c98508543409ceeebbb41e951130cdc19793f4b262b59b7310",
+      "bytes": 68158,
+      "sha256": "c85f0727639e370cb7e044cb947a2235a684bcac8d51cac17f4add0d0babf73e",
       "format": "PNG"
     },
     {
@@ -5435,8 +5435,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 65663,
-      "sha256": "04898c74d18d39505414e9c49a6d832580d65e501276b712a8d3f6e8b4cecf56",
+      "bytes": 65688,
+      "sha256": "0d5126d6626fe2aee98c0548150cefb21a4dc7a62e992c75e10c982fb2e645df",
       "format": "PNG"
     },
     {
@@ -6705,6 +6705,51 @@
       "format": "PNG"
     },
     {
+      "key": "media-cover",
+      "title": "更换书影音封面",
+      "entry": "书影音 · 电影 → 更换书影音封面",
+      "panel": "#gsheet.on",
+      "width": 390,
+      "height": 844,
+      "state": "弹层态",
+      "src": "screens/media-cover-390-2.png",
+      "styles": {
+        "容器": {
+          "element": "div#gsheet",
+          "font": "16px",
+          "padding": "18px 20px 20px",
+          "gap": "normal",
+          "radius": "18px 18px 0px 0px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgb(255, 252, 245)",
+          "accent": "#B5483A"
+        },
+        "标题": {
+          "element": "div.gs-title",
+          "font": "16px",
+          "padding": "0px",
+          "gap": "normal",
+          "radius": "0px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgba(0, 0, 0, 0)",
+          "accent": "#B5483A"
+        },
+        "控件": {
+          "element": "button.gs-close",
+          "font": "20px",
+          "padding": "0px",
+          "gap": "normal",
+          "radius": "999px",
+          "ink": "rgb(117, 98, 79)",
+          "background": "rgb(255, 252, 245)",
+          "accent": "#B5483A"
+        }
+      },
+      "bytes": 44101,
+      "sha256": "1c9d3bf58fa1e22adc5ea63a14af9956aee82367abbc26571bbc3b6b1bc26515",
+      "format": "PNG"
+    },
+    {
       "key": "font",
       "title": "字体大小",
       "entry": "设置 → 字体大小",
@@ -7562,7 +7607,7 @@
     {
       "key": "film-record",
       "title": "记一部电影",
-      "entry": "小岛影院 → 记一部电影",
+      "entry": "书影音 · 电影 → 记一部电影",
       "panel": "#gsheet.on",
       "width": 390,
       "height": 844,
@@ -7600,14 +7645,14 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 71787,
-      "sha256": "8d9b66fdcfd94709247d069dba2b390b7bb8291ca55fa45fe67f63351965e429",
+      "bytes": 35843,
+      "sha256": "07a8444446e615acfc0fae91b3f01d7e6df7652c8579e338783e3b6e2070c1c6",
       "format": "PNG"
     },
     {
       "key": "book-record",
       "title": "记一本书",
-      "entry": "小岛书屋 → 记一本书",
+      "entry": "书影音 · 阅读 → 记一本书",
       "panel": "#gsheet.on",
       "width": 390,
       "height": 844,
@@ -7645,8 +7690,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 70677,
-      "sha256": "62efa6b430cfd7903431e798cee2c70e9e4ad6277d04085c5b3f68be2438eded",
+      "bytes": 35810,
+      "sha256": "0493e9238cd16893c71d4c2aa652b87d455c666db81cf6d8ddd76d4812db99a3",
       "format": "PNG"
     },
     {
@@ -8095,8 +8140,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 70459,
-      "sha256": "136ee2029afb9a4a59d2e723edd5fac02fd12ff2f6be1229e38b85414b5ec7f6",
+      "bytes": 70458,
+      "sha256": "c8b60c019a6c9e5f78a0e94a4fdf499764cdb680cee59ab3c950fb60096c377f",
       "format": "PNG"
     },
     {
@@ -8185,8 +8230,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 92480,
-      "sha256": "9c86ed3127aea7015b9b68fa8eae47afa9ff426fa002b26077bd4a5acf0f1e62",
+      "bytes": 93648,
+      "sha256": "ffc28ec2e5f9c25d0ccce55cfa01159578bcd48e8d6fcbafa29a10c2931bad9c",
       "format": "PNG"
     },
     {
@@ -8365,8 +8410,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 95826,
-      "sha256": "53af060dd198c51df3b0152c9207816026609957f17088951c4c6bfee9f76cb0",
+      "bytes": 94485,
+      "sha256": "e5eb15bddd0746d4288057e1aca094e59b0ed09166f804a9a754e3e745551660",
       "format": "PNG"
     },
     {
@@ -8490,8 +8535,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 76971,
-      "sha256": "7f2d08bd50ab0132165ff80298e6c052189580268474b7233a832b4e76f51b02",
+      "bytes": 76856,
+      "sha256": "2fe438a82ba80088502c53b85cb657599677923410b370cd801c96c27fb071b0",
       "format": "PNG"
     },
     {
@@ -9082,7 +9127,7 @@
     {
       "key": "score",
       "title": "修改评分",
-      "entry": "小岛影院 → 修改评分",
+      "entry": "书影音 · 电影 → 修改评分",
       "panel": "#gsheet.on",
       "width": 390,
       "height": 844,
@@ -9120,8 +9165,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 70595,
-      "sha256": "952ee20d71ac9c350980ba6ba3d3c8bd8ef9b437dc5c19be9033e80effadc67b",
+      "bytes": 76426,
+      "sha256": "7ad187da93d694d7c3a7b873eb8b84db1c405daf8e7063d562fc2ac611ad445c",
       "format": "PNG"
     },
     {
@@ -10276,7 +10321,7 @@
     },
     {
       "key": "book",
-      "title": "小岛书屋",
+      "title": "书影音 · 阅读",
       "entry": "选房启用 → 侧栏 → 阅读",
       "panel": "#view",
       "width": 390,
@@ -10305,23 +10350,23 @@
           "accent": "#B5483A"
         },
         "控件": {
-          "element": "button#rcAdd",
+          "element": "button",
           "font": "13px",
-          "padding": "6px 14px",
+          "padding": "0px 4px",
           "gap": "normal",
-          "radius": "999px",
-          "ink": "rgb(255, 255, 255)",
-          "background": "rgb(181, 72, 58)",
+          "radius": "9px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 75485,
-      "sha256": "6e4d6097d967f1492c2ebc0287dbcf9f938fbc7748e8a53e11c040bbb0d37221",
+      "bytes": 81145,
+      "sha256": "0b98ca04b7d0af55dfbf4e47895369072a3da9b09c8b36b68cc0543e26c08254",
       "format": "PNG"
     },
     {
       "key": "movie",
-      "title": "小岛影院",
+      "title": "书影音 · 电影",
       "entry": "选房启用 → 侧栏 → 电影",
       "panel": "#view",
       "width": 390,
@@ -10350,18 +10395,18 @@
           "accent": "#B5483A"
         },
         "控件": {
-          "element": "button#rcAdd",
+          "element": "button",
           "font": "13px",
-          "padding": "6px 14px",
+          "padding": "0px 4px",
           "gap": "normal",
-          "radius": "999px",
-          "ink": "rgb(255, 255, 255)",
-          "background": "rgb(181, 72, 58)",
+          "radius": "9px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgb(255, 252, 245)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 75385,
-      "sha256": "2aa90105e6beee9a20c7663d6f79d6b3232213fdaaff98ba918f1a8410922924",
+      "bytes": 83881,
+      "sha256": "a038c887210561cd52656ba0e3add72e0543a22e1fe6c628c6daf84b4f29615d",
       "format": "PNG"
     },
     {
@@ -12026,7 +12071,7 @@
     },
     {
       "key": "book",
-      "title": "小岛书屋",
+      "title": "书影音 · 阅读",
       "entry": "选房启用 → 侧栏 → 阅读",
       "panel": "#view",
       "width": 390,
@@ -12055,23 +12100,23 @@
           "accent": "#B5483A"
         },
         "控件": {
-          "element": "button#rcAdd",
+          "element": "button",
           "font": "13px",
-          "padding": "6px 14px",
+          "padding": "0px 4px",
           "gap": "normal",
-          "radius": "999px",
-          "ink": "rgb(255, 255, 255)",
-          "background": "rgb(181, 72, 58)",
+          "radius": "9px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 49113,
-      "sha256": "e7c6d668adcaf98c6df348976404ffbdbf83f1f62426c0bd1236bcd81e0f1d6e",
+      "bytes": 44849,
+      "sha256": "dfb995a858b3acd3a44da0446d763221acd99eb1dfbcba70c3199624f4d10baf",
       "format": "PNG"
     },
     {
       "key": "movie",
-      "title": "小岛影院",
+      "title": "书影音 · 电影",
       "entry": "选房启用 → 侧栏 → 电影",
       "panel": "#view",
       "width": 390,
@@ -12100,18 +12145,18 @@
           "accent": "#B5483A"
         },
         "控件": {
-          "element": "button#rcAdd",
+          "element": "button",
           "font": "13px",
-          "padding": "6px 14px",
+          "padding": "0px 4px",
           "gap": "normal",
-          "radius": "999px",
-          "ink": "rgb(255, 255, 255)",
-          "background": "rgb(181, 72, 58)",
+          "radius": "9px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgb(255, 252, 245)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 48448,
-      "sha256": "bd0de3a030b6e152528d967d5595fea9187d922c852398b753786c57e5c5f506",
+      "bytes": 46186,
+      "sha256": "2e216b5bccdecbf0f9f572ae2e96f54dc85de2977a1bcd137ca7fb40d4238815",
       "format": "PNG"
     },
     {
@@ -12875,8 +12920,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 40717,
-      "sha256": "ced82fa484fdf5ee6c5df2072e00cf09440b42e0e866021e9d6a9e1c75216d70",
+      "bytes": 40763,
+      "sha256": "274d64ee32b154e0e415f8a5b983badc06102a82956a44be68bba234b2c719de",
       "format": "PNG"
     },
     {
@@ -12920,8 +12965,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 32733,
-      "sha256": "cfc8e153f56b97d9bb0fe6d5a8e6b8c7084abe2d1e109d4ca386b525751ea454",
+      "bytes": 31260,
+      "sha256": "804175d1f30ec336599d5db829b801e15e6c096ed40c2bab25be8d958181f732",
       "format": "PNG"
     },
     {
@@ -12965,8 +13010,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 61493,
-      "sha256": "eea2300feba4ec2c69a4a9193a278b3ad1becd7b1d63d788ea09807af2489e6d",
+      "bytes": 57548,
+      "sha256": "1c85a74c88a43ba5c010464ed35c185094c56963d52bed4785a3e4114096e06c",
       "format": "PNG"
     },
     {
@@ -13010,8 +13055,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 37855,
-      "sha256": "b6e761c31d088271a86992ce09c97148a7b272d27956bcf2fdb7fa8c8852cd9e",
+      "bytes": 37918,
+      "sha256": "a6be008db0c2f51d96424a05d1c11fb4cc15c86e738a34d26fc9fc431ddc7bc1",
       "format": "PNG"
     },
     {
@@ -13360,8 +13405,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 87410,
-      "sha256": "1b65fdbb229fbb5d3a49d7c27e0c73ed2d0d0657fdc136f24a326b1fdf4a9b54",
+      "bytes": 87443,
+      "sha256": "6e058910a8e69729af91dd46267bfb45d6e38ffe7e6713ec7edd7dda18d589a6",
       "format": "PNG"
     },
     {
@@ -14076,7 +14121,7 @@
     },
     {
       "key": "book",
-      "title": "小岛书屋",
+      "title": "书影音 · 阅读",
       "entry": "选房启用 → 侧栏 → 阅读",
       "panel": "#view",
       "width": 440,
@@ -14105,23 +14150,23 @@
           "accent": "#B5483A"
         },
         "控件": {
-          "element": "button#rcAdd",
+          "element": "button",
           "font": "13px",
-          "padding": "6px 14px",
+          "padding": "0px 4px",
           "gap": "normal",
-          "radius": "999px",
-          "ink": "rgb(255, 255, 255)",
-          "background": "rgb(181, 72, 58)",
+          "radius": "9px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 64700,
-      "sha256": "25ff4d0717877ab1335d4bb19a069896617ac6da6ab38f55b9ff3393f083bf36",
+      "bytes": 70812,
+      "sha256": "c7a2514f487d05dbcf98ebab5ce3390a0daa79273e135152651cad53f8052e47",
       "format": "PNG"
     },
     {
       "key": "movie",
-      "title": "小岛影院",
+      "title": "书影音 · 电影",
       "entry": "选房启用 → 侧栏 → 电影",
       "panel": "#view",
       "width": 440,
@@ -14150,18 +14195,18 @@
           "accent": "#B5483A"
         },
         "控件": {
-          "element": "button#rcAdd",
+          "element": "button",
           "font": "13px",
-          "padding": "6px 14px",
+          "padding": "0px 4px",
           "gap": "normal",
-          "radius": "999px",
-          "ink": "rgb(255, 255, 255)",
-          "background": "rgb(181, 72, 58)",
+          "radius": "9px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgb(255, 252, 245)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 64147,
-      "sha256": "a6e74c2e661810b1741c946af3f7dcae37cc0e426708698a79dc3d6448d2dcd6",
+      "bytes": 68797,
+      "sha256": "7feecad93fd6a1ba17337c5e077e4b9aebde8842d37f912250918aceaf4cfadb",
       "format": "PNG"
     },
     {
@@ -14385,8 +14430,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 130573,
-      "sha256": "68ff4f34fe890187cf3475d8225d204c67435614b912af39aae72cfa7bff2a5d",
+      "bytes": 130636,
+      "sha256": "08b141cbe59f5e79049a0ba77cd7959d96514f063c05180953be6fdfc6f80e02",
       "format": "PNG"
     },
     {
@@ -15605,8 +15650,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 363611,
-      "sha256": "ad5d4839260eeac3de2737beae4f028e0b9d51ee6d776a981ae7f8172ffe2dd6",
+      "bytes": 363690,
+      "sha256": "da5b5086736daae4e85a3cce1014f446e04836319f13fed3d9a75a6657a33f18",
       "format": "PNG"
     },
     {
@@ -15742,6 +15787,51 @@
       },
       "bytes": 71807,
       "sha256": "eda221b499877b6d54e4864d3eeb503c701f039eb1f40cfbba64da16c27ac8d7",
+      "format": "PNG"
+    },
+    {
+      "key": "media-cover",
+      "title": "更换书影音封面",
+      "entry": "书影音 · 电影 → 更换书影音封面",
+      "panel": "#gsheet.on",
+      "width": 440,
+      "height": 956,
+      "state": "弹层态",
+      "src": "screens/media-cover-440-2.png",
+      "styles": {
+        "容器": {
+          "element": "div#gsheet",
+          "font": "16px",
+          "padding": "18px 20px 20px",
+          "gap": "normal",
+          "radius": "18px 18px 0px 0px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgb(255, 252, 245)",
+          "accent": "#B5483A"
+        },
+        "标题": {
+          "element": "div.gs-title",
+          "font": "16px",
+          "padding": "0px",
+          "gap": "normal",
+          "radius": "0px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgba(0, 0, 0, 0)",
+          "accent": "#B5483A"
+        },
+        "控件": {
+          "element": "button.gs-close",
+          "font": "20px",
+          "padding": "0px",
+          "gap": "normal",
+          "radius": "999px",
+          "ink": "rgb(117, 98, 79)",
+          "background": "rgb(255, 252, 245)",
+          "accent": "#B5483A"
+        }
+      },
+      "bytes": 62665,
+      "sha256": "c0c053cbcf5d266b3c56b3c1714fc7b5da22911ed563caec26d8f0f035833fe3",
       "format": "PNG"
     },
     {
@@ -16505,8 +16595,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 90510,
-      "sha256": "873945d16e462bf0246eceb5a207036587cfe5f6039d2c64458909c1119c4c5b",
+      "bytes": 90482,
+      "sha256": "5e1177cb92f14185ded1edec12ea55211f9433de2a2b0b11c1d8e8745b8e48a2",
       "format": "PNG"
     },
     {
@@ -16602,7 +16692,7 @@
     {
       "key": "film-record",
       "title": "记一部电影",
-      "entry": "小岛影院 → 记一部电影",
+      "entry": "书影音 · 电影 → 记一部电影",
       "panel": "#gsheet.on",
       "width": 440,
       "height": 956,
@@ -16640,14 +16730,14 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 88199,
-      "sha256": "1dfb8cbdffb732d5e0bea773db3c70e5fa307131007c237dc74f5f7d1442c2d6",
+      "bytes": 40219,
+      "sha256": "4f7dc5a95a3dd8db33bde9b8bcee2d58876e397f6ef5af26be195481dda86b0d",
       "format": "PNG"
     },
     {
       "key": "book-record",
       "title": "记一本书",
-      "entry": "小岛书屋 → 记一本书",
+      "entry": "书影音 · 阅读 → 记一本书",
       "panel": "#gsheet.on",
       "width": 440,
       "height": 956,
@@ -16685,8 +16775,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 87181,
-      "sha256": "dafbe8128e4b2d4a30d2283f44cae43c1a57e0237511c02a1a097cbadf448a4f",
+      "bytes": 39689,
+      "sha256": "58fd8253c4b70dda699ee7ec205a4abf86564491604ceddb018de0551740e406",
       "format": "PNG"
     },
     {
@@ -17225,8 +17315,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 96373,
-      "sha256": "a2cd798eb12cb7d532cc8d88b8039538be297ac19f01435343a966c7e9917ac9",
+      "bytes": 99354,
+      "sha256": "92af21ceadf6e222ba277e357c446843df867b8a87b4bed48e3247c3ee428036",
       "format": "PNG"
     },
     {
@@ -17405,8 +17495,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 112541,
-      "sha256": "503f9966dca47819c9b9469b31cb5a6bd1ba53b9e04636c9b0266a184c7a3fb8",
+      "bytes": 111437,
+      "sha256": "ee6220bcb8fd4bed63d90ff6ba4dd78ff49057bce75d86276e5bad2814f678ed",
       "format": "PNG"
     },
     {
@@ -17530,8 +17620,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 90506,
-      "sha256": "b60c8b8c33a4bd2b019c9d884f5665aae1db63594dfa71d9aff145ba2fa282ea",
+      "bytes": 90296,
+      "sha256": "568d6e6028a25562c59f67a3a2d1e7145b3c0751f1e4bf5aea9300104a729267",
       "format": "PNG"
     },
     {
@@ -18122,7 +18212,7 @@
     {
       "key": "score",
       "title": "修改评分",
-      "entry": "小岛影院 → 修改评分",
+      "entry": "书影音 · 电影 → 修改评分",
       "panel": "#gsheet.on",
       "width": 440,
       "height": 956,
@@ -18160,8 +18250,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 73875,
-      "sha256": "48a91491b61a47c84b367cc369497331da56878fdf03bbcae4651e066c02da71",
+      "bytes": 78223,
+      "sha256": "42a872ac91be144ed2d61f21788c8aa2f678e39de679b8c7995c55bc67b05b89",
       "format": "PNG"
     },
     {
@@ -19316,7 +19406,7 @@
     },
     {
       "key": "book",
-      "title": "小岛书屋",
+      "title": "书影音 · 阅读",
       "entry": "选房启用 → 侧栏 → 阅读",
       "panel": "#view",
       "width": 440,
@@ -19345,23 +19435,23 @@
           "accent": "#B5483A"
         },
         "控件": {
-          "element": "button#rcAdd",
+          "element": "button",
           "font": "13px",
-          "padding": "6px 14px",
+          "padding": "0px 4px",
           "gap": "normal",
-          "radius": "999px",
-          "ink": "rgb(255, 255, 255)",
-          "background": "rgb(181, 72, 58)",
+          "radius": "9px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 91057,
-      "sha256": "44ac063ebd9190d0281433056b769958de909579bfa92bd09f142f63cda342fb",
+      "bytes": 95619,
+      "sha256": "0209c85e891c4a31790be2fafa6f8949a625fe9bfbf9a5e0e1aafd580612cf70",
       "format": "PNG"
     },
     {
       "key": "movie",
-      "title": "小岛影院",
+      "title": "书影音 · 电影",
       "entry": "选房启用 → 侧栏 → 电影",
       "panel": "#view",
       "width": 440,
@@ -19390,18 +19480,18 @@
           "accent": "#B5483A"
         },
         "控件": {
-          "element": "button#rcAdd",
+          "element": "button",
           "font": "13px",
-          "padding": "6px 14px",
+          "padding": "0px 4px",
           "gap": "normal",
-          "radius": "999px",
-          "ink": "rgb(255, 255, 255)",
-          "background": "rgb(181, 72, 58)",
+          "radius": "9px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgb(255, 252, 245)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 90717,
-      "sha256": "8934637ddf1568823927b5c2069ea75c66acc9d39d6a86965f1a624936651ea3",
+      "bytes": 94337,
+      "sha256": "b45576ffbaefa952473875111f7e7f54f400bd1164e9ce3fa78281ed37c16b02",
       "format": "PNG"
     },
     {
@@ -21066,7 +21156,7 @@
     },
     {
       "key": "book",
-      "title": "小岛书屋",
+      "title": "书影音 · 阅读",
       "entry": "选房启用 → 侧栏 → 阅读",
       "panel": "#view",
       "width": 440,
@@ -21095,23 +21185,23 @@
           "accent": "#B5483A"
         },
         "控件": {
-          "element": "button#rcAdd",
+          "element": "button",
           "font": "13px",
-          "padding": "6px 14px",
+          "padding": "0px 4px",
           "gap": "normal",
-          "radius": "999px",
-          "ink": "rgb(255, 255, 255)",
-          "background": "rgb(181, 72, 58)",
+          "radius": "9px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgba(0, 0, 0, 0)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 51921,
-      "sha256": "d9569ca29ec4c3d7d38686a5665ebeeb67bb050ff361e76e21bc52cc6e6ee613",
+      "bytes": 49799,
+      "sha256": "45ab181a54852230c40f2e0b40cd69f350ee483cc86784c5ba36fc0d88b8a3ae",
       "format": "PNG"
     },
     {
       "key": "movie",
-      "title": "小岛影院",
+      "title": "书影音 · 电影",
       "entry": "选房启用 → 侧栏 → 电影",
       "panel": "#view",
       "width": 440,
@@ -21140,18 +21230,18 @@
           "accent": "#B5483A"
         },
         "控件": {
-          "element": "button#rcAdd",
+          "element": "button",
           "font": "13px",
-          "padding": "6px 14px",
+          "padding": "0px 4px",
           "gap": "normal",
-          "radius": "999px",
-          "ink": "rgb(255, 255, 255)",
-          "background": "rgb(181, 72, 58)",
+          "radius": "9px",
+          "ink": "rgb(46, 36, 28)",
+          "background": "rgb(255, 252, 245)",
           "accent": "#B5483A"
         }
       },
-      "bytes": 51416,
-      "sha256": "cd423d6480cbfdb6067cc01656c1c57695c266293aa09ac171f327c88ef67992",
+      "bytes": 47611,
+      "sha256": "8c6e4038a5437bdb64485140766fc92531997c558762c60f8bed04d047cf3886",
       "format": "PNG"
     },
     {
@@ -21915,8 +22005,8 @@
           "accent": "#B5483A"
         }
       },
-      "bytes": 42007,
-      "sha256": "d5e7556c56e532fac5cede086ce183ac573f220bd56c48fe28ec5599130e7b35",
+      "bytes": 42232,
+      "sha256": "2a1224814c021184adfcb42b4384895d7ba9373b4550db53c9e89228b563619e",
       "format": "PNG"
     },
     {
@@ -25668,8 +25758,8 @@
       "format": "CSS"
     },
     "index.html": {
-      "bytes": 906273,
-      "sha256": "1c8e4345afce02a56f7c8dc05459547d95e327ba73b9d2d2fd6f7e94e6d67765",
+      "bytes": 909504,
+      "sha256": "b1b3753983e6b8bdfa13eb42e59b777a68c86f162a81462cbb497565f8642ded",
       "format": "HTML"
     },
     "screens/agg-ask-390-0.png": {
@@ -26135,8 +26225,8 @@
       "height": 956
     },
     "screens/amount-390-2.png": {
-      "bytes": 70459,
-      "sha256": "136ee2029afb9a4a59d2e723edd5fac02fd12ff2f6be1229e38b85414b5ec7f6",
+      "bytes": 70458,
+      "sha256": "c8b60c019a6c9e5f78a0e94a4fdf499764cdb680cee59ab3c950fb60096c377f",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -26247,57 +26337,57 @@
       "height": 956
     },
     "screens/book-390-0.png": {
-      "bytes": 49113,
-      "sha256": "e7c6d668adcaf98c6df348976404ffbdbf83f1f62426c0bd1236bcd81e0f1d6e",
+      "bytes": 44849,
+      "sha256": "dfb995a858b3acd3a44da0446d763221acd99eb1dfbcba70c3199624f4d10baf",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/book-390-2.png": {
-      "bytes": 61119,
-      "sha256": "ffa1188a20df30b94421e7b6ebb58314bd96173aec81885201756e83639287fb",
+      "bytes": 65368,
+      "sha256": "b35fcb466ea124af89e121635fc9863d717366eb01dce4d5bdd871d3ee4de326",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/book-390-24.png": {
-      "bytes": 75485,
-      "sha256": "6e4d6097d967f1492c2ebc0287dbcf9f938fbc7748e8a53e11c040bbb0d37221",
+      "bytes": 81145,
+      "sha256": "0b98ca04b7d0af55dfbf4e47895369072a3da9b09c8b36b68cc0543e26c08254",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/book-440-0.png": {
-      "bytes": 51921,
-      "sha256": "d9569ca29ec4c3d7d38686a5665ebeeb67bb050ff361e76e21bc52cc6e6ee613",
+      "bytes": 49799,
+      "sha256": "45ab181a54852230c40f2e0b40cd69f350ee483cc86784c5ba36fc0d88b8a3ae",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/book-440-2.png": {
-      "bytes": 64700,
-      "sha256": "25ff4d0717877ab1335d4bb19a069896617ac6da6ab38f55b9ff3393f083bf36",
+      "bytes": 70812,
+      "sha256": "c7a2514f487d05dbcf98ebab5ce3390a0daa79273e135152651cad53f8052e47",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/book-440-24.png": {
-      "bytes": 91057,
-      "sha256": "44ac063ebd9190d0281433056b769958de909579bfa92bd09f142f63cda342fb",
+      "bytes": 95619,
+      "sha256": "0209c85e891c4a31790be2fafa6f8949a625fe9bfbf9a5e0e1aafd580612cf70",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/book-record-390-2.png": {
-      "bytes": 70677,
-      "sha256": "62efa6b430cfd7903431e798cee2c70e9e4ad6277d04085c5b3f68be2438eded",
+      "bytes": 35810,
+      "sha256": "0493e9238cd16893c71d4c2aa652b87d455c666db81cf6d8ddd76d4812db99a3",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/book-record-440-2.png": {
-      "bytes": 87181,
-      "sha256": "dafbe8128e4b2d4a30d2283f44cae43c1a57e0237511c02a1a097cbadf448a4f",
+      "bytes": 39689,
+      "sha256": "58fd8253c4b70dda699ee7ec205a4abf86564491604ceddb018de0551740e406",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26331,8 +26421,8 @@
       "height": 956
     },
     "screens/brain-color-390-0.png": {
-      "bytes": 32733,
-      "sha256": "cfc8e153f56b97d9bb0fe6d5a8e6b8c7084abe2d1e109d4ca386b525751ea454",
+      "bytes": 31260,
+      "sha256": "804175d1f30ec336599d5db829b801e15e6c096ed40c2bab25be8d958181f732",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -26345,22 +26435,22 @@
       "height": 956
     },
     "screens/brain-grid-390-0.png": {
-      "bytes": 40717,
-      "sha256": "ced82fa484fdf5ee6c5df2072e00cf09440b42e0e866021e9d6a9e1c75216d70",
+      "bytes": 40763,
+      "sha256": "274d64ee32b154e0e415f8a5b983badc06102a82956a44be68bba234b2c719de",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/brain-grid-440-0.png": {
-      "bytes": 42007,
-      "sha256": "d5e7556c56e532fac5cede086ce183ac573f220bd56c48fe28ec5599130e7b35",
+      "bytes": 42232,
+      "sha256": "2a1224814c021184adfcb42b4384895d7ba9373b4550db53c9e89228b563619e",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/brain-memory-390-0.png": {
-      "bytes": 61493,
-      "sha256": "eea2300feba4ec2c69a4a9193a278b3ad1becd7b1d63d788ea09807af2489e6d",
+      "bytes": 57548,
+      "sha256": "1c85a74c88a43ba5c010464ed35c185094c56963d52bed4785a3e4114096e06c",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -26373,8 +26463,8 @@
       "height": 956
     },
     "screens/brain-path-390-0.png": {
-      "bytes": 37855,
-      "sha256": "b6e761c31d088271a86992ce09c97148a7b272d27956bcf2fdb7fa8c8852cd9e",
+      "bytes": 37918,
+      "sha256": "a6be008db0c2f51d96424a05d1c11fb4cc15c86e738a34d26fc9fc431ddc7bc1",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -26485,15 +26575,15 @@
       "height": 956
     },
     "screens/changes-390-2.png": {
-      "bytes": 95826,
-      "sha256": "53af060dd198c51df3b0152c9207816026609957f17088951c4c6bfee9f76cb0",
+      "bytes": 94485,
+      "sha256": "e5eb15bddd0746d4288057e1aca094e59b0ed09166f804a9a754e3e745551660",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/changes-440-2.png": {
-      "bytes": 112541,
-      "sha256": "503f9966dca47819c9b9469b31cb5a6bd1ba53b9e04636c9b0266a184c7a3fb8",
+      "bytes": 111437,
+      "sha256": "ee6220bcb8fd4bed63d90ff6ba4dd78ff49057bce75d86276e5bad2814f678ed",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26709,15 +26799,15 @@
       "height": 956
     },
     "screens/drawer-390-2.png": {
-      "bytes": 92480,
-      "sha256": "9c86ed3127aea7015b9b68fa8eae47afa9ff426fa002b26077bd4a5acf0f1e62",
+      "bytes": 93648,
+      "sha256": "ffc28ec2e5f9c25d0ccce55cfa01159578bcd48e8d6fcbafa29a10c2931bad9c",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/drawer-440-2.png": {
-      "bytes": 96373,
-      "sha256": "a2cd798eb12cb7d532cc8d88b8039538be297ac19f01435343a966c7e9917ac9",
+      "bytes": 99354,
+      "sha256": "92af21ceadf6e222ba277e357c446843df867b8a87b4bed48e3247c3ee428036",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -26744,22 +26834,22 @@
       "height": 844
     },
     "screens/expense-440-2.png": {
-      "bytes": 90510,
-      "sha256": "873945d16e462bf0246eceb5a207036587cfe5f6039d2c64458909c1119c4c5b",
+      "bytes": 90482,
+      "sha256": "5e1177cb92f14185ded1edec12ea55211f9433de2a2b0b11c1d8e8745b8e48a2",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/film-record-390-2.png": {
-      "bytes": 71787,
-      "sha256": "8d9b66fdcfd94709247d069dba2b390b7bb8291ca55fa45fe67f63351965e429",
+      "bytes": 35843,
+      "sha256": "07a8444446e615acfc0fae91b3f01d7e6df7652c8579e338783e3b6e2070c1c6",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/film-record-440-2.png": {
-      "bytes": 88199,
-      "sha256": "1dfb8cbdffb732d5e0bea773db3c70e5fa307131007c237dc74f5f7d1442c2d6",
+      "bytes": 40219,
+      "sha256": "4f7dc5a95a3dd8db33bde9b8bcee2d58876e397f6ef5af26be195481dda86b0d",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27234,8 +27324,8 @@
       "height": 844
     },
     "screens/ledger-390-2.png": {
-      "bytes": 68169,
-      "sha256": "58058a1f53ede9c98508543409ceeebbb41e951130cdc19793f4b262b59b7310",
+      "bytes": 68158,
+      "sha256": "c85f0727639e370cb7e044cb947a2235a684bcac8d51cac17f4add0d0babf73e",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -27408,6 +27498,20 @@
       "width": 440,
       "height": 956
     },
+    "screens/media-cover-390-2.png": {
+      "bytes": 44101,
+      "sha256": "1c9d3bf58fa1e22adc5ea63a14af9956aee82367abbc26571bbc3b6b1bc26515",
+      "format": "PNG",
+      "width": 390,
+      "height": 844
+    },
+    "screens/media-cover-440-2.png": {
+      "bytes": 62665,
+      "sha256": "c0c053cbcf5d266b3c56b3c1714fc7b5da22911ed563caec26d8f0f035833fe3",
+      "format": "PNG",
+      "width": 440,
+      "height": 956
+    },
     "screens/moment-390-2.png": {
       "bytes": 68556,
       "sha256": "1f756e58b77418730b16cb82f3088f3e941ada0a5c4713c17e26615576773419",
@@ -27423,43 +27527,43 @@
       "height": 956
     },
     "screens/movie-390-0.png": {
-      "bytes": 48448,
-      "sha256": "bd0de3a030b6e152528d967d5595fea9187d922c852398b753786c57e5c5f506",
+      "bytes": 46186,
+      "sha256": "2e216b5bccdecbf0f9f572ae2e96f54dc85de2977a1bcd137ca7fb40d4238815",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/movie-390-2.png": {
-      "bytes": 60431,
-      "sha256": "72546020f5f8b4ccab1a751732f4958b490d1eda85c2d86ef511ef473cd6d5f1",
+      "bytes": 67083,
+      "sha256": "70516dc6e782a4e658c402b621dc551d41ac7b619ab21e3d433b6b520ccd02e6",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/movie-390-24.png": {
-      "bytes": 75385,
-      "sha256": "2aa90105e6beee9a20c7663d6f79d6b3232213fdaaff98ba918f1a8410922924",
+      "bytes": 83881,
+      "sha256": "a038c887210561cd52656ba0e3add72e0543a22e1fe6c628c6daf84b4f29615d",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/movie-440-0.png": {
-      "bytes": 51416,
-      "sha256": "cd423d6480cbfdb6067cc01656c1c57695c266293aa09ac171f327c88ef67992",
+      "bytes": 47611,
+      "sha256": "8c6e4038a5437bdb64485140766fc92531997c558762c60f8bed04d047cf3886",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/movie-440-2.png": {
-      "bytes": 64147,
-      "sha256": "a6e74c2e661810b1741c946af3f7dcae37cc0e426708698a79dc3d6448d2dcd6",
+      "bytes": 68797,
+      "sha256": "7feecad93fd6a1ba17337c5e077e4b9aebde8842d37f912250918aceaf4cfadb",
       "format": "PNG",
       "width": 440,
       "height": 956
     },
     "screens/movie-440-24.png": {
-      "bytes": 90717,
-      "sha256": "8934637ddf1568823927b5c2069ea75c66acc9d39d6a86965f1a624936651ea3",
+      "bytes": 94337,
+      "sha256": "b45576ffbaefa952473875111f7e7f54f400bd1164e9ce3fa78281ed37c16b02",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27654,8 +27758,8 @@
       "height": 844
     },
     "screens/panorama-440-2.png": {
-      "bytes": 363611,
-      "sha256": "ad5d4839260eeac3de2737beae4f028e0b9d51ee6d776a981ae7f8172ffe2dd6",
+      "bytes": 363690,
+      "sha256": "da5b5086736daae4e85a3cce1014f446e04836319f13fed3d9a75a6657a33f18",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -27766,8 +27870,8 @@
       "height": 844
     },
     "screens/pick-390-2.png": {
-      "bytes": 65663,
-      "sha256": "04898c74d18d39505414e9c49a6d832580d65e501276b712a8d3f6e8b4cecf56",
+      "bytes": 65688,
+      "sha256": "0d5126d6626fe2aee98c0548150cefb21a4dc7a62e992c75e10c982fb2e645df",
       "format": "PNG",
       "width": 390,
       "height": 844
@@ -27871,8 +27975,8 @@
       "height": 956
     },
     "screens/postoffice-440-2.png": {
-      "bytes": 130573,
-      "sha256": "68ff4f34fe890187cf3475d8225d204c67435614b912af39aae72cfa7bff2a5d",
+      "bytes": 130636,
+      "sha256": "08b141cbe59f5e79049a0ba77cd7959d96514f063c05180953be6fdfc6f80e02",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -28081,15 +28185,15 @@
       "height": 956
     },
     "screens/score-390-2.png": {
-      "bytes": 70595,
-      "sha256": "952ee20d71ac9c350980ba6ba3d3c8bd8ef9b437dc5c19be9033e80effadc67b",
+      "bytes": 76426,
+      "sha256": "7ad187da93d694d7c3a7b873eb8b84db1c405daf8e7063d562fc2ac611ad445c",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/score-440-2.png": {
-      "bytes": 73875,
-      "sha256": "48a91491b61a47c84b367cc369497331da56878fdf03bbcae4651e066c02da71",
+      "bytes": 78223,
+      "sha256": "42a872ac91be144ed2d61f21788c8aa2f678e39de679b8c7995c55bc67b05b89",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -28151,15 +28255,15 @@
       "height": 956
     },
     "screens/share-390-2.png": {
-      "bytes": 76971,
-      "sha256": "7f2d08bd50ab0132165ff80298e6c052189580268474b7233a832b4e76f51b02",
+      "bytes": 76856,
+      "sha256": "2fe438a82ba80088502c53b85cb657599677923410b370cd801c96c27fb071b0",
       "format": "PNG",
       "width": 390,
       "height": 844
     },
     "screens/share-440-2.png": {
-      "bytes": 90506,
-      "sha256": "b60c8b8c33a4bd2b019c9d884f5665aae1db63594dfa71d9aff145ba2fa282ea",
+      "bytes": 90296,
+      "sha256": "568d6e6028a25562c59f67a3a2d1e7145b3c0751f1e4bf5aea9300104a729267",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -28375,8 +28479,8 @@
       "height": 956
     },
     "screens/today-440-2.png": {
-      "bytes": 87410,
-      "sha256": "1b65fdbb229fbb5d3a49d7c27e0c73ed2d0d0657fdc136f24a326b1fdf4a9b54",
+      "bytes": 87443,
+      "sha256": "6e058910a8e69729af91dd46267bfb45d6e38ffe7e6713ec7edd7dda18d589a6",
       "format": "PNG",
       "width": 440,
       "height": 956
@@ -28613,5 +28717,5 @@
       "height": 956
     }
   },
-  "screenSignature": "d79e6553ce2be0763284d22d1708cf16a1c310db0f6c20ffff0450a325299790"
+  "screenSignature": "56521c592f18add50fdb9fe76cea182d6460513900a100e38ef0afc3a2639ef2"
 }
